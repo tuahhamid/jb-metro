@@ -45,6 +45,8 @@ CLASS_FACTOR = {  # routing preference: guideways follow wide road reserves (A-0
 PREFER_FACTOR = 0.3   # named roads in the option spec are followed wherever they connect the vias
 WALK_CUTOFF_M = 800            # station catchment (A-027)
 SPACING_MIN_M, SPACING_MAX_M = 1000, 1500   # brief: ~1-1.5 km (A-028)
+SPACING_MIN_NEXT_TO_FORCED_M = 800   # a forced (interchange/anchor) station may sit 0.8-1.0 km from a neighbor (A-028)
+END_SNAP_M = 150
 CAND_STEP_M = 100
 CLEAR_WIDTH_LINE_M = (16, 20, 25)    # building-to-building width needed for a viaduct (A-029)
 CLEAR_WIDTH_STATION_M = (24, 30, 36)  # ... at an elevated station (A-029)
@@ -218,6 +220,14 @@ def place_stations(line, forced_ch, W, water=None):
     building floor-area proxy within an 800 m network walk, with 1.0-1.5 km spacing. Forced
     chainages (interchanges, termini) are always stations."""
     Lm = line.length
+    # a forced anchor within END_SNAP_M of a line end IS that end (avoids a duplicate station meters away)
+    forced_ch = [0.0 if c <= END_SNAP_M else (Lm if Lm - c <= END_SNAP_M else c) for c in forced_ch]
+    # two forced anchors that project closer than the minimum spacing share one station (the line end wins)
+    merged = []
+    for c in sorted(set(forced_ch), key=lambda v: (v not in (0.0, Lm), v)):
+        if all(abs(c - m) >= SPACING_MIN_NEXT_TO_FORCED_M for m in merged):
+            merged.append(c)
+    forced_ch = sorted(merged)
     cands = sorted(set([round(c) for c in np.arange(0, Lm, CAND_STEP_M)] + [round(Lm)] +
                        [round(c) for c in forced_ch]))
     cands = np.array(cands, float)
@@ -247,7 +257,8 @@ def place_stations(line, forced_ch, W, water=None):
                     break
             if best[j] == -np.inf:
                 continue
-            short_ok = gap >= SPACING_MIN_M or (i in forced and j in forced) or (gap >= 600 and (i in forced or j in forced))
+            short_ok = gap >= SPACING_MIN_M or (i in forced and j in forced) or \
+                (gap >= SPACING_MIN_NEXT_TO_FORCED_M and (i in forced or j in forced))
             if not short_ok:
                 continue
             # a forced station may not be skipped
