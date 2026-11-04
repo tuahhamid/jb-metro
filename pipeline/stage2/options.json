@@ -1,0 +1,453 @@
+{
+  "_comment": "Stage 2 alignment hypotheses. Every option is status=concept: drawn by this project from OSM road reserves and trip generators, not from any official or unofficial map. Anchors are resolved against OSM features by name; 'fallback_lonlat' is used only if the name match fails, and the run report says which was used. Routing follows the OSM road graph between anchors, preferring the listed roads (elevated guideways are normally built over road reserves).",
+  "reported_lengths_km": {
+    "tebrau": 14.0,
+    "iskandar_puteri": 14.78
+  },
+  "length_tolerance": 0.15,
+  "anchors": {
+    "BKC": {
+      "label": "Bukit Chagar RTS station",
+      "match": {
+        "name": "^Bukit Chagar$",
+        "tag": [
+          "railway",
+          "station"
+        ]
+      },
+      "fallback_lonlat": [
+        103.76219,
+        1.46624
+      ]
+    },
+    "PPL": {
+      "label": "Plaza Pelangi / KSL City (Jalan Tebrau)",
+      "match": {
+        "name": "^Plaza Pelangi$",
+        "tag": [
+          "shop",
+          "mall"
+        ]
+      },
+      "fallback_lonlat": [
+        103.765,
+        1.4812
+      ]
+    },
+    "STK": {
+      "label": "Southkey (Jalan Tebrau)",
+      "match": {
+        "name": "Southkey",
+        "tag": [
+          "shop",
+          "mall"
+        ]
+      },
+      "fallback_lonlat": [
+        103.7783,
+        1.4962
+      ]
+    },
+    "PSP": {
+      "label": "Pasir Pelangi (Jalan Pasir Pelangi)",
+      "match": {
+        "name": "^Pasir Pelangi$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.78479,
+        1.47959
+      ]
+    },
+    "MLK": {
+      "label": "Taman Molek",
+      "match": {
+        "name": "^Taman Molek$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.79084,
+        1.52858
+      ]
+    },
+    "TBC": {
+      "label": "AEON Mall Tebrau City",
+      "match": {
+        "name": "^AEON Mall Tebrau City$",
+        "tag": [
+          "shop",
+          "mall"
+        ]
+      },
+      "fallback_lonlat": [
+        103.7982,
+        1.5489
+      ]
+    },
+    "IKT": {
+      "label": "IKEA / Toppen Tebrau",
+      "match": {
+        "name": "^Toppen Shopping Centre$",
+        "tag": [
+          "shop",
+          "mall"
+        ]
+      },
+      "fallback_lonlat": [
+        103.7979,
+        1.5525
+      ]
+    },
+    "DST": {
+      "label": "Taman Desa Tebrau",
+      "match": {
+        "name": "^Taman Desa Tebrau$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.7929,
+        1.5598
+      ]
+    },
+    "MTA": {
+      "label": "Taman Mount Austin",
+      "match": {
+        "name": "^Mount Austin$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.78601,
+        1.55065
+      ]
+    },
+    "LRK": {
+      "label": "Larkin Sentral",
+      "match": {
+        "name": "^Larkin Sentral$",
+        "tag": [
+          "amenity",
+          "bus_station"
+        ]
+      },
+      "fallback_lonlat": [
+        103.74256,
+        1.49571
+      ]
+    },
+    "DGB": {
+      "label": "Danga Bay",
+      "match": {
+        "name": "^Danga Bay$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.723,
+        1.472
+      ]
+    },
+    "PRL": {
+      "label": "Taman Perling",
+      "match": {
+        "name": "^(Taman )?Perling$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.683,
+        1.485
+      ]
+    },
+    "BID": {
+      "label": "Bukit Indah (AEON)",
+      "match": {
+        "name": "^AEON Mall Bukit Indah$",
+        "tag": [
+          "shop",
+          "mall"
+        ]
+      },
+      "fallback_lonlat": [
+        103.6556,
+        1.4826
+      ]
+    },
+    "PTH": {
+      "label": "Puteri Harbour",
+      "match": {
+        "name": "^Puteri Harbour$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.659,
+        1.4175
+      ]
+    },
+    "KIS": {
+      "label": "Kota Iskandar",
+      "match": {
+        "name": "^Kota Iskandar$",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.6365,
+        1.4255
+      ]
+    },
+    "MDN": {
+      "label": "Medini",
+      "match": {
+        "name": "^Medini",
+        "tag": [
+          "place",
+          null
+        ]
+      },
+      "fallback_lonlat": [
+        103.638,
+        1.437
+      ]
+    },
+    "EDL": {
+      "label": "Point on the Eastern Dispersal Link (E14) viaduct near Jalan Bakar Batu",
+      "match": null,
+      "fallback_lonlat": [
+        103.779,
+        1.505
+      ]
+    }
+  },
+  "options": [
+    {
+      "id": "T1",
+      "corridor": "tebrau",
+      "decision": "carried",
+      "name": "Jalan Tebrau spine",
+      "vias": [
+        "BKC",
+        "TBC",
+        "DST"
+      ],
+      "prefer_roads": [
+        "Jalan Tebrau",
+        "Jalan Pandan",
+        "Jalan Kota Tinggi",
+        "Jalan Tun Abdul Razak"
+      ],
+      "forced_stations": [
+        "BKC",
+        "PPL",
+        "TBC"
+      ],
+      "rationale": "Follows Federal Route 3 (Jalan Tebrau, then Jalan Pandan and Jalan Kota Tinggi), the road the official 'Tebrau' name and the congestion claim refer to. Serves the Pelangi/KSL retail cluster and Tebrau City (AEON, IKEA, Toppen), ending at Desa Tebrau. Wide trunk reserve for most of its length."
+    },
+    {
+      "id": "T2",
+      "corridor": "tebrau",
+      "decision": "carried",
+      "name": "FT3 with Taman Molek deviation",
+      "vias": [
+        "BKC",
+        "MLK",
+        "TBC",
+        "DST"
+      ],
+      "prefer_roads": [
+        "Jalan Tebrau",
+        "Jalan Pandan",
+        "Jalan Kota Tinggi",
+        "Jalan Tun Abdul Razak",
+        "Jalan Persiaran Molek Utama"
+      ],
+      "forced_stations": [
+        "BKC",
+        "PPL",
+        "MLK",
+        "TBC"
+      ],
+      "rationale": "Same FT3 spine as T1, but leaves Jalan Pandan to run through Taman Molek (dense residential) on Jalan Persiaran Molek Utama before rejoining at Tebrau City. Tests whether a deviation into a residential core is worth the extra length."
+    },
+    {
+      "id": "T3",
+      "corridor": "tebrau",
+      "decision": "carried",
+      "name": "Jalan Tebrau to Mount Austin",
+      "vias": [
+        "BKC",
+        "TBC",
+        "MTA"
+      ],
+      "prefer_roads": [
+        "Jalan Tebrau",
+        "Jalan Pandan",
+        "Jalan Kota Tinggi",
+        "Jalan Tun Abdul Razak",
+        "Jalan Mutiara Emas Utama"
+      ],
+      "forced_stations": [
+        "BKC",
+        "PPL",
+        "TBC"
+      ],
+      "rationale": "Same FT3 spine as T1 to Tebrau City, then turns west on Jalan Mutiara Emas Utama to end in Mount Austin (high-rise residential and commercial growth area) instead of Desa Tebrau."
+    },
+    {
+      "id": "T-R1",
+      "corridor": "tebrau",
+      "decision": "rejected",
+      "name": "Eastern Dispersal Link (E14) reserve",
+      "vias": [
+        "BKC",
+        "EDL",
+        "TBC"
+      ],
+      "prefer_roads": [
+        "Johor Bahru Eastern Dispersal Link Expressway",
+        "Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur"
+      ],
+      "forced_stations": [
+        "BKC",
+        "TBC"
+      ],
+      "rationale": "Tested because the existing elevated Eastern Dispersal Link (E14) reserve could host a guideway. Rejected if walk catchments and bus interchange are poorer than the FT3 options; metrics are computed so the rejection rests on numbers."
+    },
+    {
+      "id": "T-R2",
+      "corridor": "tebrau",
+      "decision": "rejected",
+      "name": "Larkin - Kangkar Tebrau - Mount Austin",
+      "vias": [
+        "BKC",
+        "LRK",
+        "MTA"
+      ],
+      "prefer_roads": [
+        "Jalan Datin Halimah",
+        "Jalan Kangkar Tebrau",
+        "Jalan Mutiara Emas Utama",
+        "Jalan Tun Abdul Razak"
+      ],
+      "forced_stations": [
+        "BKC",
+        "LRK"
+      ],
+      "rationale": "Rejected on scope: Larkin belongs to the Skudai-Tampoi-Larkin corridor (out of scope, owner decision 2). Geometry is computed only to show the rejection; it is not a Skudai option."
+    },
+    {
+      "id": "IP1",
+      "corridor": "iskandar_puteri",
+      "decision": "carried",
+      "name": "Coastal direct to Puteri Harbour and Kota Iskandar",
+      "vias": [
+        "BKC",
+        "DGB",
+        "PRL",
+        "PTH",
+        "KIS"
+      ],
+      "prefer_roads": [
+        "Persiaran Abu Bakar Sultan",
+        "Lebuhraya Pesisir Pantai Iskandar",
+        "Jalan Lingkaran Dalam"
+      ],
+      "forced_stations": [
+        "BKC",
+        "DGB",
+        "PTH",
+        "KIS"
+      ],
+      "rationale": "Shortest reserve from Bukit Chagar to the Iskandar Puteri administrative center, along the coastal roads (J1 and the Iskandar Coastal Highway). Expected to exceed the reported 14.78 km; the deviation itself is a finding."
+    },
+    {
+      "id": "IP2",
+      "corridor": "iskandar_puteri",
+      "decision": "carried",
+      "name": "Coastal to Perling and Bukit Indah",
+      "vias": [
+        "BKC",
+        "DGB",
+        "PRL",
+        "BID"
+      ],
+      "prefer_roads": [
+        "Persiaran Abu Bakar Sultan",
+        "Lebuhraya Pesisir Pantai Iskandar",
+        "Jalan Lingkaran Dalam"
+      ],
+      "forced_stations": [
+        "BKC",
+        "DGB",
+        "BID"
+      ],
+      "rationale": "Ends at Bukit Indah, the largest established residential and retail center in Iskandar Puteri, instead of the administrative core. Tests which endpoint is consistent with the reported 14.78 km."
+    },
+    {
+      "id": "IP3",
+      "corridor": "iskandar_puteri",
+      "decision": "carried",
+      "name": "Coastal - Bukit Indah - Medini - Kota Iskandar loop-free extension",
+      "vias": [
+        "BKC",
+        "DGB",
+        "PRL",
+        "BID",
+        "MDN",
+        "KIS"
+      ],
+      "prefer_roads": [
+        "Persiaran Abu Bakar Sultan",
+        "Lebuhraya Pesisir Pantai Iskandar",
+        "Jalan Lingkaran Dalam"
+      ],
+      "forced_stations": [
+        "BKC",
+        "DGB",
+        "BID",
+        "KIS"
+      ],
+      "rationale": "Serves both Bukit Indah and Kota Iskandar. Longest option; tests the coverage-versus-length trade-off."
+    }
+  ],
+  "rejected_without_geometry": [
+    {
+      "id": "IP-R1",
+      "corridor": "iskandar_puteri",
+      "name": "Via Skudai Highway (FT1) and Tampoi",
+      "reason": "Shares the JB-Tampoi section with the Skudai corridor, which is out of scope (owner decision 2). Drawing it would create Skudai geometry."
+    },
+    {
+      "id": "IP-R2",
+      "corridor": "iskandar_puteri",
+      "name": "Via Second Link Expressway (E3)",
+      "reason": "Controlled-access expressway: no frontage, few pedestrian crossings, stations would be unreachable on foot; serves no established center between Perling and Bukit Indah that the coastal options miss."
+    },
+    {
+      "id": "T-R3",
+      "corridor": "tebrau",
+      "name": "Any route copied from James Clark's concept map or its Google Map",
+      "reason": "Excluded source (SRC-031). Brief forbids copying its geometry."
+    }
+  ]
+}

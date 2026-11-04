@@ -5,3 +5,5 @@ venv/
 .ipynb_checkpoints/
 .env
 .env.*
+data/raw/dem/
+data/raw/flood/
