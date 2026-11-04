@@ -1,12 +1,12 @@
 {
   "url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/mybas-johor",
-  "fetched_utc": "2026-11-04T11:05:28.787546+00:00",
+  "fetched_utc": "2026-11-04T11:10:38.511095+00:00",
   "http_status": 200,
-  "bytes": 17301,
-  "header_timestamp": 1793790292,
-  "vehicles": 110,
-  "newest_vehicle_ts_utc": "2026-11-04T11:04:51+00:00",
-  "newest_age_seconds": 37,
-  "routes_seen": 18,
+  "bytes": 18104,
+  "header_timestamp": 1793790618,
+  "vehicles": 115,
+  "newest_vehicle_ts_utc": "2026-11-04T11:10:18+00:00",
+  "newest_age_seconds": 20,
+  "routes_seen": 19,
   "with_trip_id_share": 1.0
 }

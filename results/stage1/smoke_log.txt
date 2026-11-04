@@ -1,5 +1,67 @@
-Traceback (most recent call last):
-  File "/home/runner/work/jb-metro/jb-metro/pipeline/smoke/r5py_smoke_test.py", line 28, in <module>
-    warnings.filterwarnings("ignore", "GeoSeries.notna", UserWarning)
-    ^^^^^^^^
-NameError: name 'warnings' is not defined. Did you mean: 'Warning'? Or did you forget to import 'warnings'?
+{
+  "thresholds": {
+    "S3_min_origin_snap_share": 0.8,
+    "S4_detour_median_range": [
+      1.1,
+      1.6
+    ],
+    "S5_transit_used_min_share": 0.05,
+    "S5_transit_slower_max_share": 0.01,
+    "S6_max_runtime_minutes": 30
+  },
+  "bbox_lonlat": [
+    103.7,
+    1.44,
+    103.82,
+    1.56
+  ],
+  "cell_m": 500,
+  "tests": {
+    "S1_network_builds": {
+      "pass": true
+    },
+    "S3_origin_snapping": {
+      "cells_total": 729,
+      "cells_near_network_1km": 726,
+      "cells_snapped_250m": 647,
+      "share_raw": 0.888,
+      "share_of_near_network": 0.891,
+      "pass": true
+    },
+    "S2_matrix_computed": {
+      "pairs": 417962,
+      "walk_non_null": 31357,
+      "pt_non_null": 67737,
+      "pass": true
+    },
+    "S4_walk_detour": {
+      "pairs": 19279,
+      "median": 1.568,
+      "p10": 1.235,
+      "p90": 2.361,
+      "pass": true,
+      "note": "includes snapping access legs; r5 rounds to whole minutes"
+    },
+    "S5_transit_logic": {
+      "pairs_both": 31357,
+      "share_transit_faster_2min": 0.2203,
+      "share_transit_slower_1min": 0.0,
+      "pairs_reachable_only_with_transit_60min": 36380,
+      "pass": true
+    },
+    "S6_runtime": {
+      "minutes": 0.59,
+      "pass": true
+    }
+  },
+  "r5py_version": "1.1.7",
+  "calendar": {
+    "today": "2026-11-04",
+    "service_start": "2026-10-05",
+    "service_end": "2027-02-02",
+    "feed_expired": false,
+    "analysis_date": "2026-11-04"
+  },
+  "all_pass": true,
+  "finished_utc": "2026-11-04T11:11:15.137414+00:00"
+}
