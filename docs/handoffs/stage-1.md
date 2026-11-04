@@ -2,8 +2,8 @@
 
 **Date:** 2026-11-04
 **Branch:** `main`
-**State:** Stage 1 work complete; **awaiting owner review and approval**. Do not start
-Stage 2 until the owner approves it in writing.
+**State:** Stage 1 **approved by the owner on 2026-11-04**. Stage 2 has not started and
+should begin in a new session.
 
 The governing brief is `docs/project-brief.md`. Read it first, then this note, then
 `docs/evidence-audit.md`.
@@ -87,7 +87,18 @@ are committed in `18a09bd`.
    - Private-repo Actions minutes count against the free allowance.
 10. **Statutory plans:** RSNJ 2030 and RTJB 2035 status and content are not yet read (PDFs).
 
-## Open questions for the owner (decisions needed)
+## Owner decisions (2026-11-04)
+
+| # | Question | Decision | Consequence |
+|---|---|---|---|
+| 1 | Approve Stage 1 | **Approved** | Stage 2 may start in a new session |
+| 2 | Scenario C scope | **Keep Iskandar Puteri as specified.** Skudai appears only as a sensitivity note. | No Skudai geometry in Stage 2 |
+| 3 | Vehicle-position collection | **Yes, start now** | `.github/workflows/vp-collector.yml` runs Tue–Thu, 07:00–08:00 and 17:30–18:30 MYT, polling every 30 s, writing to branch `vp-data`. Earliest V3a dataset (≥3 weeks): about 2026-11-26. |
+| 4 | Buy RTVM traffic counts | **No** | V10's 75% test uses free count data only. If none is found, the claim is reported as **UNTESTED**. |
+| 5 | Final hosting | **Owner will make the repo public and use GitHub Pages**, after a security check | Security review done (`docs/security-review.md`): no secrets found, actions pinned, ODbL notice added. The owner applies the listed settings after switching to public. |
+| 6 | Site checks | Owner asked for a reminder of SC-1 and SC-3 | See `docs/site-checks.md` |
+
+## Questions that were put to the owner (answered above)
 
 1. **Approve Stage 1?**
 2. **Scenario C scope.** Keep Iskandar Puteri as specified, or also test Skudai, given the October 2026 expert priority list? Recommendation: keep C as specified. Report Skudai only as a sensitivity note, unless you want it added.
@@ -103,6 +114,7 @@ are committed in `18a09bd`.
    it replaces the hypotheses as `official`.
 2. **Obtain primary inputs** via a new Actions workflow:
    - OSM extract for the full study area (Tebrau to Iskandar Puteri). Use roads with `width` and `lanes` tags, landuse, and buildings.
+   - Note: pushes from a Claude session do not trigger workflows. Dispatch them through the API (see "How to resume").
    - Elevation (Copernicus GLO-30 DEM, free) for terrain.
    - Any free flood-hazard layer (e.g., JRC global flood maps) as a coarse screen only.
    - The JPBD Johor plan list (SRC-026) and RSNJ 2030 / RTJB 2035 documents, if they are public.
@@ -118,17 +130,20 @@ are committed in `18a09bd`.
    - Interchange walking access at Bukit Chagar and at KTM/BAS.MY hubs.
    - Stations every ~1–1.5 km, placed by network-walk catchment logic.
    - Reasons for each choice, and **rejected options with reasons**.
-5. **Do not copy** geometry from James Clark's map or from any unofficial map. Do not present any option as official.
-6. **Deliverables:**
+5. **Scope per owner decision 2:** Tebrau and Iskandar Puteri only. Skudai appears only as a sensitivity note, with no geometry.
+6. **Do not copy** geometry from James Clark's map or from any unofficial map. Do not present any option as official.
+7. **Deliverables:**
    - Option GeoJSON with per-feature `status` and `source_ids`.
    - Option comparison table.
    - Updated register and assumptions log.
    - The site-check list for SC-4 and SC-5.
    - `docs/handoffs/stage-2.md`.
-7. **Out of scope for Stage 2:** draft GTFS, run times, access results, and the Bukit Chagar flow model (Stages 3–4).
+8. **Out of scope for Stage 2:** draft GTFS, run times, access results, and the Bukit Chagar flow model (Stages 3–4).
 
 ## How to resume
 
 1. `git clone https://github.com/tuahhamid/jb-metro`, then read `docs/project-brief.md` and this note.
 2. To re-run Stage 1, go to the Actions tab → **stage1-pipeline** → **Run workflow**. From a Claude session, POST a `workflow_dispatch` to `/repos/tuahhamid/jb-metro/actions/workflows/stage1-pipeline.yml/dispatches` with `{"ref":"main"}` and header `Content-Type: application/json`.
 3. Outputs are committed to `results/stage1/` and `data/manifests/`. Job logs are readable through the Actions API.
+4. Vehicle-position data accumulates on branch `vp-data` (`git fetch origin vp-data`).
+5. Keep the repo safe to be public: re-run the scan in `docs/security-review.md` before each handoff. Never commit keys.

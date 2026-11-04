@@ -20,8 +20,8 @@ says otherwise.
 
 | Stage | State |
 |---|---|
-| 1. Repo and evidence audit | **Complete. Awaiting owner review.** See `docs/handoffs/stage-1.md`. |
-| 2. Alignment hypotheses | Not started (needs owner approval) |
+| 1. Repo and evidence audit | **Approved 2026-11-04.** See `docs/handoffs/stage-1.md`. |
+| 2. Alignment hypotheses | Next. Scope is in `docs/handoffs/stage-1.md`. |
 | 3. Operations and access model | Not started |
 | 4. Bukit Chagar stress test | Not started |
 | 5. Validation before visualization | Not started. Thresholds already registered in `docs/validation-plan.md`. |
@@ -57,6 +57,7 @@ docs/
   assumptions/assumptions-log.csv  every assumption with kind + status + low/base/high
   handoffs/stage-N.md         end-of-stage handoff notes for the next session
   design/                     Buruh Hybrid design system reference + token snapshot
+  security-review.md          pre-publication secret scan, findings, settings to enable
 pipeline/
   requirements.txt            pinned Python deps (r5py 1.1.7; Java 21 required)
   fetch/                      GTFS, vehicle positions, source-URL probe
@@ -64,6 +65,7 @@ pipeline/
   analysis/rts_ridership_bounds.py  reproducible ridership arithmetic
 .github/workflows/
   stage1-pipeline.yml         fetch + r5py run on GitHub Actions; commits results back
+  vp-collector.yml            scheduled bus-position collection (Tue-Thu peaks) -> branch vp-data
 data/
   raw/                        fetched inputs (GTFS zips, OSM clip), dated
   manifests/                  hashes, fetch times, service ranges, source probe
@@ -124,9 +126,10 @@ r5py needs Java 21. In Colab, run `!apt-get install -y openjdk-21-jdk-headless o
 - GitHub Actions on a private repo uses the account's free monthly minutes.
 - Paid items are **flagged, not used**:
   - RTVM traffic-count reports (paid publication).
-  - GitHub Pages on a *private* repo needs a paid plan. Stage 6 options: make the repo public, or host the prototype as a Claude artifact.
+  - GitHub Pages on a *private* repo needs a paid plan. **Decision:** the owner will make the repo public and use GitHub Pages. See `docs/security-review.md`.
+- While private, scheduled collection is sized to stay within the free Actions minutes. Once public, standard-runner minutes are free.
 - Mapping: MapLibre GL JS with free, key-less tiles is preferred over Mapbox, to avoid account and card requirements.
-- OpenStreetMap data © OpenStreetMap contributors, ODbL 1.0.
+- OpenStreetMap data © OpenStreetMap contributors, ODbL 1.0. Data licenses are listed in `data/LICENSES.md`.
 - News sources are cited and paraphrased only. Page text is not stored in the repo.
 
 ## Rules this repo follows

@@ -66,3 +66,5 @@ source.
 
 ## Change log
 - 2026-11-04: plan registered (Stage 1).
+- 2026-11-04: owner declined the paid RTVM report. The V10 count test uses free data only, so the UNTESTED outcome is more likely. Thresholds unchanged.
+- 2026-11-04: V3a data collection started (Tue–Thu peak windows). This is a data-collection change only; thresholds unchanged.
