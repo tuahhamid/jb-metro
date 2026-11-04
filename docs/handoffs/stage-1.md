@@ -26,7 +26,7 @@ The governing brief is `docs/project-brief.md`. Read it first, then this note, t
 6. **Validation plan pre-registered.** `docs/validation-plan.md` defines S0–S7 (pipeline)
    and V1–V11 (model), including the V10 decision rule for Tebrau vs. Iskandar Puteri.
    The thresholds were set before any results existed.
-7. **Site checks for the owner.** `docs/site-checks.md` lists SC-1 to SC-6 with priorities.
+7. **Site checks.** `docs/site-checks.md` lists SC-1 to SC-6. The owner later confirmed none are feasible; web-only substitutes are recorded there.
 8. **Web-only pipeline proven.** `.github/workflows/stage1-pipeline.yml`:
    1. Fetches data.gov.my GTFS and vehicle positions.
    2. Fetches and clips Geofabrik OSM.
@@ -96,7 +96,7 @@ are committed in `18a09bd`.
 | 3 | Vehicle-position collection | **Yes, start now** | `.github/workflows/vp-collector.yml` runs Tue–Thu, 07:00–08:00 and 17:30–18:30 MYT, polling every 30 s, writing to branch `vp-data`. Earliest V3a dataset (≥3 weeks): about 2026-11-26. |
 | 4 | Buy RTVM traffic counts | **No** | V10's 75% test uses free count data only. If none is found, the claim is reported as **UNTESTED**. |
 | 5 | Final hosting | **Owner will make the repo public and use GitHub Pages**, after a security check | Security review done (`docs/security-review.md`): no secrets found, actions pinned, ODbL notice added. The owner applies the listed settings after switching to public. |
-| 6 | Site checks SC-1, SC-3 | **Not feasible** | Web-only substitutes are in `docs/site-checks.md`. V4 will be reported NOT RUN; V4-alt added. Stage 4 uncertainty is wider. |
+| 6 | Site checks | **No physical fieldwork is feasible** (SC-1 to SC-6) | Web-only substitutes are in `docs/site-checks.md`. V3b and V4 will be reported NOT RUN; V4-alt added. Stage 2 viaduct-space and flood screening and the Stage 4 interchange results are screening-level, with wider uncertainty. The review pack and prototype must say no field observations were made. |
 | 7 | Security optional #5 (ruleset on `main`) | **Not applied** | Accepted risk recorded in `docs/security-review.md` |
 | 8 | Buruh Hybrid tokens public | **Acceptable** | `docs/design/` stays as-is |
 | 9 | Code license | **Open.** Owner to add a LICENSE file. | Until then the code is visible but not licensed for reuse |
@@ -125,7 +125,7 @@ are committed in `18a09bd`.
    or link to Bukit Chagar. Each carries status `concept`. Check each option's length
    against the reported lengths (±15%) and record any deviation.
 4. **For each option, record** in `docs/alignments/` and `data/concept/*.geojson`:
-   - Road reserve and median width evidence (OSM tags; SC-4 photo needs).
+   - Road reserve and median width evidence (OSM tags, footprint setbacks; no field photos — SC-4 substitute).
    - Viaduct column space.
    - Candidate depot land (vacant or government land from OSM landuse).
    - Grades from the DEM.
@@ -140,7 +140,7 @@ are committed in `18a09bd`.
    - Option GeoJSON with per-feature `status` and `source_ids`.
    - Option comparison table.
    - Updated register and assumptions log.
-   - The site-check list for SC-4 and SC-5.
+   - The pinch-point and flood-spot lists, assessed with the SC-4/SC-5 web-only substitutes.
    - `docs/handoffs/stage-2.md`.
 9. **Out of scope for Stage 2:** draft GTFS, run times, access results, and the Bukit Chagar flow model (Stages 3–4).
 

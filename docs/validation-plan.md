@@ -70,6 +70,8 @@ source.
 - 2026-11-04: V3a data collection started (Tue–Thu peak windows). This is a data-collection change only; thresholds unchanged.
 - 2026-11-04: owner reports site checks SC-1 and SC-3 are not feasible. **V4 (walk times vs. timed walks) cannot run as written and will be reported NOT RUN.** V4-alt is added below; it is weaker and does not replace V4. V3b still depends on SC-2 (feasibility unconfirmed). Original thresholds remain as written above.
 
+- 2026-11-04: owner confirms **no physical fieldwork is feasible**. V3b (timed trips) and V4 (timed walks) will both be reported **NOT RUN**. Travel-time validation rests on V3a (vehicle positions, in-vehicle times only) plus V4-alt (network plausibility). The Stage 5 review pack and the prototype must state that no field observations were made.
+
 ### V4-alt (added 2026-11-04; weaker substitute for V4)
 - **Test:** OSM pedestrian completeness within 800 m of Bukit Chagar.
 - **Pass:**
