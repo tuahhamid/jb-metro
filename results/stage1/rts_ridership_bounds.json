@@ -1,0 +1,96 @@
+{
+  "inputs": {
+    "line_capacity_pphpd": {
+      "value": 10000,
+      "status": "official",
+      "source": "SRC-003|SRC-004",
+      "note": "design capacity per hour per direction"
+    },
+    "train_capacity_pax": {
+      "value": 600,
+      "status": "inferred",
+      "source": "SRC-011",
+      "note": "reported ~600 per 4-car train; not confirmed by operator"
+    },
+    "peak_headway_min": {
+      "value": 3.6,
+      "status": "inferred",
+      "source": "SRC-011",
+      "note": "most-reported peak headway; not confirmed by operator"
+    },
+    "operating_hours": {
+      "value": 18,
+      "status": "inferred",
+      "source": "SRC-011",
+      "note": "reported 06:00-24:00; final hours not announced"
+    },
+    "claim_opening_daily": {
+      "value": 40000,
+      "status": "official",
+      "source": "SRC-003",
+      "note": "MRT Corp: expected ridership on opening"
+    },
+    "claim_share": {
+      "value": 0.35,
+      "status": "official",
+      "source": "SRC-005",
+      "note": "MRT Corp 2022: share of Causeway travelers"
+    },
+    "claim_causeway_daily": {
+      "value": 350000,
+      "status": "official",
+      "source": "SRC-005",
+      "note": "pre-pandemic Causeway travelers/day used with the 35% claim"
+    },
+    "woodlands_daily_2024": {
+      "value": 327000,
+      "status": "official",
+      "source": "SRC-012",
+      "note": "ICA: average daily travelers via Woodlands Checkpoint, 2024"
+    }
+  },
+  "k_peak_assumption": {
+    "low": 0.05,
+    "base": 0.065,
+    "high": 0.1
+  },
+  "consistency_capacity_from_headway_x_train": 10000,
+  "claim_A_daily": 40000,
+  "claim_B_daily": 122500,
+  "ratio_B_over_A": 3.06,
+  "share_of_2024_woodlands": {
+    "A": 0.122,
+    "B": 0.375
+  },
+  "implied_peak_pphpd": {
+    "A_low": 2000,
+    "B_low": 6125,
+    "A_base": 2600,
+    "B_base": 7962,
+    "A_high": 4000,
+    "B_high": 12250
+  },
+  "implied_peak_utilization": {
+    "A_low": 0.2,
+    "B_low": 0.61,
+    "A_base": 0.26,
+    "B_base": 0.8,
+    "A_high": 0.4,
+    "B_high": 1.23
+  },
+  "theoretical_daily_ceiling_flat": 360000,
+  "practical_daily_ceiling_at_peak_saturation": {
+    "low": 200000,
+    "base": 153846,
+    "high": 100000
+  },
+  "interpretation": "A (40,000/day) and B (122,500/day) are different quantities. A is an opening-period forecast; B is a market-share target that, under the stated peaking assumption, would load the peak direction to roughly 61-123% of the 10,000 pphpd design capacity. B is therefore best read as a mature, capacity-constrained upper case, not an opening-year figure. For the Bukit Chagar stress test, peak flow is capped by line capacity (10,000 pphpd) regardless of which daily figure is right.",
+  "stage1_planning_bounds_daily": {
+    "low": 25000,
+    "base": 40000,
+    "high": 80000,
+    "mature_upper": 122500,
+    "status": "inferred",
+    "basis": "low = slower ramp-up (assumption A-011); base = official opening forecast; high = 2x official, about the level where base peaking reaches ~50% of capacity; mature_upper = claim B. Not a forecast; replaced by the frozen Stage 5 range."
+  }
+}
