@@ -70,7 +70,7 @@ are committed in `18a09bd`.
 ## Known risks
 
 1. **Workflow triggering.**
-   - Pushes from the Claude session did **not** trigger runs. Runs were started by `workflow_dispatch` through the API.
+   - The first pushes, including the one that created the repo, did **not** trigger runs. Later pushes that touched `pipeline/**` or the workflow file **did** trigger them automatically (runs 41870870017, 41873675841). If a run does not appear within a minute, dispatch it through the API.
    - The first commit-back push failed with GitHub HTTP 500 three times. The workflow now fails loudly if all pushes fail, and the outputs are always uploaded as an artifact.
    - Artifact downloads are blocked from the Claude session (Azure blob host). Use committed outputs or job logs.
 2. **E-ART alignment unpublished.** All Stage 2 geometry will be `concept`. The project could draw an alignment that later differs from the official one.
@@ -117,7 +117,7 @@ are committed in `18a09bd`.
    it replaces the hypotheses as `official`.
 2. **Obtain primary inputs** via a new Actions workflow:
    - OSM extract for the full study area (Tebrau to Iskandar Puteri). Use roads with `width` and `lanes` tags, landuse, and buildings.
-   - Note: pushes from a Claude session do not trigger workflows. Dispatch them through the API (see "How to resume").
+   - Note: a push may not trigger a new workflow. Check the runs list and dispatch through the API if needed (see "How to resume").
    - Elevation (Copernicus GLO-30 DEM, free) for terrain.
    - Any free flood-hazard layer (e.g., JRC global flood maps) as a coarse screen only.
    - The JPBD Johor plan list (SRC-026) and RSNJ 2030 / RTJB 2035 documents, if they are public.

@@ -77,7 +77,7 @@ results/
 
 ### On GitHub Actions (default, web-only)
 
-1. Actions tab → **stage1-pipeline** → **Run workflow**. Pushes from a Claude session have not triggered runs, so use manual dispatch; see `docs/handoffs/stage-1.md`.
+1. Actions tab → **stage1-pipeline** → **Run workflow**, or push a change under `pipeline/`. If no run appears, dispatch it manually; see `docs/handoffs/stage-1.md`.
 2. The workflow:
    1. Probes every source URL.
    2. Fetches data.gov.my GTFS and one vehicle-position snapshot.
