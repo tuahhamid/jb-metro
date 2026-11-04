@@ -31,7 +31,14 @@ The options are defined in `pipeline/stage2/options.json`.
    a building floor-area proxy: footprint × `building:levels` where tagged, else × 1.
    A dynamic program then picks stations that maximize the *unique* (non-overlapping)
    floor area, with 1.0–1.5 km spacing. The interchange and terminus stations listed in
-   the spec are forced.
+   the spec are forced, with these rules:
+   - A forced station may sit 0.8–1.0 km from a neighbor.
+   - Anchors within 150 m of a line end become that end.
+   - Forced anchors that project less than 0.8 km apart share one station.
+   - Anchors more than 500 m from the line are not forced. They are reported as "not
+     served".
+   - No candidate within 25 m of a waterway or the coastline is used, so no station sits on
+     a river bridge.
 4. **Screens per 100 m segment and per station:**
    - **Road reserve.** OSM `highway`, `lanes`, `width`, and one-way pairs, which mark dual
      carriageways and medians.

@@ -31,7 +31,7 @@ says otherwise.
 JB data in GitHub Actions (run 41818831614). See `results/stage1/smoke_report.json`.
 
 **Stage 2 (all geometry `concept`):**
-- 3 Tebrau and 4 Iskandar Puteri options are carried; 2 Tebrau options are rejected with metrics. Run 41884307424.
+- 3 Tebrau and 4 Iskandar Puteri options are carried; 2 Tebrau options are rejected with metrics. Run 41886438950.
 - The FT3 Tebrau spine is 14.07 km, matching the reported 14 km.
 - No road route reaches Kota Iskandar from Bukit Chagar in under 20.9 km, but Bukit Chagar to Bukit Indah is 14.77 km, matching the reported 14.78 km. Scenario C's definition needs an owner decision.
 - The V4-alt OSM pedestrian audit at Bukit Chagar **FAILS**.

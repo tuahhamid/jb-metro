@@ -18,7 +18,7 @@ this note, then `docs/alignments/options.md`.
 
    No official alignment exists, so all geometry stays `concept`.
 2. **Primary inputs via a new workflow** (`.github/workflows/stage2-alignments.yml`), all
-   fetched successfully in run 41884307424:
+   fetched successfully in the definitive run 41886438950:
    - OSM study-area clip (103.55–103.88 E, 1.38–1.62 N, tag-filtered, 12.5 MB, committed);
    - Copernicus GLO-30 DEM;
    - JRC RP100 river-flood tile;
@@ -65,8 +65,9 @@ this note, then `docs/alignments/options.md`.
 | Stations by exclusive-catchment dynamic programming on a floor-area proxy (A-028) | Only consistent activity measure in OSM before Stage 3 population data. Stage 3 re-scores. |
 | No station within 25 m of water unless forced | The first definitive run put a station on the Sungai Skudai bridge |
 | Curve and grade screens use both rail and ART thresholds (A-030, A-031) | Technology unresolved (A-035) |
-| EDL option (T-R1) rejected on metrics, not assumption | Same length as T1 but 36% less floor area and no bus routes at the median station |
+| EDL option (T-R1) rejected on metrics, not assumption | Same length as T1 but 31% less floor area, the lowest Tebrau catchment ratio, and a median of 1 bus route vs. 3 |
 | IP4 added after the first run | The shortest road distance from Bukit Chagar to Bukit Indah (14.77 km) matched the reported 14.78 km |
+| End-of-stage self-check fix: forced anchors within 150 m of a line end snap to it; forced stations closer than 0.8 km merge; 0.8 km minimum next to forced stations (A-028) | The self-check found a duplicate Bukit Chagar station 6 m from the first on every option, and undocumented 0.6 km gaps. Fixed and re-run (41886438950). Earlier runs' station counts are superseded. |
 | V4-alt operationalized and logged in `docs/validation-plan.md` | No ground truth exists. One refinement after the first smoke-clip result is disclosed there. |
 
 ## Validation results (only what ran)
@@ -132,7 +133,7 @@ stations; `options.md` shows preliminary catchment ratios, which are *not* a V2 
    - Scenario B, recommended: **T1 as base.** It matches the length, has the fewest
      curves, and has good bus connections. T2 and T3 are variants that share the spine.
    - Scenario C, recommended: **IP2 as base.** It is coastal, avoids the Skudai reserve,
-     and has 51% more floor area than IP4, at +20% length.
+     and has 58% more floor area than IP4, at +20% length.
    - Also carry IP4 (length-consistent) and IP1 (reaches Kota Iskandar, 25 km) as
      sensitivities. Drop IP3: it is the longest, has the poorest catchment, and misses
      Bukit Indah's center.
@@ -177,7 +178,7 @@ stations; `options.md` shows preliminary catchment ratios, which are *not* a V2 
 2. Re-run Stage 2: push under `pipeline/stage2/`, or use Actions → **stage2-alignments** →
    **Run workflow**. Dispatch works only once the workflow file is on `main`.
 3. Read `results/stage2/run_metadata.json` for the run and commit behind the committed
-   outputs: run 41884307424 at `1db04dd`, committed in `bd46c24`.
+   outputs: run 41886438950 at `b1295bb`, committed in `c908890`.
 4. The vehicle-position collector continues on branch `vp-data`. V3a data should be ready
    around 2026-11-26.
 5. Re-run the security scan (`docs/security-review.md`) before each handoff.
