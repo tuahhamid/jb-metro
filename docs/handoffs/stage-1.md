@@ -99,7 +99,7 @@ are committed in `18a09bd`.
 | 6 | Site checks | **No physical fieldwork is feasible** (SC-1 to SC-6) | Web-only substitutes are in `docs/site-checks.md`. V3b and V4 will be reported NOT RUN; V4-alt added. Stage 2 viaduct-space and flood screening and the Stage 4 interchange results are screening-level, with wider uncertainty. The review pack and prototype must say no field observations were made. |
 | 7 | Security optional #5 (ruleset on `main`) | **Not applied** | Accepted risk recorded in `docs/security-review.md` |
 | 8 | Buruh Hybrid tokens public | **Acceptable** | `docs/design/` stays as-is |
-| 9 | Code license | **Open.** Owner to add a LICENSE file. | Until then the code is visible but not licensed for reuse |
+| 9 | Code license | **MIT**, added by the owner (`LICENSE`) | Code and docs are reusable with attribution; third-party data licenses are in `data/LICENSES.md` |
 
 ## Questions that were put to the owner (answered above)
 

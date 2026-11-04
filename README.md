@@ -130,6 +130,7 @@ r5py needs Java 21. In Colab, run `!apt-get install -y openjdk-21-jdk-headless o
 - While private, scheduled collection is sized to stay within the free Actions minutes. Once public, standard-runner minutes are free.
 - Mapping: MapLibre GL JS with free, key-less tiles is preferred over Mapbox, to avoid account and card requirements.
 - OpenStreetMap data © OpenStreetMap contributors, ODbL 1.0. Data licenses are listed in `data/LICENSES.md`.
+- Code: MIT License (`LICENSE`).
 - News sources are cited and paraphrased only. Page text is not stored in the repo.
 
 ## Rules this repo follows

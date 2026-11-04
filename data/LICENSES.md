@@ -7,5 +7,6 @@
 | `vp-data` branch | data.gov.my GTFS-Realtime vehicle positions (SRC-040) | As above | Source: data.gov.my |
 | `data/manifests/source-probe.csv` | Our probe of URLs in the source register | Metadata only (status, hash, page title, term matches); no page text is stored | Each source is credited in `docs/sources/source-register.csv` |
 
-Code license: **not yet chosen** (owner decision). Until a LICENSE file is added, the
-code is visible but not licensed for reuse.
+Code license: **MIT** (see `LICENSE`, added by the owner 2026-11-04). The MIT license
+covers the code and docs written for this project. Third-party data keeps the licenses
+listed above. In particular, the OSM extract stays under ODbL.
