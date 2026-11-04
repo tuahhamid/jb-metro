@@ -56,6 +56,7 @@ NEAR_WATER_M = 150
 DEPOT_MIN_HA = (5, 8, 15)            # ART small / base / LRT-scale (A-033)
 DEPOT_MAX_DIST_M = 1500
 BUS_WALK_M = 400                     # bus interchange catchment (A-034)
+WATER_EXCLUDE_M = 25                 # station candidates closer than this to a waterway/coast are dropped
 FORCED_MAX_OFFSET_M = 500            # anchors farther than this from the line are reported as not served
 
 
@@ -212,7 +213,7 @@ class Walk:
         return float(geom.area / (math.pi * WALK_CUTOFF_M ** 2))
 
 
-def place_stations(line, forced_ch, W):
+def place_stations(line, forced_ch, W, water=None):
     """Exclusive-catchment dynamic program: choose stations along the line maximizing the unique
     building floor-area proxy within an 800 m network walk, with 1.0-1.5 km spacing. Forced
     chainages (interchanges, termini) are always stations."""
@@ -220,6 +221,10 @@ def place_stations(line, forced_ch, W):
     cands = sorted(set([round(c) for c in np.arange(0, Lm, CAND_STEP_M)] + [round(Lm)] +
                        [round(c) for c in forced_ch]))
     cands = np.array(cands, float)
+    forced_c = {round(c) for c in forced_ch} | {round(Lm), 0}
+    if water is not None:  # no station on a river bridge or at the water's edge (unless forced)
+        keep = [c for c in cands if round(c) in forced_c or water.distance(line.interpolate(c)) > WATER_EXCLUDE_M]
+        cands = np.array(keep, float)
     forced = {int(np.argmin(abs(cands - c))) for c in forced_ch} | {0, len(cands) - 1}
     sets, score, reach = [], [], []
     for c in cands:
@@ -491,7 +496,7 @@ def main():
         # an anchor far from the line cannot be served by a station on it: report, do not force
         not_served = sorted(k for k, d in forced_off.items() if d > FORCED_MAX_OFFSET_M)
         forced_ch = [chainage_of(line, anchors[k]["x"], anchors[k]["y"]) for k in forced_off if k not in not_served]
-        stations = place_stations(line, forced_ch, W)
+        stations = place_stations(line, forced_ch, W, water)
 
         # segments, pinch points
         seg = segment_screens(line, ways, pnodes, L, edge_tags, btree, bgeoms)
@@ -635,10 +640,25 @@ def main():
         if dem and water is not None:
             zz = dem.sample([p.x for p in pts], [p.y for p in pts])
             ww = np.array([water.distance(p) for p in pts])
-            line_low = float(np.mean((zz <= LOW_LYING_M) & (ww <= NEAR_WATER_M)))
+            lowf = (zz <= LOW_LYING_M) & (ww <= NEAR_WATER_M)
+            line_low = float(np.mean(lowf))
+        else:
+            lowf = np.zeros(len(pts), bool)
         if flood:
             ff = flood.sample([p.x for p in pts], [p.y for p in pts])
-            line_jrc = float(np.mean(np.nan_to_num(ff) > 0))
+            jrcf = np.nan_to_num(ff) > 0
+            line_jrc = float(np.mean(jrcf))
+        else:
+            jrcf = np.zeros(len(pts), bool)
+        fdf = pd.DataFrame({"chainage_m": s_f, "jrc": jrcf, "low": lowf})
+        for col, lab in (("jrc", "JRC RP100 river-flood extent"), ("low", "low-lying near water (DEM proxy)")):
+            for sp in merge_spans(fdf, col, gap=100):
+                mid = line.interpolate((sp["start"] + sp["end"]) / 2)
+                lo, la = lonlat(mid.x, mid.y)
+                flood_rows.append({"option_id": oid, "kind": "line span", "id": f"{oid}@{round(sp['start'])}-{round(sp['end'])}m",
+                                   "lon": lo, "lat": la, "flag": lab, "length_m": round(sp["end"] - sp["start"]) + 50,
+                                   "status": "inferred",
+                                   "sc5_substitute": "web-only: JRC global river-flood map + DEM proxy; no local observation"})
 
         # depot candidates
         depots = []
