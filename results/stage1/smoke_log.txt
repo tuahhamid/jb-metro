@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/jb-metro/jb-metro/pipeline/smoke/r5py_smoke_test.py", line 28, in <module>
+    warnings.filterwarnings("ignore", "GeoSeries.notna", UserWarning)
+    ^^^^^^^^
+NameError: name 'warnings' is not defined. Did you mean: 'Warning'? Or did you forget to import 'warnings'?

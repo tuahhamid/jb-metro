@@ -1,0 +1,9 @@
+{
+  "source": "https://download.geofabrik.de/asia/malaysia-singapore-brunei-latest.osm.pbf",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "fetched_utc": "2026-11-04T11:06:25Z",
+  "bbox_lonlat": "103.70,1.44,103.82,1.56",
+  "source_replication_timestamp": "2026-11-03T21:24:23Z",
+  "clip_bytes": 4164349,
+  "clip_sha256": "710860734b70cd624c2e8425e7162f405ad87991c1af93ed60cb6e4db9087979"
+}

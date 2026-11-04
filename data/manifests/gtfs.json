@@ -1,0 +1,65 @@
+{
+  "fetched_utc": "2026-11-04T11:05:23.523204+00:00",
+  "feeds": {
+    "mybas-johor": {
+      "url": "https://api.data.gov.my/gtfs-static/mybas-johor",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "path": "data/raw/gtfs/2026-11-04/mybas-johor.zip",
+      "bytes": 4869559,
+      "sha256": "c56c4aced9bc932b2009b871482ea85b108a0cc8916a52af7f1b965b594cf6e8",
+      "files": [
+        "agency.txt",
+        "areas.txt",
+        "calendar.txt",
+        "fare_leg_rules.txt",
+        "fare_media.txt",
+        "fare_products.txt",
+        "rider_categories.txt",
+        "routes.txt",
+        "shapes.txt",
+        "stop_areas.txt",
+        "stop_times.txt",
+        "stops.txt",
+        "trips.txt"
+      ],
+      "service_start": "20261005",
+      "service_end": "20270202",
+      "agency_count": 1,
+      "agencies": [
+        "BAS.MY-JohorBahru"
+      ],
+      "routes_count": 21,
+      "stops_count": 988,
+      "trips_count": 1782,
+      "expired_on_fetch_date": false
+    },
+    "ktmb": {
+      "url": "https://api.data.gov.my/gtfs-static/ktmb",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "path": "data/raw/gtfs/2026-11-04/ktmb.zip",
+      "bytes": 46083,
+      "sha256": "25964d41ad01caf8937ff6c908ba27e70b8c431abc863db8edd1afaf3f43ae56",
+      "files": [
+        "agency.txt",
+        "calendar.txt",
+        "calendar_dates.txt",
+        "routes.txt",
+        "stop_times.txt",
+        "stops.txt",
+        "trips.txt"
+      ],
+      "service_start": "20260818",
+      "service_end": "20261118",
+      "agency_count": 1,
+      "agencies": [
+        "Keretapi Tanah Melayu"
+      ],
+      "routes_count": 9,
+      "stops_count": 155,
+      "trips_count": 374,
+      "expired_on_fetch_date": false
+    }
+  }
+}
