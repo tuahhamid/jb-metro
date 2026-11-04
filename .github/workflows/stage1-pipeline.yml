@@ -56,6 +56,7 @@ jobs:
         run: python pipeline/fetch/probe_sources.py --register docs/sources/source-register.csv --out data/manifests/source-probe.csv
 
       - name: Fetch GTFS static (data.gov.my)
+        continue-on-error: true
         run: python pipeline/fetch/fetch_gtfs.py --out data/raw/gtfs --manifest data/manifests/gtfs.json
 
       - name: Fetch one vehicle-position snapshot (data.gov.my)
@@ -63,6 +64,7 @@ jobs:
         run: python pipeline/fetch/fetch_vehicle_positions.py --out results/stage1/vehicle_positions_snapshot.csv --summary results/stage1/vehicle_positions_summary.json
 
       - name: Get OSM extract and clip to smoke-test bbox
+        continue-on-error: true
         run: |
           mkdir -p data/raw/osm
           if [ ! -f "$OSM_CLIP" ] || [ "${{ inputs.refresh_osm }}" = "true" ]; then
@@ -87,13 +89,20 @@ jobs:
       - name: Smoke test (r5py)
         continue-on-error: true
         run: |
-          GTFS=$(ls -d data/raw/gtfs/*/ | sort | tail -1)
+          mkdir -p results/stage1
+          GTFS=$(ls -d data/raw/gtfs/*/ 2>/dev/null | sort | tail -1)
+          if [ -z "$GTFS" ] || [ ! -f "${GTFS}mybas-johor.zip" ] || [ ! -f "$OSM_CLIP" ]; then
+            echo '{"all_pass": false, "tests": {"S1_network_builds": {"pass": false, "error": "inputs missing: GTFS or OSM fetch failed; see data/manifests"}}}' > results/stage1/smoke_report.json
+            exit 1
+          fi
           python pipeline/smoke/r5py_smoke_test.py --osm "$OSM_CLIP" --gtfs "$GTFS"mybas-johor.zip --out results/stage1 2>&1 | tee results/stage1/smoke_log.txt
 
       - name: Ridership bounds (arithmetic)
+        if: always()
         run: python pipeline/analysis/rts_ridership_bounds.py --out results/stage1/rts_ridership_bounds.json
 
       - name: Write run metadata
+        if: always()
         run: |
           cat > results/stage1/run_metadata.json <<EOF
           {"workflow": "stage1-pipeline", "run_id": "${{ github.run_id }}", "run_attempt": "${{ github.run_attempt }}",
@@ -102,6 +111,7 @@ jobs:
           EOF
 
       - name: Upload outputs as artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: stage1-outputs-${{ github.run_id }}
@@ -111,6 +121,7 @@ jobs:
           retention-days: 90
 
       - name: Commit results back to the branch
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898099+github-actions[bot]@users.noreply.github.com"

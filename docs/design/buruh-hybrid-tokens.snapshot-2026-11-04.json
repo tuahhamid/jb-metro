@@ -1,0 +1,361 @@
+{
+  "name": "Buruh Hybrid",
+  "version": 1,
+  "color": {
+    "themes": [
+      {
+        "id": "light",
+        "name": "Light"
+      },
+      {
+        "id": "dark",
+        "name": "Dark"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "navy",
+        "value": "#13213A",
+        "usage": "Identity navy, the same in every theme. The ground of every post image (episode cover, payoff, screenshot frame, code card) and the ink of the logo on paper."
+      },
+      {
+        "name": "orange",
+        "value": "#FF6A13",
+        "usage": "Identity safety orange, the same in every theme. On posts: the episode tag, the logo dot, the hazard band, the hard shadow, and code keywords on navy (5.6:1). Never text on paper or white (2.6:1), never an icon color."
+      },
+      {
+        "name": "paper",
+        "value": "#F6F3EC",
+        "usage": "Identity paper, the same in every theme. Text and marks on navy in post images (14.5:1); the logo's ground."
+      },
+      {
+        "name": "on-orange",
+        "value": "#13213A",
+        "usage": "Text and icons on an orange fill (5.6:1). Never white on orange (2.9:1)."
+      },
+      {
+        "name": "surface",
+        "value": {
+          "light": "#F6F3EC",
+          "dark": "#0C1526"
+        },
+        "usage": "Page background on the blog and in UI."
+      },
+      {
+        "name": "surface-raised",
+        "value": {
+          "light": "#FFFFFF",
+          "dark": "#152039"
+        },
+        "usage": "Cards, code blocks and panels on surface."
+      },
+      {
+        "name": "line",
+        "value": {
+          "light": "#D6D0C3",
+          "dark": "#2A3957"
+        },
+        "usage": "Hairline dividers between rows and sections. Decorative only; never the only edge of a control."
+      },
+      {
+        "name": "line-strong",
+        "value": {
+          "light": "#8C8577",
+          "dark": "#5D6C89"
+        },
+        "usage": "Borders of inputs and frames that must be seen (3.3:1 light, 3.5:1 dark on surface)."
+      },
+      {
+        "name": "ink",
+        "value": {
+          "light": "#13213A",
+          "dark": "#F3EFE6"
+        },
+        "usage": "Primary text on surface, surface-raised, navy-soft and orange-soft (13:1 or more in both themes)."
+      },
+      {
+        "name": "ink-muted",
+        "value": {
+          "light": "#535E72",
+          "dark": "#A6AFC0"
+        },
+        "usage": "Dates, captions and metadata on surface, surface-raised, navy-soft and orange-soft (5.3:1 or more in both themes)."
+      },
+      {
+        "name": "accent-text",
+        "value": {
+          "light": "#B23F06",
+          "dark": "#FF8F4F"
+        },
+        "usage": "Orange as text: links and the episode number in running text, on surface, surface-raised, navy-soft and orange-soft (4.7:1 or more in both themes)."
+      },
+      {
+        "name": "navy-fill",
+        "value": {
+          "light": "{navy}",
+          "dark": "#2A3F69"
+        },
+        "usage": "Navy blocks inside the UI (diagrams, the cover, header bars). Lifts in dark so it never sinks into the surface. Text on it is on-navy."
+      },
+      {
+        "name": "on-navy",
+        "value": "{paper}",
+        "usage": "Text and icons on navy and navy-fill (9:1 or more in both themes)."
+      },
+      {
+        "name": "navy-soft",
+        "value": {
+          "light": "#E3E8F1",
+          "dark": "#1A2744"
+        },
+        "usage": "Quiet tinted panels: callouts, quoted replies on the blog. Text on it is ink."
+      },
+      {
+        "name": "orange-soft",
+        "value": {
+          "light": "#FFE7D6",
+          "dark": "#3B1D0C"
+        },
+        "usage": "Tint behind a highlighted line or the current episode in a list. Text on it is ink or accent-text."
+      },
+      {
+        "name": "code-comment",
+        "value": "#A6AFC0",
+        "usage": "Comments and line numbers in the code card, and the source line under a screenshot caption, on navy only (7.3:1)."
+      },
+      {
+        "name": "code-string",
+        "value": "#FFC29E",
+        "usage": "Strings and numbers in the code card, on navy only (10:1)."
+      }
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "\"Archivo\", \"Segoe UI\", Arial, sans-serif",
+      "mono": "\"IBM Plex Mono\", ui-monospace, Menlo, Consolas, monospace"
+    },
+    "groups": [
+      {
+        "name": "Post (1080 px canvas)",
+        "family": "sans",
+        "note": "Sizes for a 1080 × 1350 Threads image. One family, heavy titles, nothing below 26px so text survives a phone feed.",
+        "styles": [
+          {
+            "name": "post-title",
+            "fontSize": "104px",
+            "lineHeight": "100px",
+            "fontWeight": 800,
+            "letterSpacing": "-0.02em",
+            "sample": "Model mana paling latest?",
+            "usage": "The 3 to 5 word episode title. Paper on navy."
+          },
+          {
+            "name": "post-tag",
+            "fontSize": "30px",
+            "lineHeight": "36px",
+            "fontWeight": 800,
+            "letterSpacing": "0.06em",
+            "sample": "BIM 2.0 #1",
+            "usage": "The episode tag, uppercase, on-orange on orange."
+          },
+          {
+            "name": "post-lead",
+            "fontSize": "48px",
+            "lineHeight": "58px",
+            "fontWeight": 700,
+            "sample": "Korang jawab:",
+            "usage": "The first line of a payoff post or a screenshot caption."
+          },
+          {
+            "name": "post-body",
+            "fontSize": "38px",
+            "lineHeight": "52px",
+            "fontWeight": 500,
+            "sample": "Export, email, harap yang terbaru.",
+            "usage": "Reply summaries and short explanations. Three lines per point at most."
+          },
+          {
+            "name": "post-meta",
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "fontWeight": 600,
+            "letterSpacing": "0.02em",
+            "sample": "@buruh.hybrid",
+            "usage": "Handle and call to reply in the footer of every post."
+          }
+        ]
+      },
+      {
+        "name": "Screen",
+        "family": "sans",
+        "note": "Blog and UI.",
+        "styles": [
+          {
+            "name": "display",
+            "fontSize": "40px",
+            "lineHeight": "44px",
+            "fontWeight": 800,
+            "letterSpacing": "-0.015em",
+            "sample": "Setahun ajar budak coding",
+            "usage": "Blog post titles only."
+          },
+          {
+            "name": "heading",
+            "fontSize": "24px",
+            "lineHeight": "30px",
+            "fontWeight": 700,
+            "sample": "Apa yang saya cuba",
+            "usage": "Section headings in a post."
+          },
+          {
+            "name": "body",
+            "fontSize": "17px",
+            "lineHeight": "27px",
+            "fontWeight": 400,
+            "sample": "In my case, the export step took longer than the modeling.",
+            "usage": "Running text on the blog."
+          },
+          {
+            "name": "small",
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "fontWeight": 400,
+            "sample": "Updated 26 Oct 2026",
+            "usage": "Dates and metadata, in ink-muted."
+          },
+          {
+            "name": "label",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "fontWeight": 700,
+            "letterSpacing": "0.08em",
+            "sample": "BIM 2.0 #4",
+            "usage": "Uppercase tags and labels on screen."
+          }
+        ]
+      },
+      {
+        "name": "Code",
+        "family": "mono",
+        "styles": [
+          {
+            "name": "code",
+            "fontSize": "14px",
+            "lineHeight": "22px",
+            "fontWeight": 400,
+            "sample": "counts = Counter(e.Category.Name for e in elements)",
+            "usage": "Code blocks and inline code on the blog."
+          },
+          {
+            "name": "post-code",
+            "fontSize": "30px",
+            "lineHeight": "46px",
+            "fontWeight": 400,
+            "sample": "for cat, n in counts.most_common(5):",
+            "usage": "Code card images. 10 lines and 40 characters a line at most."
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "4px base on screen; posts use the same steps scaled, plus one post margin.",
+    "tokens": [
+      {
+        "name": "space-1",
+        "value": "4px",
+        "usage": "Icon to label."
+      },
+      {
+        "name": "space-2",
+        "value": "8px",
+        "usage": "Inside tags and buttons."
+      },
+      {
+        "name": "space-3",
+        "value": "12px",
+        "usage": "Between related lines."
+      },
+      {
+        "name": "space-4",
+        "value": "16px",
+        "usage": "Card padding on screen."
+      },
+      {
+        "name": "space-6",
+        "value": "24px",
+        "usage": "Between blocks; the hazard band height on posts."
+      },
+      {
+        "name": "space-8",
+        "value": "32px",
+        "usage": "Between points on a post."
+      },
+      {
+        "name": "space-12",
+        "value": "48px",
+        "usage": "Between sections on the blog; the logo's minimum clear space on posts."
+      },
+      {
+        "name": "post-margin",
+        "value": "72px",
+        "usage": "Inset from every edge of a 1080 × 1350 post. Nothing but the hazard band and full-bleed screenshots crosses it."
+      }
+    ]
+  },
+  "radius": {
+    "note": "Square, like site hoarding. Corners stay sharp; only the profile picture is round.",
+    "tokens": [
+      {
+        "name": "radius-none",
+        "value": "0",
+        "usage": "Default for everything: tags, cards, frames, buttons, post images."
+      },
+      {
+        "name": "radius-sm",
+        "value": "2px",
+        "usage": "Form inputs on the blog, so they read as fields."
+      },
+      {
+        "name": "radius-full",
+        "value": "9999px",
+        "usage": "The circular profile picture only."
+      }
+    ]
+  },
+  "shadow": {
+    "note": "No soft shadows. One hard offset, and the focus ring.",
+    "tokens": [
+      {
+        "name": "shadow-hard",
+        "value": "12px 12px 0 #FF6A13",
+        "usage": "The screenshot on a post and a featured card on the blog. One per image."
+      },
+      {
+        "name": "focus-ring",
+        "value": {
+          "light": "0 0 0 2px #F6F3EC, 0 0 0 4px #13213A",
+          "dark": "0 0 0 2px #0C1526, 0 0 0 4px #FF8F4F"
+        },
+        "usage": "Keyboard focus on links and buttons: a 2px surface gap, then 2px solid navy (light) or orange (dark), 3:1 or more on every surface."
+      }
+    ]
+  },
+  "border": {
+    "note": "Line weights.",
+    "tokens": [
+      {
+        "name": "border-thin",
+        "value": "1px",
+        "usage": "Dividers in line."
+      },
+      {
+        "name": "border-icon",
+        "value": "2px",
+        "usage": "Icon stroke at 24px. Scale it with the icon (6px at 72px)."
+      }
+    ]
+  }
+}
