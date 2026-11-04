@@ -61,7 +61,7 @@ All free for public repos. GitHub → repo **Settings**:
 
 ## Re-scan before the Stage 2 handoff (2026-11-04)
 
-**Scope:** every commit from `94af394` (Stage 1 handoff) to `bd46c24`, plus the working tree with the Stage 2 docs. Same method as above.
+**Scope:** every commit from `94af394` (Stage 1 handoff) to `bd46c24`, plus the working tree with the Stage 2 docs. Later commits up to `3806c66` (station fix, run 41886438950 outputs, doc figures) were re-checked with the regex, email, and identity checks. Same method as above.
 
 | Check | Result |
 |---|---|
@@ -69,6 +69,6 @@ All free for public repos. GitHub → repo **Settings**:
 | Token and key regexes | No matches |
 | Email addresses | Only `88237170+tuahhamid@users.noreply.github.com` (owner no-reply, per CLAUDE.md) and `noreply@anthropic.com` (Co-Authored-By trailer). No personal email. |
 | Private IPs, local paths, `.env` files | None |
-| Commit identities | Owner no-reply (5 commits); `github-actions[bot]` (3 commits) |
+| Commit identities | Owner no-reply (8 commits); `github-actions[bot]` (4 commits), through `3806c66` |
 | New workflow `stage2-alignments.yml` | Actions pinned to the same commit SHAs as Stage 1. The `refresh_osm` input is passed via `env:`. Uses only `GITHUB_TOKEN` with `contents: write`, and no secrets. Push trigger covers `main` and `claude/**`; only users with write access can push. |
 | Third-party data | DEM and JRC rasters are not committed (license and size); attribution is in `data/LICENSES.md`. Plan-list extract is matched status lines only. |
