@@ -48,6 +48,7 @@ SPACING_MIN_M, SPACING_MAX_M = 1000, 1500   # brief: ~1-1.5 km (A-028)
 CAND_STEP_M = 100
 CLEAR_WIDTH_LINE_M = (16, 20, 25)    # building-to-building width needed for a viaduct (A-029)
 CLEAR_WIDTH_STATION_M = (24, 30, 36)  # ... at an elevated station (A-029)
+SIDE_SETBACK_M = (10, 15)            # facade this close to the route centerline on either side: line / station (A-029)
 CURVE_R_FLAG_M = (50, 100)           # ART-ish / rail-APM minimum radius screens (A-030)
 GRADE_FLAG = (0.05, 0.08)            # rail / rubber-tired screens (A-031)
 LOW_LYING_M = 5.0                    # DEM low-lying proxy (A-032)
@@ -55,6 +56,7 @@ NEAR_WATER_M = 150
 DEPOT_MIN_HA = (5, 8, 15)            # ART small / base / LRT-scale (A-033)
 DEPOT_MAX_DIST_M = 1500
 BUS_WALK_M = 400                     # bus interchange catchment (A-034)
+FORCED_MAX_OFFSET_M = 500            # anchors farther than this from the line are reported as not served
 
 
 def lonlat(x, y):
@@ -422,6 +424,12 @@ def main():
     stops = (gtfs_stops(a.gtfs, "BAS.MY") if a.gtfs else []) + (gtfs_stops(a.ktmb, "KTMB") if a.ktmb else [])
     stop_xy = np.array([(s["x"], s["y"]) for s in stops]) if stops else np.zeros((0, 2))
     stop_tree = cKDTree(stop_xy) if len(stop_xy) else None
+    if flood:
+        fa = flood.a[np.isfinite(flood.a)]
+        report_flood = {"cells": int(fa.size), "cells_depth_gt0": int((fa > 0).sum()),
+                        "max_depth_m": float(fa.max()) if fa.size else None}
+    else:
+        report_flood = None
     anchors = resolve_anchors(spec, L)
     print("anchors:", {k: v["resolved_by"] for k, v in anchors.items()})
 
@@ -462,7 +470,8 @@ def main():
     feats_line, feats_st, feats_depot = [], [], []
     comp, pinch_rows, flood_rows, ix_rows, seg_all = [], [], [], [], []
     report = {"run_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "anchors": anchors,
-              "inputs": {"osm": a.osm, "dem": bool(dem), "flood_jrc": bool(flood), "gtfs_stops": len(stops)},
+              "inputs": {"osm": a.osm, "dem": bool(dem), "flood_jrc": bool(flood), "gtfs_stops": len(stops),
+                         "flood_jrc_raster_summary": report_flood},
               "options": {}}
 
     for opt in spec["options"]:
@@ -478,7 +487,10 @@ def main():
         Lkm = line.length / 1000
         rep_km = spec["reported_lengths_km"][opt["corridor"]]
         dev = (Lkm - rep_km) / rep_km
-        forced_ch = [chainage_of(line, anchors[k]["x"], anchors[k]["y"]) for k in opt.get("forced_stations", [])]
+        forced_off = {k: line.distance(Point(anchors[k]["x"], anchors[k]["y"])) for k in opt.get("forced_stations", [])}
+        # an anchor far from the line cannot be served by a station on it: report, do not force
+        not_served = sorted(k for k, d in forced_off.items() if d > FORCED_MAX_OFFSET_M)
+        forced_ch = [chainage_of(line, anchors[k]["x"], anchors[k]["y"]) for k in forced_off if k not in not_served]
         stations = place_stations(line, forced_ch, W)
 
         # segments, pinch points
@@ -490,7 +502,9 @@ def main():
         seg["pinch_width"] = seg["clear_width_m"] < need
         seg["pinch_width_low"] = seg["clear_width_m"] < np.where(seg["near_station"], CLEAR_WIDTH_STATION_M[0], CLEAR_WIDTH_LINE_M[0])
         seg["single_narrow"] = (seg["carriageway"] == "single") & (seg["lanes_tag"].fillna(2) <= 2)
-        seg["flag_width"] = seg["pinch_width"] | seg["single_narrow"]
+        seg["min_side_setback_m"] = seg[["setback_left_m", "setback_right_m"]].min(axis=1)
+        seg["pinch_side"] = seg["min_side_setback_m"] < np.where(seg["near_station"], SIDE_SETBACK_M[1], SIDE_SETBACK_M[0])
+        seg["flag_width"] = seg["pinch_width"] | seg["single_narrow"] | seg["pinch_side"]
 
         # curves
         curv = curvature_flags(line)
@@ -525,7 +539,11 @@ def main():
                 "option_id": oid, "type": "narrow cross-section", "chainage_from_m": sp["start"] - 50,
                 "chainage_to_m": sp["end"] + 50, "lon": lo, "lat": la,
                 "road": "; ".join(sorted(set(rows["road_name"]) - {""}))[:80],
-                "min_clear_width_m": rows["clear_width_m"].min(), "lanes_tag_min": rows["lanes_tag"].min(),
+                "min_clear_width_m": rows["clear_width_m"].min(), "min_side_setback_m": rows["min_side_setback_m"].min(),
+                "lanes_tag_min": rows["lanes_tag"].min(),
+                "why": "; ".join(k for k, c in (("facade-to-facade < base width", "pinch_width"),
+                                                ("facade close on one side", "pinch_side"),
+                                                ("single carriageway <=2 lanes", "single_narrow")) if rows[c].any()),
                 "carriageway": "/".join(sorted(set(rows["carriageway"]))),
                 "at_station": bool(rows["near_station"].any()),
                 "severity": "high" if rows["pinch_width_low"].any() else "medium",
@@ -699,6 +717,8 @@ def main():
             "n_pinch_width_spans": len(merge_spans(seg, "flag_width")),
             "n_tight_curves_lt100m": len(merge_spans(cdf, "flag", gap=60)), "n_curve_points_lt50m": tight50,
             "n_rail_or_river_crossings": sum(1 for c in crossings if "crossing" in c[0]),
+            "n_existing_flyover_spans_on_route": sum(1 for c in crossings if c[0].startswith("existing flyover")),
+            "anchors_not_served_gt500m": "|".join(anchors[k]["label"] for k in not_served),
             **gstats,
             "share_line_low_lying_near_water": round(line_low, 3), "share_line_jrc_rp100": round(line_jrc, 3),
             "stations_flood_flag": int(sum(bool(r["flood_flag"]) for r in st_records)),
@@ -707,7 +727,9 @@ def main():
         })
         seg_all.append(seg.drop(columns=["x", "y"]))
         report["options"][oid] = {"seconds": round(time.time() - t1, 1), "length_km": round(Lkm, 2),
-                                  "n_stations": len(stations)}
+                                  "n_stations": len(stations),
+                                  "forced_anchor_offset_from_line_m": {k: round(v) for k, v in forced_off.items()},
+                                  "anchors_not_served_gt500m": not_served}
         print(oid, f"{Lkm:.2f} km", f"dev {dev:+.1%}", len(stations), "stations", f"{time.time()-t1:.0f}s")
 
     def fc(feats):
@@ -745,7 +767,7 @@ def draw_map(lines, stations, depots, L, path):
     for g in L.coastline:
         xy = np.array(TO_WGS.transform(*np.array(g.coords).T)).T
         ax.plot(xy[:, 0], xy[:, 1], color="#6fa8dc", lw=0.6, zorder=1)
-    colors = {"T1": "#d62728", "T2": "#ff7f0e", "T3": "#8c564b", "IP1": "#1f77b4", "IP2": "#17becf", "IP3": "#2ca02c"}
+    colors = {"T1": "#d62728", "T2": "#ff7f0e", "T3": "#8c564b", "IP1": "#1f77b4", "IP2": "#17becf", "IP3": "#2ca02c", "IP4": "#9467bd"}
     for f in lines:
         p = f["properties"]
         c = np.array(f["geometry"]["coordinates"])

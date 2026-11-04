@@ -1,5 +1,5 @@
 {
-  "_comment": "Stage 2 alignment hypotheses. Every option is status=concept: drawn by this project from OSM road reserves and trip generators, not from any official or unofficial map. Anchors are resolved against OSM features by name; 'fallback_lonlat' is used only if the name match fails, and the run report says which was used. Routing follows the OSM road graph between anchors, preferring the listed roads (elevated guideways are normally built over road reserves).",
+  "_comment": "Stage 2 alignment hypotheses. Every option is status=concept: drawn by this project from OSM road reserves and trip generators, not from any official or unofficial map. Anchors are resolved against OSM features by name; 'fallback_lonlat' is used only if the name match fails, and the run report says which was used. Routing follows the OSM road graph between anchors, preferring the listed roads (elevated guideways are normally built over road reserves). Vias are kept to termini and true branch points; intermediate centers are forced stations (their offset from the line is reported in run_report.json), so the route is not pulled into neighborhoods.",
   "reported_lengths_km": {
     "tebrau": 14.0,
     "iskandar_puteri": 14.78
@@ -147,45 +147,45 @@
       ]
     },
     "DGB": {
-      "label": "Danga Bay",
+      "label": "Danga Bay (Teluk Danga)",
       "match": {
-        "name": "^Danga Bay$",
+        "name": "^Teluk Danga$",
         "tag": [
           "place",
-          null
+          "suburb"
         ]
       },
       "fallback_lonlat": [
-        103.723,
-        1.472
+        103.71846,
+        1.48118
       ]
     },
     "PRL": {
-      "label": "Taman Perling",
+      "label": "Perling (Perling Mall)",
       "match": {
-        "name": "^(Taman )?Perling$",
-        "tag": [
-          "place",
-          null
-        ]
-      },
-      "fallback_lonlat": [
-        103.683,
-        1.485
-      ]
-    },
-    "BID": {
-      "label": "Bukit Indah (AEON)",
-      "match": {
-        "name": "^AEON Mall Bukit Indah$",
+        "name": "^Perling Mall$",
         "tag": [
           "shop",
           "mall"
         ]
       },
       "fallback_lonlat": [
-        103.6556,
-        1.4826
+        103.68115,
+        1.49657
+      ]
+    },
+    "BID": {
+      "label": "Bukit Indah",
+      "match": {
+        "name": "^Bukit Indah$",
+        "tag": [
+          "place",
+          "suburb"
+        ]
+      },
+      "fallback_lonlat": [
+        103.65956,
+        1.48007
       ]
     },
     "PTH": {
@@ -194,40 +194,40 @@
         "name": "^Puteri Harbour$",
         "tag": [
           "place",
-          null
+          "neighbourhood"
         ]
       },
       "fallback_lonlat": [
-        103.659,
-        1.4175
+        103.65906,
+        1.41706
       ]
     },
     "KIS": {
-      "label": "Kota Iskandar",
+      "label": "Kota Iskandar (state administrative center)",
       "match": {
         "name": "^Kota Iskandar$",
         "tag": [
           "place",
-          null
+          "neighbourhood"
         ]
       },
       "fallback_lonlat": [
-        103.6365,
-        1.4255
+        103.65261,
+        1.42271
       ]
     },
     "MDN": {
-      "label": "Medini",
+      "label": "Medini (Mall of Medini)",
       "match": {
-        "name": "^Medini",
+        "name": "^Mall of Medini$",
         "tag": [
-          "place",
-          null
+          "shop",
+          "mall"
         ]
       },
       "fallback_lonlat": [
-        103.638,
-        1.437
+        103.63298,
+        1.4281
       ]
     },
     "EDL": {
@@ -362,19 +362,19 @@
       "name": "Coastal direct to Puteri Harbour and Kota Iskandar",
       "vias": [
         "BKC",
-        "DGB",
-        "PRL",
         "PTH",
         "KIS"
       ],
       "prefer_roads": [
         "Persiaran Abu Bakar Sultan",
         "Lebuhraya Pesisir Pantai Iskandar",
-        "Jalan Lingkaran Dalam"
+        "Jalan Lingkaran Dalam",
+        "Lebuh Kota Iskandar"
       ],
       "forced_stations": [
         "BKC",
         "DGB",
+        "PRL",
         "PTH",
         "KIS"
       ],
@@ -387,14 +387,15 @@
       "name": "Coastal to Perling and Bukit Indah",
       "vias": [
         "BKC",
-        "DGB",
-        "PRL",
         "BID"
       ],
       "prefer_roads": [
         "Persiaran Abu Bakar Sultan",
         "Lebuhraya Pesisir Pantai Iskandar",
-        "Jalan Lingkaran Dalam"
+        "Jalan Lingkaran Dalam",
+        "Jalan Persiaran Perling 2",
+        "Persiaran Indah",
+        "Jalan Persiaran Indah Utama"
       ],
       "forced_stations": [
         "BKC",
@@ -407,11 +408,9 @@
       "id": "IP3",
       "corridor": "iskandar_puteri",
       "decision": "carried",
-      "name": "Coastal - Bukit Indah - Medini - Kota Iskandar loop-free extension",
+      "name": "Coastal - Bukit Indah - Medini - Kota Iskandar",
       "vias": [
         "BKC",
-        "DGB",
-        "PRL",
         "BID",
         "MDN",
         "KIS"
@@ -419,7 +418,11 @@
       "prefer_roads": [
         "Persiaran Abu Bakar Sultan",
         "Lebuhraya Pesisir Pantai Iskandar",
-        "Jalan Lingkaran Dalam"
+        "Jalan Lingkaran Dalam",
+        "Jalan Persiaran Perling 2",
+        "Persiaran Indah",
+        "Jalan Persiaran Indah Utama",
+        "Lebuh Kota Iskandar"
       ],
       "forced_stations": [
         "BKC",
@@ -428,14 +431,37 @@
         "KIS"
       ],
       "rationale": "Serves both Bukit Indah and Kota Iskandar. Longest option; tests the coverage-versus-length trade-off."
+    },
+    {
+      "id": "IP4",
+      "corridor": "iskandar_puteri",
+      "decision": "carried",
+      "name": "FT1 and coastal highway to Perling and Bukit Indah (shortest reserve)",
+      "vias": [
+        "BKC",
+        "BID"
+      ],
+      "prefer_roads": [
+        "Jalan Tun Abdul Razak",
+        "Lebuhraya Pesisir Pantai Iskandar",
+        "Jalan Persiaran Perling 2",
+        "Persiaran Indah",
+        "Jalan Persiaran Indah Utama"
+      ],
+      "forced_stations": [
+        "BKC",
+        "PRL",
+        "BID"
+      ],
+      "rationale": "Follows the shortest road reserve from Bukit Chagar to Bukit Indah: Jalan Tun Abdul Razak (FT1) north-west, then the Iskandar Coastal Highway to Perling and Bukit Indah. Its length matches the reported 14.78 km. Caveat: the first ~6 km on FT1 is the same reserve a future Skudai line would likely use toward Tampoi (Skudai is out of scope, owner decision 2)."
     }
   ],
   "rejected_without_geometry": [
     {
       "id": "IP-R1",
       "corridor": "iskandar_puteri",
-      "name": "Via Skudai Highway (FT1) and Tampoi",
-      "reason": "Shares the JB-Tampoi section with the Skudai corridor, which is out of scope (owner decision 2). Drawing it would create Skudai geometry."
+      "name": "Via Skudai Highway (FT1) through Tampoi to Bukit Indah",
+      "reason": "Continues on FT1 beyond the coastal-highway junction into Tampoi, which is the Skudai corridor (out of scope, owner decision 2). IP4 uses only the city end of FT1 and turns onto the coastal highway."
     },
     {
       "id": "IP-R2",

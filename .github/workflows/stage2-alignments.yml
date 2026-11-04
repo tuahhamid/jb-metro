@@ -89,6 +89,10 @@ jobs:
             --gtfs "${GTFS}mybas-johor.zip" --ktmb "${GTFS}ktmb.zip" --options pipeline/stage2/options.json \
             2>&1 | tee results/stage2/build_log.txt
 
+      - name: Iskandar Puteri length check (shortest road distances)
+        if: always()
+        run: python pipeline/stage2/ip_length_check.py --osm "$OSM_CLIP" --out results/stage2/ip_shortest_road_km.json
+
       - name: V4-alt pedestrian audit (Bukit Chagar)
         if: always()
         run: python pipeline/stage2/v4alt_audit.py --osm "$OSM_CLIP" --out results/stage2/v4alt_bukit_chagar.json 2>&1 | tee results/stage2/v4alt_log.txt
