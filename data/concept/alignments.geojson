@@ -1850,8 +1850,8 @@
     "reported_length_km": 14.0,
     "length_deviation": 0.007,
     "within_15pct": true,
-    "n_stations": 15,
-    "mean_spacing_m": 1007,
+    "n_stations": 14,
+    "mean_spacing_m": 1084,
     "rationale": "Tested because the existing elevated Eastern Dispersal Link (E14) reserve could host a guideway. Rejected if walk catchments and bus interchange are poorer than the FT3 options; metrics are computed so the rejection rests on numbers."
    }
   },

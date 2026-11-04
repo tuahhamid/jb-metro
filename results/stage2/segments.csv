@@ -478,28 +478,28 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 3750,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 3850,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,14.2,74.2,T-R1,False,False,False,False,14.2,False,False
 3950,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-4050,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,20.4,80.4,T-R1,True,False,False,False,20.4,False,False
-4150,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+4050,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,20.4,80.4,T-R1,False,False,False,False,20.4,False,False
+4150,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 4250,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-4350,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-4450,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
+4350,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+4450,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
 4550,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 4650,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 4750,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 4850,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 4950,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-5050,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,49.1,109.1,T-R1,True,False,False,False,49.1,False,False
-5150,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+5050,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,49.1,109.1,T-R1,False,False,False,False,49.1,False,False
+5150,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 5250,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,40.4,100.4,T-R1,False,False,False,False,40.4,False,False
 5350,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,44.3,104.3,T-R1,False,False,False,False,44.3,False,False
 5450,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,48.6,14.1,62.7,T-R1,False,False,False,False,14.1,False,False
 5550,767317558,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,48.7,45.9,94.6,T-R1,False,False,False,False,45.9,False,False
 5650,767317558,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,53.2,60.0,113.2,T-R1,False,False,False,False,53.2,False,False
-5750,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-5850,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
+5750,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+5850,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
 5950,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-6050,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
-6150,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+6050,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
+6150,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 6250,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,55.5,115.5,T-R1,False,False,False,False,55.5,False,False
 6350,773823370,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 6450,688293126,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
@@ -507,9 +507,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 6650,765837196,,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 6750,765837196,,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 6850,765837196,,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-6950,688293123,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
+6950,688293123,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
 7050,159004184,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
-7150,159004184,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+7150,159004184,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 7250,642563772,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 7350,642563772,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 7450,642563772,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
@@ -519,9 +519,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 7850,642563761,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 7950,642563761,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 8050,765782707,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-8150,769458339,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
+8150,769458339,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
 8250,159638166,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
-8350,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+8350,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 8450,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 8550,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 8650,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
@@ -841,9 +841,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 10950,771413222,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
 11050,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
 11150,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
-11250,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
+11250,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,60.0,False,False
 11350,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,60.0,False,False
-11450,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,60.0,False,False
+11450,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
 11550,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
 11650,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
 11750,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
@@ -1095,9 +1095,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 10950,771413222,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
 11050,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
 11150,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
-11250,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
+11250,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,60.0,False,False
 11350,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,True,False,False,False,60.0,False,False
-11450,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,True,False,False,False,60.0,False,False
+11450,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
 11550,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
 11650,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
 11750,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,60.0,False,False
@@ -1273,9 +1273,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 10950,771413222,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 11050,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 11150,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
-11250,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
+11250,386746102,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
 11350,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
-11450,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
+11450,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 11550,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 11650,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 11750,386733344,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
@@ -1501,9 +1501,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 6550,177408758,Lebuhraya Pesisir Pantai Iskandar,52,trunk,2.0,,True,dual (one-way pair),False,37.3,60.0,97.3,IP4,False,False,False,False,37.3,False,False
 6650,768676772,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 6750,509144523,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
-6850,509144523,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
+6850,509144523,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,True,False,False,False,60.0,False,False
 6950,509144524,Lebuhraya Pesisir Pantai Iskandar,52,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,True,False,False,False,60.0,False,False
-7050,768679631,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,IP4,True,False,False,False,35.2,False,False
+7050,768679631,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,IP4,False,False,False,False,35.2,False,False
 7150,1366156602,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,35.1,95.1,IP4,False,False,False,False,35.1,False,False
 7250,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,49.0,109.0,IP4,False,False,False,False,49.0,False,False
 7350,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,36.4,96.4,IP4,False,False,False,False,36.4,False,False
@@ -1516,9 +1516,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 8050,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 8150,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 8250,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
-8350,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
+8350,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,True,False,False,False,60.0,False,False
 8450,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,True,False,False,False,60.0,False,False
-8550,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP4,True,False,False,False,60.0,False,False
+8550,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 8650,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 8750,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 8850,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False

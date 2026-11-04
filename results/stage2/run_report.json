@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-04T18:04:23+00:00",
+  "run_utc": "2026-11-04T18:11:05+00:00",
   "anchors": {
     "BKC": {
       "label": "Bukit Chagar RTS station",
@@ -168,7 +168,7 @@
   },
   "options": {
     "T1": {
-      "seconds": 4.1,
+      "seconds": 4.4,
       "length_km": 14.07,
       "n_stations": 17,
       "forced_anchor_offset_from_line_m": {
@@ -179,7 +179,7 @@
       "anchors_not_served_gt500m": []
     },
     "T2": {
-      "seconds": 4.3,
+      "seconds": 4.7,
       "length_km": 17.11,
       "n_stations": 20,
       "forced_anchor_offset_from_line_m": {
@@ -191,7 +191,7 @@
       "anchors_not_served_gt500m": []
     },
     "T3": {
-      "seconds": 3.3,
+      "seconds": 3.5,
       "length_km": 12.73,
       "n_stations": 16,
       "forced_anchor_offset_from_line_m": {
@@ -202,9 +202,9 @@
       "anchors_not_served_gt500m": []
     },
     "T-R1": {
-      "seconds": 2.8,
+      "seconds": 3.1,
       "length_km": 14.09,
-      "n_stations": 15,
+      "n_stations": 14,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "TBC": 165
@@ -212,7 +212,7 @@
       "anchors_not_served_gt500m": []
     },
     "T-R2": {
-      "seconds": 4.2,
+      "seconds": 4.6,
       "length_km": 14.95,
       "n_stations": 16,
       "forced_anchor_offset_from_line_m": {
@@ -222,7 +222,7 @@
       "anchors_not_served_gt500m": []
     },
     "IP1": {
-      "seconds": 3.8,
+      "seconds": 4.1,
       "length_km": 25.38,
       "n_stations": 25,
       "forced_anchor_offset_from_line_m": {
@@ -237,7 +237,7 @@
       ]
     },
     "IP2": {
-      "seconds": 3.6,
+      "seconds": 3.9,
       "length_km": 17.76,
       "n_stations": 18,
       "forced_anchor_offset_from_line_m": {
@@ -248,7 +248,7 @@
       "anchors_not_served_gt500m": []
     },
     "IP3": {
-      "seconds": 4.6,
+      "seconds": 5.1,
       "length_km": 27.24,
       "n_stations": 26,
       "forced_anchor_offset_from_line_m": {
@@ -262,7 +262,7 @@
       ]
     },
     "IP4": {
-      "seconds": 2.9,
+      "seconds": 3.1,
       "length_km": 14.98,
       "n_stations": 14,
       "forced_anchor_offset_from_line_m": {
@@ -275,5 +275,5 @@
       ]
     }
   },
-  "seconds_total": 65.6
+  "seconds_total": 69.0
 }
