@@ -79,3 +79,9 @@ source.
   - ≥90% of signalized or zebra crossings on the main desire lines are mapped.
   - Every grade change on those routes is tagged (steps, ramp, or elevator).
 - **Report:** gaps as data limitations. This does not validate walking times; it only checks that the network R5 uses is plausible.
+
+- 2026-11-04 (Stage 2): **V4-alt operationalized; thresholds unchanged.** Ground truth does not exist, so the criteria are measured on OSM as follows (`pipeline/stage2/v4alt_audit.py`). Desire lines are shortest OSM walk paths from the Bukit Chagar RTS station to JB Sentral (KTM), JB Sentral bus terminal, the Bukit Chagar bus stop, City Square (city center), and the Bukit Chagar ICQ building.
+  - (a) Entrances are OSM `entrance=*` or `railway=subway_entrance` nodes within 250 m of the station. If none are mapped, (a) is reported **NOT EVALUABLE**, not passed.
+  - (b) A crossing is any point where a desire-line path crosses a road of tertiary class or above at the same level. It is "mapped" if an OSM crossing or traffic-signal node lies within 15 m. Threshold stays ≥90%.
+  - (c) A grade change is a transition between ground level and a pedestrian bridge, tunnel, or layered footway. It is "tagged" if the edge is steps or an elevator, or carries `incline` or `ramp` tags.
+  - This definition was fixed during development on the Stage 1 smoke clip. The first exploratory run on that clip (before the full-area run) already showed a FAIL. The definition was refined once: road bridges over rivers no longer count as grade changes. That shrank the denominator of (c) from 10 to 6 transitions on the smoke clip, and (c) still failed (1 of 6 tagged). The refinement is disclosed here because it was made after seeing a result.
