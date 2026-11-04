@@ -39,6 +39,8 @@
 
 ## Settings for the owner after switching to public
 
+**Status 2026-11-04:** the repo is public. The owner reports applying settings 1–4. Optional #5 was not applied (owner decision).
+
 All free for public repos. GitHub → repo **Settings**:
 
 1. **Code security → Secret scanning: Enable**, and **Push protection: Enable**.
