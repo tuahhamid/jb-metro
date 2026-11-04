@@ -96,7 +96,10 @@ are committed in `18a09bd`.
 | 3 | Vehicle-position collection | **Yes, start now** | `.github/workflows/vp-collector.yml` runs Tue–Thu, 07:00–08:00 and 17:30–18:30 MYT, polling every 30 s, writing to branch `vp-data`. Earliest V3a dataset (≥3 weeks): about 2026-11-26. |
 | 4 | Buy RTVM traffic counts | **No** | V10's 75% test uses free count data only. If none is found, the claim is reported as **UNTESTED**. |
 | 5 | Final hosting | **Owner will make the repo public and use GitHub Pages**, after a security check | Security review done (`docs/security-review.md`): no secrets found, actions pinned, ODbL notice added. The owner applies the listed settings after switching to public. |
-| 6 | Site checks | Owner asked for a reminder of SC-1 and SC-3 | See `docs/site-checks.md` |
+| 6 | Site checks SC-1, SC-3 | **Not feasible** | Web-only substitutes are in `docs/site-checks.md`. V4 will be reported NOT RUN; V4-alt added. Stage 4 uncertainty is wider. |
+| 7 | Security optional #5 (ruleset on `main`) | **Not applied** | Accepted risk recorded in `docs/security-review.md` |
+| 8 | Buruh Hybrid tokens public | **Acceptable** | `docs/design/` stays as-is |
+| 9 | Code license | **Open.** Owner to add a LICENSE file. | Until then the code is visible but not licensed for reuse |
 
 ## Questions that were put to the owner (answered above)
 
@@ -130,15 +133,16 @@ are committed in `18a09bd`.
    - Interchange walking access at Bukit Chagar and at KTM/BAS.MY hubs.
    - Stations every ~1–1.5 km, placed by network-walk catchment logic.
    - Reasons for each choice, and **rejected options with reasons**.
-5. **Scope per owner decision 2:** Tebrau and Iskandar Puteri only. Skudai appears only as a sensitivity note, with no geometry.
-6. **Do not copy** geometry from James Clark's map or from any unofficial map. Do not present any option as official.
-7. **Deliverables:**
+5. **OSM pedestrian audit around Bukit Chagar** (V4-alt; substitute for SC-1): footways, crossings, steps, elevators, widths.
+6. **Scope per owner decision 2:** Tebrau and Iskandar Puteri only. Skudai appears only as a sensitivity note, with no geometry.
+7. **Do not copy** geometry from James Clark's map or from any unofficial map. Do not present any option as official.
+8. **Deliverables:**
    - Option GeoJSON with per-feature `status` and `source_ids`.
    - Option comparison table.
    - Updated register and assumptions log.
    - The site-check list for SC-4 and SC-5.
    - `docs/handoffs/stage-2.md`.
-8. **Out of scope for Stage 2:** draft GTFS, run times, access results, and the Bukit Chagar flow model (Stages 3–4).
+9. **Out of scope for Stage 2:** draft GTFS, run times, access results, and the Bukit Chagar flow model (Stages 3–4).
 
 ## How to resume
 

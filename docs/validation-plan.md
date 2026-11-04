@@ -68,3 +68,12 @@ source.
 - 2026-11-04: plan registered (Stage 1).
 - 2026-11-04: owner declined the paid RTVM report. The V10 count test uses free data only, so the UNTESTED outcome is more likely. Thresholds unchanged.
 - 2026-11-04: V3a data collection started (Tue–Thu peak windows). This is a data-collection change only; thresholds unchanged.
+- 2026-11-04: owner reports site checks SC-1 and SC-3 are not feasible. **V4 (walk times vs. timed walks) cannot run as written and will be reported NOT RUN.** V4-alt is added below; it is weaker and does not replace V4. V3b still depends on SC-2 (feasibility unconfirmed). Original thresholds remain as written above.
+
+### V4-alt (added 2026-11-04; weaker substitute for V4)
+- **Test:** OSM pedestrian completeness within 800 m of Bukit Chagar.
+- **Pass:**
+  - Every station entrance mapped in OSM connects to the walk network.
+  - ≥90% of signalized or zebra crossings on the main desire lines are mapped.
+  - Every grade change on those routes is tagged (steps, ramp, or elevator).
+- **Report:** gaps as data limitations. This does not validate walking times; it only checks that the network R5 uses is plausible.

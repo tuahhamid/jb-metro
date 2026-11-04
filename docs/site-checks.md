@@ -9,6 +9,8 @@ in `data/site-checks/photos/` with faces and plates blurred.
 Priority: **P1** is needed before Stage 3 or 4 results. **P2** is needed for Stage 5
 validation. **P3** is useful.
 
+**Status 2026-11-04:** the owner reports that SC-1 and SC-3 are **not feasible**. Substitutes are listed below the table. SC-2, SC-4, SC-5, and SC-6 are not yet confirmed either way.
+
 | ID | Priority | What | Where | When | Why (test) |
 |---|---|---|---|---|---|
 | SC-1 | P1 | Walk and time the public routes from Bukit Chagar station entrances to bus bays, taxi and e-hailing pickup, JB Sentral/BSI, and the city center. Count stairs, escalators, and lifts on each route and note any closed links. Measure the narrowest walkway width (phone measure app is fine). | Bukit Chagar surroundings (public roads and walkways) | Weekday 07:30–09:00 and 17:30–19:00 | Stage 4 walking routes and vertical circulation; V4 |
@@ -21,3 +23,10 @@ validation. **P3** is useful.
 **Template columns:** `check_id, date, start_time, end_time, location_from,
 location_to, mode, minutes, distance_m, stairs, escalators, lifts,
 min_width_m, notes, observer`
+
+## Substitutes for infeasible checks (owner decision 2026-11-04)
+
+| Check | Substitute (web-only) | What is lost |
+|---|---|---|
+| SC-1 Bukit Chagar walking routes and vertical circulation | 1. OSM pedestrian-network audit around Bukit Chagar: footways, crossings, `highway=steps`, `elevator`, `conveying`, `width` tags (V4-alt).<br>2. Official station or ICQ documents and published walking-time claims, if any.<br>3. Stage 4 treats stair, escalator, and lift counts and walkway widths as low/base/high ranges, labeled `inferred`. | No ground truth for walk times or pinch-point widths. Stage 4 bottleneck findings carry wider uncertainty and must say so. V4 cannot run as written. |
+| SC-3 Do buses run as published? Non-GTFS operators | 1. **Vehicle-position data** (already collecting): compare routes and trips observed in `vp-data` with GTFS-scheduled trips per peak window.<br>2. Non-GTFS operators (e.g., Causeway Link): use their published route lists and timetables as **leads** to bound the missing service; label the result `inferred`. | No on-street count of private operators. The baseline gap stays a stated limitation. |

@@ -34,7 +34,7 @@
 | 7 | `vehicle_id` in vehicle-position data is the bus registration number | Low | Already published by the government feed and painted on public buses. No passenger or driver data. Kept as-is. |
 | 8 | A workflow input was interpolated directly into a shell line (`refresh_osm`) | Low (boolean; only users with write access can dispatch) | **Fixed:** passed through `env:` instead |
 | 9 | Third-party actions referenced by mutable tags (`@v4`) | Medium for public repos | **Fixed:** pinned to full commit SHAs with the version in a comment |
-| 10 | `docs/design/` holds a snapshot of the owner's Buruh Hybrid design tokens; `docs/project-brief.md` includes the design-system artifact URL | Informational | Colors and type settings become public. The artifact itself stays private (access-controlled). Owner to confirm this is acceptable. |
+| 10 | `docs/design/` holds a snapshot of the owner's Buruh Hybrid design tokens; `docs/project-brief.md` includes the design-system artifact URL | Informational | Colors and type settings become public; the artifact itself stays private. **Owner confirmed 2026-11-04: acceptable.** |
 | 11 | Data licenses | Compliance | OSM extract is ODbL (attribution + share-alike), data.gov.my is open data, news is metadata only. **Added** `data/LICENSES.md`. |
 
 ## Settings for the owner after switching to public
@@ -48,7 +48,7 @@ All free for public repos. GitHub → repo **Settings**:
    - Set "Fork pull request workflows from outside collaborators" to *Require approval for all outside collaborators*.
    - Keep "Workflow permissions" at *Read repository contents* as the default. Our workflows request `contents: write` explicitly.
 4. **Pages:** Source = *GitHub Actions* (a Stage 6 deploy workflow will be added). Nothing outside the built site gets served.
-5. **Optional:** add a ruleset on `main` blocking force-pushes and deletion. The Actions bot still needs to push results to `main` and `vp-data`.
+5. **Optional:** add a ruleset on `main` blocking force-pushes and deletion. **Owner decision 2026-11-04: not applied.** Accepted risk: anyone with write access can force-push. Write access is the owner only.
 
 ## Rules for later stages (keep the repo safe to stay public)
 
