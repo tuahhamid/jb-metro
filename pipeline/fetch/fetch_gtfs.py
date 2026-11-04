@@ -61,7 +61,8 @@ def main() -> None:
     ap.add_argument("--manifest", default="data/manifests/gtfs.json")
     args = ap.parse_args()
     today = dt.date.today().isoformat()
-    outdir = Path(args.out) / today
+    # One folder per fetch (UTC timestamp) so a re-run never overwrites an earlier snapshot.
+    outdir = Path(args.out) / dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H%MZ")
     outdir.mkdir(parents=True, exist_ok=True)
     manifest = {"fetched_utc": dt.datetime.now(dt.timezone.utc).isoformat(), "feeds": {}}
     for name, url in FEEDS.items():
