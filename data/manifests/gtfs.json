@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-11-04T11:10:31.716573+00:00",
+  "fetched_utc": "2026-11-04T16:49:59.880872+00:00",
   "feeds": {
     "mybas-johor": {
       "url": "https://api.data.gov.my/gtfs-static/mybas-johor",
@@ -39,8 +39,8 @@
       "http_status": 200,
       "content_type": "binary/octet-stream",
       "path": "data/raw/gtfs/2026-11-04/ktmb.zip",
-      "bytes": 46083,
-      "sha256": "25964d41ad01caf8937ff6c908ba27e70b8c431abc863db8edd1afaf3f43ae56",
+      "bytes": 46286,
+      "sha256": "5fd406106f11be04654b8e55d20c31ccbfed46ca34eda26d383a3b80c0fce2ba",
       "files": [
         "agency.txt",
         "calendar.txt",
@@ -51,14 +51,14 @@
         "trips.txt"
       ],
       "service_start": "20260818",
-      "service_end": "20261118",
+      "service_end": "20261119",
       "agency_count": 1,
       "agencies": [
         "Keretapi Tanah Melayu"
       ],
       "routes_count": 9,
       "stops_count": 155,
-      "trips_count": 374,
+      "trips_count": 376,
       "expired_on_fetch_date": false
     }
   }
