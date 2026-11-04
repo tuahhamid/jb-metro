@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-04T17:44:41+00:00",
+  "run_utc": "2026-11-04T18:04:23+00:00",
   "anchors": {
     "BKC": {
       "label": "Bukit Chagar RTS station",
@@ -92,31 +92,31 @@
       "offset_from_fallback_m": 0
     },
     "DGB": {
-      "label": "Danga Bay",
-      "x": 357936.6253798249,
-      "y": 162741.26087520918,
-      "resolved_by": "fallback_coordinate",
-      "osm_id": null,
-      "osm_name": null,
+      "label": "Danga Bay (Teluk Danga)",
+      "x": 357431.93881074816,
+      "y": 163756.61122515186,
+      "resolved_by": "osm",
+      "osm_id": 8158268537,
+      "osm_name": "Teluk Danga",
       "offset_from_fallback_m": 0
     },
     "PRL": {
-      "label": "Taman Perling",
-      "x": 353158.6316711861,
-      "y": 164313.19240393743,
+      "label": "Perling (Perling Mall)",
+      "x": 353282.1302159026,
+      "y": 165460.34189400877,
       "resolved_by": "osm",
-      "osm_id": 2215697579,
-      "osm_name": "Perling",
-      "offset_from_fallback_m": 354
+      "osm_id": 266258706,
+      "osm_name": "Perling Mall",
+      "offset_from_fallback_m": 0
     },
     "BID": {
-      "label": "Bukit Indah (AEON)",
-      "x": 350437.88713808515,
-      "y": 163917.61936033712,
-      "resolved_by": "fallback_coordinate",
-      "osm_id": null,
-      "osm_name": null,
-      "offset_from_fallback_m": 0
+      "label": "Bukit Indah",
+      "x": 350877.9187893467,
+      "y": 163637.2456416086,
+      "resolved_by": "osm",
+      "osm_id": 4707559891,
+      "osm_name": "Bukit Indah",
+      "offset_from_fallback_m": 1
     },
     "PTH": {
       "label": "Puteri Harbour",
@@ -125,25 +125,25 @@
       "resolved_by": "osm",
       "osm_id": 494804050,
       "osm_name": "Puteri Harbour",
-      "offset_from_fallback_m": 49
+      "offset_from_fallback_m": 0
     },
     "KIS": {
-      "label": "Kota Iskandar",
+      "label": "Kota Iskandar (state administrative center)",
       "x": 350101.40781300736,
       "y": 157295.9112085948,
       "resolved_by": "osm",
       "osm_id": 531675598,
       "osm_name": "Kota Iskandar",
-      "offset_from_fallback_m": 1819
+      "offset_from_fallback_m": 0
     },
     "MDN": {
-      "label": "Medini",
-      "x": 348405.1901342276,
-      "y": 156988.88902253695,
+      "label": "Medini (Mall of Medini)",
+      "x": 347916.8664407874,
+      "y": 157893.2042005741,
       "resolved_by": "osm",
-      "osm_id": 532696565,
-      "osm_name": "Medini Signature",
-      "offset_from_fallback_m": 1890
+      "osm_id": 20394275,
+      "osm_name": "Mall of Medini",
+      "offset_from_fallback_m": 1
     },
     "EDL": {
       "label": "Point on the Eastern Dispersal Link (E14) viaduct near Jalan Bakar Batu",
@@ -159,49 +159,121 @@
     "osm": "data/raw/osm/jb-study.osm.pbf",
     "dem": true,
     "flood_jrc": true,
-    "gtfs_stops": 1143
+    "gtfs_stops": 1143,
+    "flood_jrc_raster_summary": {
+      "cells": 1483,
+      "cells_depth_gt0": 1483,
+      "max_depth_m": 3.319000005722046
+    }
   },
   "options": {
     "T1": {
-      "seconds": 4.5,
+      "seconds": 4.1,
       "length_km": 14.07,
-      "n_stations": 17
+      "n_stations": 17,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 26,
+        "PPL": 78,
+        "TBC": 228
+      },
+      "anchors_not_served_gt500m": []
     },
     "T2": {
-      "seconds": 4.8,
+      "seconds": 4.3,
       "length_km": 17.11,
-      "n_stations": 20
+      "n_stations": 20,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 26,
+        "PPL": 78,
+        "MLK": 5,
+        "TBC": 228
+      },
+      "anchors_not_served_gt500m": []
     },
     "T3": {
-      "seconds": 3.6,
+      "seconds": 3.3,
       "length_km": 12.73,
-      "n_stations": 16
+      "n_stations": 16,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 26,
+        "PPL": 78,
+        "TBC": 449
+      },
+      "anchors_not_served_gt500m": []
     },
     "T-R1": {
-      "seconds": 3.1,
+      "seconds": 2.8,
       "length_km": 14.09,
-      "n_stations": 15
+      "n_stations": 15,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 26,
+        "TBC": 165
+      },
+      "anchors_not_served_gt500m": []
     },
     "T-R2": {
-      "seconds": 4.7,
+      "seconds": 4.2,
       "length_km": 14.95,
-      "n_stations": 16
+      "n_stations": 16,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 27,
+        "LRK": 109
+      },
+      "anchors_not_served_gt500m": []
     },
     "IP1": {
-      "seconds": 4.0,
-      "length_km": 25.6,
-      "n_stations": 25
+      "seconds": 3.8,
+      "length_km": 25.38,
+      "n_stations": 25,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 26,
+        "DGB": 320,
+        "PRL": 2678,
+        "PTH": 356,
+        "KIS": 473
+      },
+      "anchors_not_served_gt500m": [
+        "PRL"
+      ]
     },
     "IP2": {
-      "seconds": 4.2,
-      "length_km": 19.15,
-      "n_stations": 21
+      "seconds": 3.6,
+      "length_km": 17.76,
+      "n_stations": 18,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 26,
+        "DGB": 320,
+        "BID": 162
+      },
+      "anchors_not_served_gt500m": []
     },
     "IP3": {
-      "seconds": 5.1,
-      "length_km": 30.7,
-      "n_stations": 31
+      "seconds": 4.6,
+      "length_km": 27.24,
+      "n_stations": 26,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 26,
+        "DGB": 320,
+        "BID": 1118,
+        "KIS": 473
+      },
+      "anchors_not_served_gt500m": [
+        "BID"
+      ]
+    },
+    "IP4": {
+      "seconds": 2.9,
+      "length_km": 14.98,
+      "n_stations": 14,
+      "forced_anchor_offset_from_line_m": {
+        "BKC": 27,
+        "PRL": 2442,
+        "BID": 162
+      },
+      "anchors_not_served_gt500m": [
+        "PRL"
+      ]
     }
   },
-  "seconds_total": 57.4
+  "seconds_total": 65.6
 }

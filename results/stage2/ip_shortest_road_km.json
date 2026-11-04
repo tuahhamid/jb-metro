@@ -1,0 +1,45 @@
+{
+ "from": "Bukit Chagar RTS (OSM node 13377979326)",
+ "reported_IP_length_km": 14.78,
+ "tolerance": 0.15,
+ "method": "shortest path by length only on the OSM road graph; no preference weights",
+ "status": "inferred",
+ "results": {
+  "Kota Iskandar": {
+   "straight_km": 13.11,
+   "tertiary_and_above_km": 22.29,
+   "roads_tertiary_and_above": "trunk > Jalan Tun Abdul Razak > trunk_link > Jalan Tun Abdul Razak > Lebuhraya Skudai > Jalan Tun Abdul Razak > Lebuhraya Pesisir Pantai Iskandar > primary > Lebuhraya Pesisir Pantai Iskandar > trunk_link > Lebuhraya Bukit Indah > trunk > tertiary > Persiaran Wawari Barat > Persiaran Ujung Medini > Lebuh Kota Iskandar > trunk > Lebuh Kota Iskandar > trunk_link > Persiaran Dato' Bentara Dalam > tertiary > Persiaran Puteri Selatan",
+   "all_drivable_km": 20.86
+  },
+  "Puteri Harbour": {
+   "straight_km": 12.7,
+   "tertiary_and_above_km": 22.41,
+   "roads_tertiary_and_above": "trunk > Jalan Tun Abdul Razak > trunk_link > Jalan Tun Abdul Razak > Lebuhraya Skudai > Jalan Tun Abdul Razak > Lebuhraya Pesisir Pantai Iskandar > primary > Lebuhraya Pesisir Pantai Iskandar > trunk_link > Lebuhraya Bukit Indah > trunk > tertiary > Persiaran Wawari Barat > Persiaran Ujung Medini > Lebuh Kota Iskandar > trunk > Lebuh Kota Iskandar > trunk_link > Persiaran Dato' Bentara Dalam > tertiary > Persiaran Puteri Selatan",
+   "all_drivable_km": 22.04
+  },
+  "Medini (Mall of Medini)": {
+   "straight_km": 14.98,
+   "tertiary_and_above_km": 20.21,
+   "roads_tertiary_and_above": "trunk > Jalan Tun Abdul Razak > trunk_link > Jalan Tun Abdul Razak > Lebuhraya Skudai > Jalan Tun Abdul Razak > Lebuhraya Pesisir Pantai Iskandar > primary > Lebuhraya Pesisir Pantai Iskandar > trunk_link > Lebuh Medini Utara > Lebuh Medini Utara 8 > Lebuh Medini Utama",
+   "all_drivable_km": 20.21
+  },
+  "EduCity": {
+   "straight_km": 17.01,
+   "tertiary_and_above_km": 22.18,
+   "roads_tertiary_and_above": "trunk > Jalan Tun Abdul Razak > trunk_link > Jalan Tun Abdul Razak > Lebuhraya Skudai > Jalan Tun Abdul Razak > Lebuhraya Pesisir Pantai Iskandar > primary > primary_link > primary > Lebuhraya Pesisir Pantai Iskandar > trunk_link > Nusajaya Roundabout Interchange > trunk_link > Lebuhraya Persisiran Pantai Johor Bahru-Nusajaya > trunk > Lebuhraya Persisiran Pantai Johor Bahru-Nusajaya",
+   "all_drivable_km": 21.78
+  },
+  "Bukit Indah": {
+   "straight_km": 11.52,
+   "tertiary_and_above_km": 14.92,
+   "roads_tertiary_and_above": "trunk > Jalan Tun Abdul Razak > Lebuhraya Pesisir Pantai Iskandar > primary > Lebuhraya Pesisir Pantai Iskandar > primary > primary_link > Jalan Persiaran Perling 2 > Persiaran Indah > secondary_link > Persiaran Indah > Jalan Persiaran Indah Utama",
+   "all_drivable_km": 14.77
+  },
+  "Perling (Perling Mall)": {
+   "straight_km": 9.62,
+   "tertiary_and_above_km": 11.74,
+   "roads_tertiary_and_above": "trunk > Jalan Tun Abdul Razak > trunk_link > Jalan Tun Abdul Razak > Lebuhraya Skudai > Jalan Tun Abdul Razak > Lebuhraya Skudai > trunk_link > Lebuhraya Pasir Gudang",
+   "all_drivable_km": 12.09
+  }
+ }
+}

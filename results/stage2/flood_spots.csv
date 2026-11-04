@@ -1,9 +1,9 @@
 option_id,kind,id,lon,lat,flag,dsm_elev_m,dist_to_water_m,jrc_depth_m,status,sc5_substitute
 T-R1,station,T-R1-S09,103.774947,1.504992,JRC RP100,5.4,2,1.34,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
-IP1,station,IP1-S11,103.716568,1.485681,low-lying near water (DEM proxy),3.7,15,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
-IP2,station,IP2-S11,103.716568,1.485681,low-lying near water (DEM proxy),3.7,15,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
-IP2,station,IP2-S12,103.70918,1.481061,JRC RP100,6.9,121,1.0,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
-IP2,station,IP2-S13,103.702319,1.475669,low-lying near water (DEM proxy),1.0,10,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
-IP3,station,IP3-S11,103.716568,1.485681,low-lying near water (DEM proxy),3.7,15,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
-IP3,station,IP3-S12,103.70918,1.481061,JRC RP100,6.9,121,1.0,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
-IP3,station,IP3-S13,103.702319,1.475669,low-lying near water (DEM proxy),1.0,10,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
+IP1,station,IP1-S11,103.715669,1.484154,low-lying near water (DEM proxy),3.2,27,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
+IP1,station,IP1-S12,103.70413,1.477745,low-lying near water (DEM proxy),0.5,0,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
+IP2,station,IP2-S11,103.715669,1.484154,low-lying near water (DEM proxy),3.2,27,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
+IP2,station,IP2-S12,103.70413,1.477745,low-lying near water (DEM proxy),0.5,0,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
+IP3,station,IP3-S11,103.715669,1.484154,low-lying near water (DEM proxy),3.2,27,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
+IP3,station,IP3-S12,103.70413,1.477745,low-lying near water (DEM proxy),0.5,0,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation
+IP4,station,IP4-S07,103.7164,1.485441,low-lying near water (DEM proxy),2.5,14,,inferred,web-only: JRC global river-flood map + DEM proxy; no local observation

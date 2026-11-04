@@ -39,3 +39,8 @@ IP3,IP3-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
 IP3,IP3-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
 IP3,IP3-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
 IP3,IP3-S01,Larkin Sentral bus terminal,,3933,,,inferred
+IP4,IP4-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+IP4,IP4-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+IP4,IP4-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+IP4,IP4-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+IP4,IP4-S01,Larkin Sentral bus terminal,,3933,,,inferred

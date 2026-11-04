@@ -2952,8 +2952,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.725182,
-     1.472554
+     103.724333,
+     1.476725
     ]
    },
    "properties": {
@@ -2961,17 +2961,17 @@
     "corridor": "iskandar_puteri",
     "seq": 9,
     "station_id": "IP1-S09",
-    "label_near": "",
-    "chainage_m": 7543,
-    "forced": true,
-    "lon": 103.725182,
-    "lat": 1.472554,
-    "floor_area_proxy_800m_m2": 118320,
-    "network_catchment_ratio": 0.136,
-    "bus_routes_400m_walk": 0,
+    "label_near": "Tropicana Danga Bay",
+    "chainage_m": 8000,
+    "forced": false,
+    "lon": 103.724333,
+    "lat": 1.476725,
+    "floor_area_proxy_800m_m2": 35002,
+    "network_catchment_ratio": 0.198,
+    "bus_routes_400m_walk": 5,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 8.0,
-    "dist_to_water_m": 166,
+    "dsm_elev_m": 5.1,
+    "dist_to_water_m": 257,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -2984,8 +2984,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.721041,
-     1.482748
+     103.720096,
+     1.483562
     ]
    },
    "properties": {
@@ -2993,17 +2993,17 @@
     "corridor": "iskandar_puteri",
     "seq": 10,
     "station_id": "IP1-S10",
-    "label_near": "Tropicana Danga Bay",
-    "chainage_m": 8800,
-    "forced": false,
-    "lon": 103.721041,
-    "lat": 1.482748,
-    "floor_area_proxy_800m_m2": 178035,
-    "network_catchment_ratio": 0.274,
+    "label_near": "Danga Walk",
+    "chainage_m": 8937,
+    "forced": true,
+    "lon": 103.720096,
+    "lat": 1.483562,
+    "floor_area_proxy_800m_m2": 131079,
+    "network_catchment_ratio": 0.202,
     "bus_routes_400m_walk": 5,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 6.1,
-    "dist_to_water_m": 498,
+    "dsm_elev_m": 5.2,
+    "dist_to_water_m": 472,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3016,8 +3016,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.716568,
-     1.485681
+     103.715669,
+     1.484154
     ]
    },
    "properties": {
@@ -3028,14 +3028,14 @@
     "label_near": "Danga Walk",
     "chainage_m": 9900,
     "forced": false,
-    "lon": 103.716568,
-    "lat": 1.485681,
-    "floor_area_proxy_800m_m2": 92460,
-    "network_catchment_ratio": 0.265,
+    "lon": 103.715669,
+    "lat": 1.484154,
+    "floor_area_proxy_800m_m2": 80582,
+    "network_catchment_ratio": 0.182,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 3.7,
-    "dist_to_water_m": 15,
+    "dsm_elev_m": 3.2,
+    "dist_to_water_m": 27,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "low-lying near water (DEM proxy)",
     "status": "concept",
@@ -3048,8 +3048,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.705151,
-     1.47918
+     103.70413,
+     1.477745
     ]
    },
    "properties": {
@@ -3060,16 +3060,16 @@
     "label_near": "",
     "chainage_m": 11400,
     "forced": false,
-    "lon": 103.705151,
-    "lat": 1.47918,
+    "lon": 103.70413,
+    "lat": 1.477745,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.075,
+    "network_catchment_ratio": 0.051,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 8.1,
-    "dist_to_water_m": 152,
+    "dsm_elev_m": 0.5,
+    "dist_to_water_m": 0,
     "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
+    "flood_flag": "low-lying near water (DEM proxy)",
     "status": "concept",
     "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
     "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
@@ -3080,8 +3080,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.695803,
-     1.47145
+     103.695953,
+     1.471371
     ]
    },
    "properties": {
@@ -3090,16 +3090,16 @@
     "seq": 13,
     "station_id": "IP1-S13",
     "label_near": "",
-    "chainage_m": 12800,
+    "chainage_m": 12600,
     "forced": false,
-    "lon": 103.695803,
-    "lat": 1.47145,
+    "lon": 103.695953,
+    "lat": 1.471371,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.238,
+    "network_catchment_ratio": 0.245,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
     "dsm_elev_m": 15.5,
-    "dist_to_water_m": 334,
+    "dist_to_water_m": 352,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3112,8 +3112,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.687053,
-     1.471129
+     103.687204,
+     1.470972
     ]
    },
    "properties": {
@@ -3122,16 +3122,16 @@
     "seq": 14,
     "station_id": "IP1-S14",
     "label_near": "Taman Permata",
-    "chainage_m": 13800,
+    "chainage_m": 13600,
     "forced": false,
-    "lon": 103.687053,
-    "lat": 1.471129,
+    "lon": 103.687204,
+    "lat": 1.470972,
     "floor_area_proxy_800m_m2": 605,
-    "network_catchment_ratio": 0.2,
+    "network_catchment_ratio": 0.138,
     "bus_routes_400m_walk": 1,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 12.4,
-    "dist_to_water_m": 311,
+    "dsm_elev_m": 13.0,
+    "dist_to_water_m": 331,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3144,8 +3144,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.678206,
-     1.472648
+     103.678331,
+     1.472364
     ]
    },
    "properties": {
@@ -3154,16 +3154,16 @@
     "seq": 15,
     "station_id": "IP1-S15",
     "label_near": "Taman Baiduri",
-    "chainage_m": 14800,
+    "chainage_m": 14600,
     "forced": false,
-    "lon": 103.678206,
-    "lat": 1.472648,
-    "floor_area_proxy_800m_m2": 442813,
-    "network_catchment_ratio": 0.442,
+    "lon": 103.678331,
+    "lat": 1.472364,
+    "floor_area_proxy_800m_m2": 397146,
+    "network_catchment_ratio": 0.421,
     "bus_routes_400m_walk": 2,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 11.2,
-    "dist_to_water_m": 415,
+    "dsm_elev_m": 14.7,
+    "dist_to_water_m": 416,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3176,8 +3176,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.666898,
-     1.472762
+     103.665988,
+     1.472207
     ]
    },
    "properties": {
@@ -3186,16 +3186,16 @@
     "seq": 16,
     "station_id": "IP1-S16",
     "label_near": "Taman Amira",
-    "chainage_m": 16100,
+    "chainage_m": 16000,
     "forced": false,
-    "lon": 103.666898,
-    "lat": 1.472762,
-    "floor_area_proxy_800m_m2": 266995,
-    "network_catchment_ratio": 0.312,
+    "lon": 103.665988,
+    "lat": 1.472207,
+    "floor_area_proxy_800m_m2": 232739,
+    "network_catchment_ratio": 0.296,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 11.5,
-    "dist_to_water_m": 592,
+    "dsm_elev_m": 10.4,
+    "dist_to_water_m": 523,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3208,8 +3208,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.659955,
-     1.462831
+     103.659299,
+     1.460968
     ]
    },
    "properties": {
@@ -3220,14 +3220,14 @@
     "label_near": "",
     "chainage_m": 17500,
     "forced": false,
-    "lon": 103.659955,
-    "lat": 1.462831,
-    "floor_area_proxy_800m_m2": 2705,
-    "network_catchment_ratio": 0.082,
+    "lon": 103.659299,
+    "lat": 1.460968,
+    "floor_area_proxy_800m_m2": 0,
+    "network_catchment_ratio": 0.076,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 6.9,
-    "dist_to_water_m": 212,
+    "dsm_elev_m": 6.1,
+    "dist_to_water_m": 88,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3240,8 +3240,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.652734,
-     1.452766
+     103.652596,
+     1.452672
     ]
    },
    "properties": {
@@ -3250,16 +3250,16 @@
     "seq": 18,
     "station_id": "IP1-S18",
     "label_near": "The Golf",
-    "chainage_m": 18900,
+    "chainage_m": 18700,
     "forced": false,
-    "lon": 103.652734,
-    "lat": 1.452766,
+    "lon": 103.652596,
+    "lat": 1.452672,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.126,
+    "network_catchment_ratio": 0.138,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 14.4,
-    "dist_to_water_m": 211,
+    "dsm_elev_m": 14.3,
+    "dist_to_water_m": 200,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3272,8 +3272,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.645137,
-     1.447935
+     103.644996,
+     1.447844
     ]
    },
    "properties": {
@@ -3281,16 +3281,16 @@
     "corridor": "iskandar_puteri",
     "seq": 19,
     "station_id": "IP1-S19",
-    "label_near": "The Golf",
-    "chainage_m": 19900,
+    "label_near": "Marlborough College Malaysia",
+    "chainage_m": 19700,
     "forced": false,
-    "lon": 103.645137,
-    "lat": 1.447935,
-    "floor_area_proxy_800m_m2": 4142,
-    "network_catchment_ratio": 0.105,
+    "lon": 103.644996,
+    "lat": 1.447844,
+    "floor_area_proxy_800m_m2": 13781,
+    "network_catchment_ratio": 0.118,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 12.3,
+    "dsm_elev_m": 12.9,
     "dist_to_water_m": 31,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
@@ -3304,8 +3304,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.638292,
-     1.441758
+     103.641607,
+     1.440037
     ]
    },
    "properties": {
@@ -3313,17 +3313,17 @@
     "corridor": "iskandar_puteri",
     "seq": 20,
     "station_id": "IP1-S20",
-    "label_near": "",
-    "chainage_m": 21000,
+    "label_near": "Marlborough College Malaysia",
+    "chainage_m": 21200,
     "forced": false,
-    "lon": 103.638292,
-    "lat": 1.441758,
+    "lon": 103.641607,
+    "lat": 1.440037,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.099,
+    "network_catchment_ratio": 0.136,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 11.1,
-    "dist_to_water_m": 205,
+    "dsm_elev_m": 8.6,
+    "dist_to_water_m": 196,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3336,8 +3336,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.645971,
-     1.437265
+     103.648701,
+     1.433468
     ]
    },
    "properties": {
@@ -3345,17 +3345,17 @@
     "corridor": "iskandar_puteri",
     "seq": 21,
     "station_id": "IP1-S21",
-    "label_near": "Marlborough College Malaysia",
-    "chainage_m": 22000,
+    "label_near": "Estuari Gardens",
+    "chainage_m": 22300,
     "forced": false,
-    "lon": 103.645971,
-    "lat": 1.437265,
-    "floor_area_proxy_800m_m2": 38450,
-    "network_catchment_ratio": 0.197,
+    "lon": 103.648701,
+    "lat": 1.433468,
+    "floor_area_proxy_800m_m2": 31787,
+    "network_catchment_ratio": 0.074,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 19.8,
-    "dist_to_water_m": 622,
+    "dsm_elev_m": 6.5,
+    "dist_to_water_m": 421,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3368,8 +3368,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.64949,
-     1.428594
+     103.648157,
+     1.425226
     ]
    },
    "properties": {
@@ -3377,17 +3377,17 @@
     "corridor": "iskandar_puteri",
     "seq": 22,
     "station_id": "IP1-S22",
-    "label_near": "Estuari Gardens",
-    "chainage_m": 23100,
+    "label_near": "Terminal Bas",
+    "chainage_m": 23300,
     "forced": false,
-    "lon": 103.64949,
-    "lat": 1.428594,
-    "floor_area_proxy_800m_m2": 72864,
-    "network_catchment_ratio": 0.191,
+    "lon": 103.648157,
+    "lat": 1.425226,
+    "floor_area_proxy_800m_m2": 78816,
+    "network_catchment_ratio": 0.302,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 11.3,
-    "dist_to_water_m": 451,
+    "dsm_elev_m": 15.0,
+    "dist_to_water_m": 812,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3400,8 +3400,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.646221,
-     1.420571
+     103.650792,
+     1.417542
     ]
    },
    "properties": {
@@ -3410,16 +3410,16 @@
     "seq": 23,
     "station_id": "IP1-S23",
     "label_near": "Terminal Bas",
-    "chainage_m": 24100,
+    "chainage_m": 24500,
     "forced": false,
-    "lon": 103.646221,
-    "lat": 1.420571,
-    "floor_area_proxy_800m_m2": 68402,
-    "network_catchment_ratio": 0.385,
+    "lon": 103.650792,
+    "lat": 1.417542,
+    "floor_area_proxy_800m_m2": 754884,
+    "network_catchment_ratio": 0.396,
     "bus_routes_400m_walk": 1,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 19.4,
-    "dist_to_water_m": 870,
+    "dsm_elev_m": 19.0,
+    "dist_to_water_m": 692,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3432,8 +3432,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.656044,
-     1.418133
+     103.656042,
+     1.418135
     ]
    },
    "properties": {
@@ -3442,10 +3442,10 @@
     "seq": 24,
     "station_id": "IP1-S24",
     "label_near": "Imperia",
-    "chainage_m": 25372,
+    "chainage_m": 25153,
     "forced": true,
-    "lon": 103.656044,
-    "lat": 1.418133,
+    "lon": 103.656042,
+    "lat": 1.418135,
     "floor_area_proxy_800m_m2": 897260,
     "network_catchment_ratio": 0.406,
     "bus_routes_400m_walk": 1,
@@ -3464,8 +3464,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.656002,
-     1.420126
+     103.656003,
+     1.420127
     ]
    },
    "properties": {
@@ -3474,10 +3474,10 @@
     "seq": 25,
     "station_id": "IP1-S25",
     "label_near": "Imperia",
-    "chainage_m": 25598,
+    "chainage_m": 25380,
     "forced": true,
-    "lon": 103.656002,
-    "lat": 1.420126,
+    "lon": 103.656003,
+    "lat": 1.420127,
     "floor_area_proxy_800m_m2": 652713,
     "network_catchment_ratio": 0.411,
     "bus_routes_400m_walk": 1,
@@ -3752,8 +3752,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.725182,
-     1.472554
+     103.724333,
+     1.476725
     ]
    },
    "properties": {
@@ -3761,17 +3761,17 @@
     "corridor": "iskandar_puteri",
     "seq": 9,
     "station_id": "IP2-S09",
-    "label_near": "",
-    "chainage_m": 7543,
-    "forced": true,
-    "lon": 103.725182,
-    "lat": 1.472554,
-    "floor_area_proxy_800m_m2": 118320,
-    "network_catchment_ratio": 0.136,
-    "bus_routes_400m_walk": 0,
+    "label_near": "Tropicana Danga Bay",
+    "chainage_m": 8000,
+    "forced": false,
+    "lon": 103.724333,
+    "lat": 1.476725,
+    "floor_area_proxy_800m_m2": 35002,
+    "network_catchment_ratio": 0.198,
+    "bus_routes_400m_walk": 5,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 8.0,
-    "dist_to_water_m": 166,
+    "dsm_elev_m": 5.1,
+    "dist_to_water_m": 257,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3784,8 +3784,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.721041,
-     1.482748
+     103.720096,
+     1.483562
     ]
    },
    "properties": {
@@ -3793,17 +3793,17 @@
     "corridor": "iskandar_puteri",
     "seq": 10,
     "station_id": "IP2-S10",
-    "label_near": "Tropicana Danga Bay",
-    "chainage_m": 8800,
-    "forced": false,
-    "lon": 103.721041,
-    "lat": 1.482748,
-    "floor_area_proxy_800m_m2": 178035,
-    "network_catchment_ratio": 0.274,
+    "label_near": "Danga Walk",
+    "chainage_m": 8937,
+    "forced": true,
+    "lon": 103.720096,
+    "lat": 1.483562,
+    "floor_area_proxy_800m_m2": 131079,
+    "network_catchment_ratio": 0.202,
     "bus_routes_400m_walk": 5,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 6.1,
-    "dist_to_water_m": 498,
+    "dsm_elev_m": 5.2,
+    "dist_to_water_m": 472,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3816,8 +3816,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.716568,
-     1.485681
+     103.715669,
+     1.484154
     ]
    },
    "properties": {
@@ -3828,14 +3828,14 @@
     "label_near": "Danga Walk",
     "chainage_m": 9900,
     "forced": false,
-    "lon": 103.716568,
-    "lat": 1.485681,
-    "floor_area_proxy_800m_m2": 92460,
-    "network_catchment_ratio": 0.265,
+    "lon": 103.715669,
+    "lat": 1.484154,
+    "floor_area_proxy_800m_m2": 80582,
+    "network_catchment_ratio": 0.182,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 3.7,
-    "dist_to_water_m": 15,
+    "dsm_elev_m": 3.2,
+    "dist_to_water_m": 27,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "low-lying near water (DEM proxy)",
     "status": "concept",
@@ -3848,8 +3848,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.70918,
-     1.481061
+     103.70413,
+     1.477745
     ]
    },
    "properties": {
@@ -3857,19 +3857,19 @@
     "corridor": "iskandar_puteri",
     "seq": 12,
     "station_id": "IP2-S12",
-    "label_near": "Kampung Skudai Kiri",
-    "chainage_m": 10900,
+    "label_near": "",
+    "chainage_m": 11400,
     "forced": false,
-    "lon": 103.70918,
-    "lat": 1.481061,
+    "lon": 103.70413,
+    "lat": 1.477745,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.113,
+    "network_catchment_ratio": 0.051,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 6.9,
-    "dist_to_water_m": 121,
-    "flood_jrc_rp100_depth_m": 1.0,
-    "flood_flag": "JRC RP100",
+    "dsm_elev_m": 0.5,
+    "dist_to_water_m": 0,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "low-lying near water (DEM proxy)",
     "status": "concept",
     "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
     "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
@@ -3880,8 +3880,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.702319,
-     1.475669
+     103.695953,
+     1.471371
     ]
    },
    "properties": {
@@ -3890,18 +3890,18 @@
     "seq": 13,
     "station_id": "IP2-S13",
     "label_near": "",
-    "chainage_m": 11900,
+    "chainage_m": 12600,
     "forced": false,
-    "lon": 103.702319,
-    "lat": 1.475669,
+    "lon": 103.695953,
+    "lat": 1.471371,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.05,
+    "network_catchment_ratio": 0.245,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 1.0,
-    "dist_to_water_m": 10,
+    "dsm_elev_m": 15.5,
+    "dist_to_water_m": 352,
     "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "low-lying near water (DEM proxy)",
+    "flood_flag": "",
     "status": "concept",
     "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
     "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
@@ -3912,8 +3912,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.694937,
-     1.471208
+     103.687204,
+     1.470972
     ]
    },
    "properties": {
@@ -3921,17 +3921,17 @@
     "corridor": "iskandar_puteri",
     "seq": 14,
     "station_id": "IP2-S14",
-    "label_near": "",
-    "chainage_m": 12900,
+    "label_near": "Taman Permata",
+    "chainage_m": 13600,
     "forced": false,
-    "lon": 103.694937,
-    "lat": 1.471208,
-    "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.237,
+    "lon": 103.687204,
+    "lat": 1.470972,
+    "floor_area_proxy_800m_m2": 605,
+    "network_catchment_ratio": 0.138,
     "bus_routes_400m_walk": 1,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 14.3,
-    "dist_to_water_m": 292,
+    "dsm_elev_m": 13.0,
+    "dist_to_water_m": 331,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3944,8 +3944,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.686172,
-     1.471304
+     103.678331,
+     1.472364
     ]
    },
    "properties": {
@@ -3953,17 +3953,17 @@
     "corridor": "iskandar_puteri",
     "seq": 15,
     "station_id": "IP2-S15",
-    "label_near": "Taman Permata",
-    "chainage_m": 13900,
+    "label_near": "Taman Baiduri",
+    "chainage_m": 14600,
     "forced": false,
-    "lon": 103.686172,
-    "lat": 1.471304,
-    "floor_area_proxy_800m_m2": 11439,
-    "network_catchment_ratio": 0.152,
-    "bus_routes_400m_walk": 0,
+    "lon": 103.678331,
+    "lat": 1.472364,
+    "floor_area_proxy_800m_m2": 397146,
+    "network_catchment_ratio": 0.421,
+    "bus_routes_400m_walk": 2,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 13.8,
-    "dist_to_water_m": 278,
+    "dsm_elev_m": 14.7,
+    "dist_to_water_m": 416,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -3976,8 +3976,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.677347,
-     1.47291
+     103.66761,
+     1.472863
     ]
    },
    "properties": {
@@ -3985,17 +3985,17 @@
     "corridor": "iskandar_puteri",
     "seq": 16,
     "station_id": "IP2-S16",
-    "label_near": "Taman Baiduri",
-    "chainage_m": 14900,
+    "label_near": "Taman Amira",
+    "chainage_m": 15800,
     "forced": false,
-    "lon": 103.677347,
-    "lat": 1.47291,
-    "floor_area_proxy_800m_m2": 468397,
-    "network_catchment_ratio": 0.435,
-    "bus_routes_400m_walk": 2,
+    "lon": 103.66761,
+    "lat": 1.472863,
+    "floor_area_proxy_800m_m2": 229349,
+    "network_catchment_ratio": 0.302,
+    "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 14.5,
-    "dist_to_water_m": 495,
+    "dsm_elev_m": 9.8,
+    "dist_to_water_m": 617,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -4008,8 +4008,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.667476,
-     1.473212
+     103.66515,
+     1.480077
     ]
    },
    "properties": {
@@ -4017,17 +4017,17 @@
     "corridor": "iskandar_puteri",
     "seq": 17,
     "station_id": "IP2-S17",
-    "label_near": "Taman Amira",
-    "chainage_m": 16000,
+    "label_near": "Taman Nusa Duta",
+    "chainage_m": 16800,
     "forced": false,
-    "lon": 103.667476,
-    "lat": 1.473212,
-    "floor_area_proxy_800m_m2": 311350,
-    "network_catchment_ratio": 0.335,
-    "bus_routes_400m_walk": 0,
+    "lon": 103.66515,
+    "lat": 1.480077,
+    "floor_area_proxy_800m_m2": 636961,
+    "network_catchment_ratio": 0.463,
+    "bus_routes_400m_walk": 2,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 12.4,
-    "dist_to_water_m": 652,
+    "dsm_elev_m": 11.8,
+    "dist_to_water_m": 221,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -4040,8 +4040,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.663472,
-     1.481278
+     103.658629,
+     1.481199
     ]
    },
    "properties": {
@@ -4050,112 +4050,16 @@
     "seq": 18,
     "station_id": "IP2-S18",
     "label_near": "Bukit Indah",
-    "chainage_m": 17300,
-    "forced": false,
-    "lon": 103.663472,
-    "lat": 1.481278,
-    "floor_area_proxy_800m_m2": 742205,
-    "network_catchment_ratio": 0.505,
+    "chainage_m": 17758,
+    "forced": true,
+    "lon": 103.658629,
+    "lat": 1.481199,
+    "floor_area_proxy_800m_m2": 603291,
+    "network_catchment_ratio": 0.449,
     "bus_routes_400m_walk": 2,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 12.2,
-    "dist_to_water_m": 33,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.654631,
-     1.47825
-    ]
-   },
-   "properties": {
-    "option_id": "IP2",
-    "corridor": "iskandar_puteri",
-    "seq": 19,
-    "station_id": "IP2-S19",
-    "label_near": "AEON Mall",
-    "chainage_m": 18500,
-    "forced": false,
-    "lon": 103.654631,
-    "lat": 1.47825,
-    "floor_area_proxy_800m_m2": 318506,
-    "network_catchment_ratio": 0.49,
-    "bus_routes_400m_walk": 2,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 22.4,
-    "dist_to_water_m": 27,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.654381,
-     1.483649
-    ]
-   },
-   "properties": {
-    "option_id": "IP2",
-    "corridor": "iskandar_puteri",
-    "seq": 20,
-    "station_id": "IP2-S20",
-    "label_near": "AEON Mall",
-    "chainage_m": 19134,
-    "forced": true,
-    "lon": 103.654381,
-    "lat": 1.483649,
-    "floor_area_proxy_800m_m2": 91887,
-    "network_catchment_ratio": 0.14,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 15.6,
-    "dist_to_water_m": 546,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.654475,
-     1.483759
-    ]
-   },
-   "properties": {
-    "option_id": "IP2",
-    "corridor": "iskandar_puteri",
-    "seq": 21,
-    "station_id": "IP2-S21",
-    "label_near": "AEON Mall",
-    "chainage_m": 19150,
-    "forced": true,
-    "lon": 103.654475,
-    "lat": 1.483759,
-    "floor_area_proxy_800m_m2": 94570,
-    "network_catchment_ratio": 0.142,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 17.2,
-    "dist_to_water_m": 554,
+    "dsm_elev_m": 16.0,
+    "dist_to_water_m": 112,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -4424,8 +4328,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.725182,
-     1.472554
+     103.724333,
+     1.476725
     ]
    },
    "properties": {
@@ -4433,17 +4337,17 @@
     "corridor": "iskandar_puteri",
     "seq": 9,
     "station_id": "IP3-S09",
-    "label_near": "",
-    "chainage_m": 7543,
-    "forced": true,
-    "lon": 103.725182,
-    "lat": 1.472554,
-    "floor_area_proxy_800m_m2": 118320,
-    "network_catchment_ratio": 0.136,
-    "bus_routes_400m_walk": 0,
+    "label_near": "Tropicana Danga Bay",
+    "chainage_m": 8000,
+    "forced": false,
+    "lon": 103.724333,
+    "lat": 1.476725,
+    "floor_area_proxy_800m_m2": 35002,
+    "network_catchment_ratio": 0.198,
+    "bus_routes_400m_walk": 5,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 8.0,
-    "dist_to_water_m": 166,
+    "dsm_elev_m": 5.1,
+    "dist_to_water_m": 257,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -4456,8 +4360,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.721041,
-     1.482748
+     103.720096,
+     1.483562
     ]
    },
    "properties": {
@@ -4465,17 +4369,17 @@
     "corridor": "iskandar_puteri",
     "seq": 10,
     "station_id": "IP3-S10",
-    "label_near": "Tropicana Danga Bay",
-    "chainage_m": 8800,
-    "forced": false,
-    "lon": 103.721041,
-    "lat": 1.482748,
-    "floor_area_proxy_800m_m2": 178035,
-    "network_catchment_ratio": 0.274,
+    "label_near": "Danga Walk",
+    "chainage_m": 8937,
+    "forced": true,
+    "lon": 103.720096,
+    "lat": 1.483562,
+    "floor_area_proxy_800m_m2": 131079,
+    "network_catchment_ratio": 0.202,
     "bus_routes_400m_walk": 5,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 6.1,
-    "dist_to_water_m": 498,
+    "dsm_elev_m": 5.2,
+    "dist_to_water_m": 472,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -4488,8 +4392,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.716568,
-     1.485681
+     103.715669,
+     1.484154
     ]
    },
    "properties": {
@@ -4500,14 +4404,14 @@
     "label_near": "Danga Walk",
     "chainage_m": 9900,
     "forced": false,
-    "lon": 103.716568,
-    "lat": 1.485681,
-    "floor_area_proxy_800m_m2": 92460,
-    "network_catchment_ratio": 0.265,
+    "lon": 103.715669,
+    "lat": 1.484154,
+    "floor_area_proxy_800m_m2": 80582,
+    "network_catchment_ratio": 0.182,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 3.7,
-    "dist_to_water_m": 15,
+    "dsm_elev_m": 3.2,
+    "dist_to_water_m": 27,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "low-lying near water (DEM proxy)",
     "status": "concept",
@@ -4520,8 +4424,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.70918,
-     1.481061
+     103.70413,
+     1.477745
     ]
    },
    "properties": {
@@ -4529,19 +4433,19 @@
     "corridor": "iskandar_puteri",
     "seq": 12,
     "station_id": "IP3-S12",
-    "label_near": "Kampung Skudai Kiri",
-    "chainage_m": 10900,
+    "label_near": "",
+    "chainage_m": 11400,
     "forced": false,
-    "lon": 103.70918,
-    "lat": 1.481061,
+    "lon": 103.70413,
+    "lat": 1.477745,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.113,
+    "network_catchment_ratio": 0.051,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 6.9,
-    "dist_to_water_m": 121,
-    "flood_jrc_rp100_depth_m": 1.0,
-    "flood_flag": "JRC RP100",
+    "dsm_elev_m": 0.5,
+    "dist_to_water_m": 0,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "low-lying near water (DEM proxy)",
     "status": "concept",
     "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
     "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
@@ -4552,8 +4456,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.702319,
-     1.475669
+     103.695953,
+     1.471371
     ]
    },
    "properties": {
@@ -4562,16 +4466,656 @@
     "seq": 13,
     "station_id": "IP3-S13",
     "label_near": "",
-    "chainage_m": 11900,
+    "chainage_m": 12600,
     "forced": false,
-    "lon": 103.702319,
-    "lat": 1.475669,
+    "lon": 103.695953,
+    "lat": 1.471371,
     "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.05,
+    "network_catchment_ratio": 0.245,
     "bus_routes_400m_walk": 0,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 1.0,
-    "dist_to_water_m": 10,
+    "dsm_elev_m": 15.5,
+    "dist_to_water_m": 352,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.687204,
+     1.470972
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 14,
+    "station_id": "IP3-S14",
+    "label_near": "Taman Permata",
+    "chainage_m": 13600,
+    "forced": false,
+    "lon": 103.687204,
+    "lat": 1.470972,
+    "floor_area_proxy_800m_m2": 605,
+    "network_catchment_ratio": 0.138,
+    "bus_routes_400m_walk": 1,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 13.0,
+    "dist_to_water_m": 331,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.678331,
+     1.472364
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 15,
+    "station_id": "IP3-S15",
+    "label_near": "Taman Baiduri",
+    "chainage_m": 14600,
+    "forced": false,
+    "lon": 103.678331,
+    "lat": 1.472364,
+    "floor_area_proxy_800m_m2": 397146,
+    "network_catchment_ratio": 0.421,
+    "bus_routes_400m_walk": 2,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 14.7,
+    "dist_to_water_m": 416,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.665988,
+     1.472207
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 16,
+    "station_id": "IP3-S16",
+    "label_near": "Taman Amira",
+    "chainage_m": 16000,
+    "forced": false,
+    "lon": 103.665988,
+    "lat": 1.472207,
+    "floor_area_proxy_800m_m2": 232739,
+    "network_catchment_ratio": 0.296,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 10.4,
+    "dist_to_water_m": 523,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.659299,
+     1.460968
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 17,
+    "station_id": "IP3-S17",
+    "label_near": "",
+    "chainage_m": 17500,
+    "forced": false,
+    "lon": 103.659299,
+    "lat": 1.460968,
+    "floor_area_proxy_800m_m2": 0,
+    "network_catchment_ratio": 0.076,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 6.1,
+    "dist_to_water_m": 88,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.652596,
+     1.452672
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 18,
+    "station_id": "IP3-S18",
+    "label_near": "The Golf",
+    "chainage_m": 18700,
+    "forced": false,
+    "lon": 103.652596,
+    "lat": 1.452672,
+    "floor_area_proxy_800m_m2": 0,
+    "network_catchment_ratio": 0.138,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 14.3,
+    "dist_to_water_m": 200,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.644996,
+     1.447844
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 19,
+    "station_id": "IP3-S19",
+    "label_near": "Marlborough College Malaysia",
+    "chainage_m": 19700,
+    "forced": false,
+    "lon": 103.644996,
+    "lat": 1.447844,
+    "floor_area_proxy_800m_m2": 13781,
+    "network_catchment_ratio": 0.118,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 12.9,
+    "dist_to_water_m": 31,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.635886,
+     1.442051
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 20,
+    "station_id": "IP3-S20",
+    "label_near": "",
+    "chainage_m": 20900,
+    "forced": false,
+    "lon": 103.635886,
+    "lat": 1.442051,
+    "floor_area_proxy_800m_m2": 0,
+    "network_catchment_ratio": 0.105,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 9.0,
+    "dist_to_water_m": 272,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.63035,
+     1.435058
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 21,
+    "station_id": "IP3-S21",
+    "label_near": "Taman Eko Botani",
+    "chainage_m": 21900,
+    "forced": false,
+    "lon": 103.63035,
+    "lat": 1.435058,
+    "floor_area_proxy_800m_m2": 0,
+    "network_catchment_ratio": 0.2,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 20.8,
+    "dist_to_water_m": 348,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.634337,
+     1.428209
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 22,
+    "station_id": "IP3-S22",
+    "label_near": "Afiniti Medini",
+    "chainage_m": 22900,
+    "forced": false,
+    "lon": 103.634337,
+    "lat": 1.428209,
+    "floor_area_proxy_800m_m2": 658252,
+    "network_catchment_ratio": 0.385,
+    "bus_routes_400m_walk": 1,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 19.6,
+    "dist_to_water_m": 894,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.630629,
+     1.419789
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 23,
+    "station_id": "IP3-S23",
+    "label_near": "The Meridin",
+    "chainage_m": 24000,
+    "forced": false,
+    "lon": 103.630629,
+    "lat": 1.419789,
+    "floor_area_proxy_800m_m2": 674426,
+    "network_catchment_ratio": 0.441,
+    "bus_routes_400m_walk": 1,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 22.1,
+    "dist_to_water_m": 1254,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.64397,
+     1.419594
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 24,
+    "station_id": "IP3-S24",
+    "label_near": "Iskandar Residences Medini",
+    "chainage_m": 25500,
+    "forced": false,
+    "lon": 103.64397,
+    "lat": 1.419594,
+    "floor_area_proxy_800m_m2": 12607,
+    "network_catchment_ratio": 0.213,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 14.9,
+    "dist_to_water_m": 798,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.65144,
+     1.417206
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 25,
+    "station_id": "IP3-S25",
+    "label_near": "Laksamana",
+    "chainage_m": 26500,
+    "forced": false,
+    "lon": 103.65144,
+    "lat": 1.417206,
+    "floor_area_proxy_800m_m2": 844256,
+    "network_catchment_ratio": 0.365,
+    "bus_routes_400m_walk": 1,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 18.2,
+    "dist_to_water_m": 649,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.656001,
+     1.420123
+    ]
+   },
+   "properties": {
+    "option_id": "IP3",
+    "corridor": "iskandar_puteri",
+    "seq": 26,
+    "station_id": "IP3-S26",
+    "label_near": "Imperia",
+    "chainage_m": 27239,
+    "forced": true,
+    "lon": 103.656001,
+    "lat": 1.420123,
+    "floor_area_proxy_800m_m2": 652713,
+    "network_catchment_ratio": 0.411,
+    "bus_routes_400m_walk": 1,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 8.7,
+    "dist_to_water_m": 147,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.762054,
+     1.466039
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 1,
+    "station_id": "IP4-S01",
+    "label_near": "Bukit Chagar",
+    "chainage_m": 0,
+    "forced": true,
+    "lon": 103.762054,
+    "lat": 1.466039,
+    "floor_area_proxy_800m_m2": 679061,
+    "network_catchment_ratio": 0.275,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 9.4,
+    "dist_to_water_m": 101,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.758924,
+     1.467195
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 2,
+    "station_id": "IP4-S02",
+    "label_near": "Maria Hospital",
+    "chainage_m": 600,
+    "forced": false,
+    "lon": 103.758924,
+    "lat": 1.467195,
+    "floor_area_proxy_800m_m2": 546587,
+    "network_catchment_ratio": 0.313,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 12.7,
+    "dist_to_water_m": 73,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7534,
+     1.47754
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 3,
+    "station_id": "IP4-S03",
+    "label_near": "Danga City Mall",
+    "chainage_m": 1900,
+    "forced": false,
+    "lon": 103.7534,
+    "lat": 1.47754,
+    "floor_area_proxy_800m_m2": 41780,
+    "network_catchment_ratio": 0.3,
+    "bus_routes_400m_walk": 2,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 13.6,
+    "dist_to_water_m": 695,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.75004,
+     1.485121
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 4,
+    "station_id": "IP4-S04",
+    "label_near": "Taman Dato Onn",
+    "chainage_m": 3000,
+    "forced": false,
+    "lon": 103.75004,
+    "lat": 1.485121,
+    "floor_area_proxy_800m_m2": 418555,
+    "network_catchment_ratio": 0.374,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 46.9,
+    "dist_to_water_m": 401,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.740177,
+     1.488999
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 5,
+    "station_id": "IP4-S05",
+    "label_near": "KPJ Puteri Specialist Hospital",
+    "chainage_m": 4200,
+    "forced": false,
+    "lon": 103.740177,
+    "lat": 1.488999,
+    "floor_area_proxy_800m_m2": 129774,
+    "network_catchment_ratio": 0.195,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 32.7,
+    "dist_to_water_m": 247,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.727193,
+     1.488539
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 6,
+    "station_id": "IP4-S06",
+    "label_near": "Taman Suria Muafakat",
+    "chainage_m": 5700,
+    "forced": false,
+    "lon": 103.727193,
+    "lat": 1.488539,
+    "floor_area_proxy_800m_m2": 300429,
+    "network_catchment_ratio": 0.304,
+    "bus_routes_400m_walk": 4,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 21.5,
+    "dist_to_water_m": 470,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7164,
+     1.485441
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 7,
+    "station_id": "IP4-S07",
+    "label_near": "Danga Walk",
+    "chainage_m": 7000,
+    "forced": false,
+    "lon": 103.7164,
+    "lat": 1.485441,
+    "floor_area_proxy_800m_m2": 85812,
+    "network_catchment_ratio": 0.247,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 2.5,
+    "dist_to_water_m": 14,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "low-lying near water (DEM proxy)",
     "status": "concept",
@@ -4584,90 +5128,154 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.694937,
-     1.471208
+     103.704964,
+     1.478956
     ]
    },
    "properties": {
-    "option_id": "IP3",
+    "option_id": "IP4",
     "corridor": "iskandar_puteri",
-    "seq": 14,
-    "station_id": "IP3-S14",
+    "seq": 8,
+    "station_id": "IP4-S08",
     "label_near": "",
+    "chainage_m": 8500,
+    "forced": false,
+    "lon": 103.704964,
+    "lat": 1.478956,
+    "floor_area_proxy_800m_m2": 0,
+    "network_catchment_ratio": 0.089,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 7.9,
+    "dist_to_water_m": 150,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.696389,
+     1.471614
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 9,
+    "station_id": "IP4-S09",
+    "label_near": "",
+    "chainage_m": 9800,
+    "forced": false,
+    "lon": 103.696389,
+    "lat": 1.471614,
+    "floor_area_proxy_800m_m2": 0,
+    "network_catchment_ratio": 0.228,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 14.8,
+    "dist_to_water_m": 368,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.687649,
+     1.47101
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 10,
+    "station_id": "IP4-S10",
+    "label_near": "Taman Permata",
+    "chainage_m": 10800,
+    "forced": false,
+    "lon": 103.687649,
+    "lat": 1.47101,
+    "floor_area_proxy_800m_m2": 3267,
+    "network_catchment_ratio": 0.149,
+    "bus_routes_400m_walk": 0,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 10.3,
+    "dist_to_water_m": 336,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.677903,
+     1.472609
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 11,
+    "station_id": "IP4-S11",
+    "label_near": "Taman Baiduri",
+    "chainage_m": 11900,
+    "forced": false,
+    "lon": 103.677903,
+    "lat": 1.472609,
+    "floor_area_proxy_800m_m2": 446442,
+    "network_catchment_ratio": 0.439,
+    "bus_routes_400m_walk": 2,
+    "ktm_800m_walk": "",
+    "dsm_elev_m": 12.7,
+    "dist_to_water_m": 448,
+    "flood_jrc_rp100_depth_m": null,
+    "flood_flag": "",
+    "status": "concept",
+    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
+    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.668954,
+     1.473189
+    ]
+   },
+   "properties": {
+    "option_id": "IP4",
+    "corridor": "iskandar_puteri",
+    "seq": 12,
+    "station_id": "IP4-S12",
+    "label_near": "Taman Amira",
     "chainage_m": 12900,
     "forced": false,
-    "lon": 103.694937,
-    "lat": 1.471208,
-    "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.237,
-    "bus_routes_400m_walk": 1,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 14.3,
-    "dist_to_water_m": 292,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.686172,
-     1.471304
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 15,
-    "station_id": "IP3-S15",
-    "label_near": "Taman Permata",
-    "chainage_m": 13900,
-    "forced": false,
-    "lon": 103.686172,
-    "lat": 1.471304,
-    "floor_area_proxy_800m_m2": 11439,
-    "network_catchment_ratio": 0.152,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 13.8,
-    "dist_to_water_m": 278,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.677347,
-     1.47291
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 16,
-    "station_id": "IP3-S16",
-    "label_near": "Taman Baiduri",
-    "chainage_m": 14900,
-    "forced": false,
-    "lon": 103.677347,
-    "lat": 1.47291,
-    "floor_area_proxy_800m_m2": 468397,
-    "network_catchment_ratio": 0.435,
+    "lon": 103.668954,
+    "lat": 1.473189,
+    "floor_area_proxy_800m_m2": 345396,
+    "network_catchment_ratio": 0.358,
     "bus_routes_400m_walk": 2,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 14.5,
-    "dist_to_water_m": 495,
+    "dsm_elev_m": 11.1,
+    "dist_to_water_m": 692,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -4680,26 +5288,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.667476,
-     1.473212
+     103.665186,
+     1.479891
     ]
    },
    "properties": {
-    "option_id": "IP3",
+    "option_id": "IP4",
     "corridor": "iskandar_puteri",
-    "seq": 17,
-    "station_id": "IP3-S17",
-    "label_near": "Taman Amira",
-    "chainage_m": 16000,
+    "seq": 13,
+    "station_id": "IP4-S13",
+    "label_near": "Taman Nusa Duta",
+    "chainage_m": 14000,
     "forced": false,
-    "lon": 103.667476,
-    "lat": 1.473212,
-    "floor_area_proxy_800m_m2": 311350,
-    "network_catchment_ratio": 0.335,
-    "bus_routes_400m_walk": 0,
+    "lon": 103.665186,
+    "lat": 1.479891,
+    "floor_area_proxy_800m_m2": 650294,
+    "network_catchment_ratio": 0.477,
+    "bus_routes_400m_walk": 2,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 12.4,
-    "dist_to_water_m": 652,
+    "dsm_elev_m": 11.8,
+    "dist_to_water_m": 241,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
@@ -4712,442 +5320,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     103.663472,
-     1.481278
+     103.658629,
+     1.481199
     ]
    },
    "properties": {
-    "option_id": "IP3",
+    "option_id": "IP4",
     "corridor": "iskandar_puteri",
-    "seq": 18,
-    "station_id": "IP3-S18",
+    "seq": 14,
+    "station_id": "IP4-S14",
     "label_near": "Bukit Indah",
-    "chainage_m": 17300,
-    "forced": false,
-    "lon": 103.663472,
-    "lat": 1.481278,
-    "floor_area_proxy_800m_m2": 742205,
-    "network_catchment_ratio": 0.505,
+    "chainage_m": 14979,
+    "forced": true,
+    "lon": 103.658629,
+    "lat": 1.481199,
+    "floor_area_proxy_800m_m2": 603291,
+    "network_catchment_ratio": 0.449,
     "bus_routes_400m_walk": 2,
     "ktm_800m_walk": "",
-    "dsm_elev_m": 12.2,
-    "dist_to_water_m": 33,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.656834,
-     1.479009
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 19,
-    "station_id": "IP3-S19",
-    "label_near": "Bukit Indah",
-    "chainage_m": 18241,
-    "forced": true,
-    "lon": 103.656834,
-    "lat": 1.479009,
-    "floor_area_proxy_800m_m2": 428665,
-    "network_catchment_ratio": 0.485,
-    "bus_routes_400m_walk": 2,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 19.6,
-    "dist_to_water_m": 28,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.653627,
-     1.469361
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 20,
-    "station_id": "IP3-S20",
-    "label_near": "",
-    "chainage_m": 19500,
-    "forced": false,
-    "lon": 103.653627,
-    "lat": 1.469361,
-    "floor_area_proxy_800m_m2": 334002,
-    "network_catchment_ratio": 0.353,
-    "bus_routes_400m_walk": 1,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 16.4,
-    "dist_to_water_m": 168,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.652284,
-     1.46042
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 21,
-    "station_id": "IP3-S21",
-    "label_near": "The Gateway",
-    "chainage_m": 20500,
-    "forced": false,
-    "lon": 103.652284,
-    "lat": 1.46042,
-    "floor_area_proxy_800m_m2": 46896,
-    "network_catchment_ratio": 0.193,
-    "bus_routes_400m_walk": 1,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 17.9,
-    "dist_to_water_m": 46,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.652411,
-     1.45273
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 22,
-    "station_id": "IP3-S22",
-    "label_near": "The Golf",
-    "chainage_m": 21900,
-    "forced": false,
-    "lon": 103.652411,
-    "lat": 1.45273,
-    "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.123,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 14.3,
-    "dist_to_water_m": 179,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.644801,
-     1.447919
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 23,
-    "station_id": "IP3-S23",
-    "label_near": "The Golf",
-    "chainage_m": 22900,
-    "forced": false,
-    "lon": 103.644801,
-    "lat": 1.447919,
-    "floor_area_proxy_800m_m2": 18116,
-    "network_catchment_ratio": 0.124,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 11.9,
-    "dist_to_water_m": 13,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.636473,
-     1.44257
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 24,
-    "station_id": "IP3-S24",
-    "label_near": "",
-    "chainage_m": 24000,
-    "forced": false,
-    "lon": 103.636473,
-    "lat": 1.44257,
-    "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.091,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 8.3,
-    "dist_to_water_m": 222,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.630544,
-     1.43592
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 25,
-    "station_id": "IP3-S25",
-    "label_near": "Taman Eko Botani",
-    "chainage_m": 25000,
-    "forced": false,
-    "lon": 103.630544,
-    "lat": 1.43592,
-    "floor_area_proxy_800m_m2": 0,
-    "network_catchment_ratio": 0.083,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 20.3,
-    "dist_to_water_m": 252,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.626127,
-     1.428067
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 26,
-    "station_id": "IP3-S26",
-    "label_near": "",
-    "chainage_m": 26000,
-    "forced": false,
-    "lon": 103.626127,
-    "lat": 1.428067,
-    "floor_area_proxy_800m_m2": 53979,
-    "network_catchment_ratio": 0.115,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 15.2,
-    "dist_to_water_m": 1247,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.627005,
-     1.421526
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 27,
-    "station_id": "IP3-S27",
-    "label_near": "The Meridin",
-    "chainage_m": 27000,
-    "forced": false,
-    "lon": 103.627005,
-    "lat": 1.421526,
-    "floor_area_proxy_800m_m2": 529478,
-    "network_catchment_ratio": 0.335,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 16.9,
-    "dist_to_water_m": 943,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.635553,
-     1.419161
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 28,
-    "station_id": "IP3-S28",
-    "label_near": "1Medini",
-    "chainage_m": 28000,
-    "forced": false,
-    "lon": 103.635553,
-    "lat": 1.419161,
-    "floor_area_proxy_800m_m2": 316526,
-    "network_catchment_ratio": 0.365,
-    "bus_routes_400m_walk": 1,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 27.5,
-    "dist_to_water_m": 1152,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.644472,
-     1.41989
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 29,
-    "station_id": "IP3-S29",
-    "label_near": "Terminal Bas",
-    "chainage_m": 29000,
-    "forced": false,
-    "lon": 103.644472,
-    "lat": 1.41989,
-    "floor_area_proxy_800m_m2": 16105,
-    "network_catchment_ratio": 0.255,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 15.2,
-    "dist_to_water_m": 815,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.651763,
-     1.417386
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 30,
-    "station_id": "IP3-S30",
-    "label_near": "Laksamana",
-    "chainage_m": 30000,
-    "forced": false,
-    "lon": 103.651763,
-    "lat": 1.417386,
-    "floor_area_proxy_800m_m2": 809149,
-    "network_catchment_ratio": 0.379,
-    "bus_routes_400m_walk": 0,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 18.3,
-    "dist_to_water_m": 610,
-    "flood_jrc_rp100_depth_m": null,
-    "flood_flag": "",
-    "status": "concept",
-    "source_ids": "SRC-024|SRC-038|SRC-039|SRC-041",
-    "basis": "placed by exclusive 800 m network-walk catchment DP, 1.0-1.5 km spacing"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     103.656002,
-     1.420125
-    ]
-   },
-   "properties": {
-    "option_id": "IP3",
-    "corridor": "iskandar_puteri",
-    "seq": 31,
-    "station_id": "IP3-S31",
-    "label_near": "Imperia",
-    "chainage_m": 30698,
-    "forced": true,
-    "lon": 103.656002,
-    "lat": 1.420125,
-    "floor_area_proxy_800m_m2": 652713,
-    "network_catchment_ratio": 0.411,
-    "bus_routes_400m_walk": 1,
-    "ktm_800m_walk": "",
-    "dsm_elev_m": 8.7,
-    "dist_to_water_m": 147,
+    "dsm_elev_m": 16.0,
+    "dist_to_water_m": 112,
     "flood_jrc_rp100_depth_m": null,
     "flood_flag": "",
     "status": "concept",
