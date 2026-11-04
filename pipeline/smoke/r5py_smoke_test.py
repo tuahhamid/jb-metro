@@ -25,6 +25,8 @@ import pandas as pd
 from shapely.geometry import box
 
 # Pre-registered thresholds (set before any run; see docs/validation-plan.md)
+warnings.filterwarnings("ignore", "GeoSeries.notna", UserWarning)
+
 THRESH = {
     "S3_min_origin_snap_share": 0.80,      # share of land grid cells r5 can route from
     "S4_detour_median_range": (1.10, 1.60),  # network walk distance / straight line, 0.5-2 km pairs
@@ -108,7 +110,7 @@ def main() -> None:
     pts = grid(args.cell)
     # Keep cells r5 can snap to the street network (drops sea and large voids)
     snapped = tn.snap_to_network(pts.geometry, radius=250)
-    pts["snapped"] = ~snapped.is_empty & snapped.notna()
+    pts["snapped"] = (~snapped.is_empty & snapped.notna()).values
     land = pts[pts["snapped"]].copy()
     land["geometry"] = snapped[pts["snapped"]].values
     share = len(land) / len(pts)

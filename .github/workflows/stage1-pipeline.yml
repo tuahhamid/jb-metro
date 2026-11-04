@@ -130,4 +130,8 @@ jobs:
           git add results/stage1 data/manifests data/raw/gtfs data/raw/osm || true
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "stage1-pipeline: results from run ${{ github.run_id }} [skip ci]"
-          for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break; sleep $((i*5)); done
+          for i in 1 2 3 4; do
+            if git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then echo "pushed"; exit 0; fi
+            sleep $((i*10))
+          done
+          echo "::error::push failed after 4 attempts; outputs are in the uploaded artifact"; exit 1
