@@ -1,0 +1,50 @@
+{
+ "test": "V4-alt",
+ "center": {
+  "name": "Bukit Chagar RTS station",
+  "osm_id": 13377979326,
+  "resolved_by": "osm",
+  "lonlat": [
+   103.76218580000001,
+   1.4662412000000002
+  ]
+ },
+ "radius_m": 800,
+ "inventory_800m": {
+  "footway_like_ways": 150,
+  "footway_like_km": 9.61,
+  "sidewalk_tagged_road_ways": 0,
+  "steps_ways": 32,
+  "escalator_ways_conveying": 9,
+  "width_tagged_ped_ways": 0,
+  "crossing_nodes": 25,
+  "traffic_signal_nodes": 10,
+  "elevator_nodes": 1,
+  "footbridges_or_layered_ped_ways": 35
+ },
+ "criterion_a_entrances": {
+  "entrances_found_within_250m": 0,
+  "connected": 0,
+  "result": "NOT EVALUABLE (no entrance mapped)",
+  "entrances": []
+ },
+ "criterion_b_crossings": {
+  "road_crossings_on_desire_lines": 18,
+  "mapped": 2,
+  "share_mapped": 0.111,
+  "threshold": 0.9,
+  "result": "FAIL"
+ },
+ "criterion_c_grade_changes": {
+  "grade_changes_on_desire_lines": 6,
+  "tagged": 1,
+  "result": "FAIL"
+ },
+ "overall": "FAIL",
+ "caveat": "Checks that the OSM network R5 uses is plausible near Bukit Chagar. It does not validate walking times and is weaker than V4 (timed walks), which is NOT RUN (no fieldwork, owner decision 6). The RTS station is under construction; OSM reflects mapping as of the extract date."
+}
+{'to': 'JB Sentral (KTM station)', 'target_resolved_by': 'osm', 'target_osm_id': 1639480363, 'walk_m': 907, 'straight_m': 452, 'detour_ratio': 2.0, 'share_on_dedicated_pedestrian_ways': 0.368, 'share_along_carriageway_without_sidewalk_tag': 0.517, 'road_crossings': 3, 'mapped_crossings': 0, 'grade_changes': 1, 'grade_changes_tagged': 0}
+{'to': 'JB Sentral Bus Terminal', 'target_resolved_by': 'osm', 'target_osm_id': 3941631341, 'walk_m': 1118, 'straight_m': 440, 'detour_ratio': 2.54, 'share_on_dedicated_pedestrian_ways': 0.424, 'share_along_carriageway_without_sidewalk_tag': 0.444, 'road_crossings': 4, 'mapped_crossings': 0, 'grade_changes': 2, 'grade_changes_tagged': 0}
+{'to': 'Bukit Chagar bus stop (Jalan Tun Abdul Razak)', 'target_resolved_by': 'osm', 'target_osm_id': 1868501169, 'walk_m': 798, 'straight_m': 353, 'detour_ratio': 2.26, 'share_on_dedicated_pedestrian_ways': 0.0, 'share_along_carriageway_without_sidewalk_tag': 1.0, 'road_crossings': 5, 'mapped_crossings': 2, 'grade_changes': 0, 'grade_changes_tagged': 0}
+{'to': 'City center: City Square mall (Jalan Wong Ah Fook)', 'target_resolved_by': 'osm', 'target_osm_id': 106590697, 'walk_m': 770, 'straight_m': 542, 'detour_ratio': 1.42, 'share_on_dedicated_pedestrian_ways': 0.193, 'share_along_carriageway_without_sidewalk_tag': 0.637, 'road_crossings': 1, 'mapped_crossings': 0, 'grade_changes': 0, 'grade_changes_tagged': 0}
+{'to': 'Bukit Chagar ICQ building', 'target_resolved_by': 'osm', 'target_osm_id': 1455806845, 'walk_m': 1312, 'straight_m': 98, 'detour_ratio': 13.33, 'share_on_dedicated_pedestrian_ways': 0.563, 'share_along_carriageway_without_sidewalk_tag': 0.358, 'road_crossings': 5, 'mapped_crossings': 0, 'grade_changes': 3, 'grade_changes_tagged': 1}

@@ -1,0 +1,10 @@
+OSM read: 123882 highway ways, 152048 buildings, 5702 landuse (16s)
+anchors: {'BKC': 'osm', 'PPL': 'osm', 'STK': 'osm', 'PSP': 'osm', 'MLK': 'osm', 'TBC': 'osm', 'IKT': 'osm', 'DST': 'osm', 'MTA': 'osm', 'LRK': 'osm', 'DGB': 'fallback_coordinate', 'PRL': 'osm', 'BID': 'fallback_coordinate', 'PTH': 'osm', 'KIS': 'osm', 'MDN': 'osm', 'EDL': 'coordinate_on_osm_road'}
+T1 14.07 km dev +0.5% 17 stations 5s
+T2 17.11 km dev +22.2% 20 stations 5s
+T3 12.73 km dev -9.1% 16 stations 4s
+T-R1 14.09 km dev +0.7% 15 stations 3s
+T-R2 14.95 km dev +6.8% 16 stations 5s
+IP1 25.60 km dev +73.2% 25 stations 4s
+IP2 19.15 km dev +29.6% 21 stations 4s
+IP3 30.70 km dev +107.7% 31 stations 5s

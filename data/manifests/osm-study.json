@@ -1,0 +1,10 @@
+{
+  "source": "https://download.geofabrik.de/asia/malaysia-singapore-brunei-latest.osm.pbf",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "fetched_utc": "2026-11-04T17:44:06Z",
+  "bbox_lonlat": "103.55,1.38,103.88,1.62",
+  "filter": "highway railway public_transport building landuse natural waterway amenity shop place leisure entrance office tourism",
+  "source_replication_timestamp": "2026-11-03T21:24:23Z",
+  "clip_bytes": 12549603,
+  "clip_sha256": "d8d0c25964d1f08e8d3efb6e95afa2414575e581465635d15e75ab41e39b082a"
+}

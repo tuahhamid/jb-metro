@@ -1,0 +1,41 @@
+option_id,from,to,network_walk_m,straight_m,detour_ratio,walk_min_at_3_6kmh,status
+T1,T1-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+T1,T1-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+T1,T1-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+T1,T1-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+T1,T1-S01,Larkin Sentral bus terminal,,3933,,,inferred
+T2,T2-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+T2,T2-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+T2,T2-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+T2,T2-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+T2,T2-S01,Larkin Sentral bus terminal,,3933,,,inferred
+T3,T3-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+T3,T3-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+T3,T3-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+T3,T3-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+T3,T3-S01,Larkin Sentral bus terminal,,3933,,,inferred
+T-R1,T-R1-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+T-R1,T-R1-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+T-R1,T-R1-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+T-R1,T-R1-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+T-R1,T-R1-S01,Larkin Sentral bus terminal,,3933,,,inferred
+T-R2,T-R2-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+T-R2,T-R2-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+T-R2,T-R2-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+T-R2,T-R2-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+T-R2,T-R2-S01,Larkin Sentral bus terminal,,3933,,,inferred
+IP1,IP1-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+IP1,IP1-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+IP1,IP1-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+IP1,IP1-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+IP1,IP1-S01,Larkin Sentral bus terminal,,3933,,,inferred
+IP2,IP2-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+IP2,IP2-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+IP2,IP2-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+IP2,IP2-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+IP2,IP2-S01,Larkin Sentral bus terminal,,3933,,,inferred
+IP3,IP3-S01,RTS Bukit Chagar (station node),27.0,27,1.0,0.4,inferred
+IP3,IP3-S01,JB Sentral (KTM),929.0,444,2.09,15.5,inferred
+IP3,IP3-S01,JB Sentral Bus Terminal,1125.0,434,2.59,18.7,inferred
+IP3,IP3-S01,Bukit Chagar ICQ building,1390.0,121,11.45,23.2,inferred
+IP3,IP3-S01,Larkin Sentral bus terminal,,3933,,,inferred

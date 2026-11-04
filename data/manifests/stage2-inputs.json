@@ -1,0 +1,64 @@
+{
+  "bbox_lonlat": [
+    103.55,
+    1.38,
+    103.88,
+    1.62
+  ],
+  "run_utc": "2026-11-04T17:44:07+00:00",
+  "dem": {
+    "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N01_00_E103_00_DEM/Copernicus_DSM_COG_10_N01_00_E103_00_DEM.tif",
+    "fetched_utc": "2026-11-04T17:44:07+00:00",
+    "http_status": 200,
+    "bytes": 31871871,
+    "sha256": "fe2cf9dbc8a06ac328fb6d3d11a3764adac203e91adfae6cb066e07390480417",
+    "crop_path": "data/raw/dem/cop30-jb.tif",
+    "crop_shape": [
+      864,
+      1188
+    ],
+    "src_bounds": [
+      102.99986111111112,
+      1.000138888888889,
+      103.99986111111112,
+      2.000138888888889
+    ],
+    "crop_sha256": "0ff45adb3e4bf93a88d8131d8d9ca8c1adce1bf8fca65e3f88c304678e403049",
+    "license": "Copernicus DEM GLO-30, (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA"
+  },
+  "flood_jrc": {
+    "crawl_log": [
+      "root HTTP 200",
+      "subdirs: Permanent_WaterBodies/,RP10/,RP100/,RP20/,RP200/,RP50/,RP500/,RP75/,Spurious_Depths/",
+      "RP100/: HTTP 200, 542 tifs, hits=['ID211_N10_E100_RP100_depth.tif', 'ID211_N10_E100_RP100_depth_reclass.tif']"
+    ],
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-GLOFAS/flood_hazard/RP100/ID211_N10_E100_RP100_depth.tif",
+    "fetched_utc": "2026-11-04T17:44:12+00:00",
+    "http_status": 200,
+    "bytes": 13436340,
+    "sha256": "f3c26b69e98ee4d7130bc348c9309be1328b1ec41ea0aaea5a114b9ec7a96c8e",
+    "crop_path": "data/raw/flood/jrc-rp100-jb.tif",
+    "crop_shape": [
+      288,
+      396
+    ],
+    "src_bounds": [
+      99.97625154437965,
+      0.007900000009087194,
+      109.97541823866082,
+      10.00706666666666
+    ],
+    "crop_sha256": "c5ab21ccb821c2bbcf4087af98da6dc3a196e497eac7791d8051ff9b7c4c3e9b",
+    "license": "JRC open data (CC BY 4.0), European Commission Joint Research Centre"
+  },
+  "plans_list_SRC026": {
+    "url": "https://jpbd.johor.gov.my/wp-content/uploads/2025/02/SENARAI-RANCANGAN-PEMAJUAN-BAGI-SELURUH-NEGERI-JOHOR.docx-1.pdf",
+    "fetched_utc": "2026-11-04T17:44:16+00:00",
+    "http_status": 200,
+    "bytes": 121432,
+    "sha256": "39def6ead06010a8c8071f379320f1dac414690698d805d3f204fdd9aa49a1f8",
+    "lines_total": 439,
+    "lines_matched": 99,
+    "extract": "data/manifests/plans-list-extract.csv"
+  }
+}

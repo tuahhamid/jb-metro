@@ -1,0 +1,207 @@
+{
+  "run_utc": "2026-11-04T17:44:41+00:00",
+  "anchors": {
+    "BKC": {
+      "label": "Bukit Chagar RTS station",
+      "x": 362296.29747985845,
+      "y": 162102.1284777032,
+      "resolved_by": "osm",
+      "osm_id": 13377979326,
+      "osm_name": "Bukit Chagar",
+      "offset_from_fallback_m": 0
+    },
+    "PPL": {
+      "label": "Plaza Pelangi / KSL City (Jalan Tebrau)",
+      "x": 362627.41740064375,
+      "y": 163640.58563064504,
+      "resolved_by": "osm",
+      "osm_id": 119011842,
+      "osm_name": "Plaza Pelangi",
+      "offset_from_fallback_m": 116
+    },
+    "STK": {
+      "label": "Southkey (Jalan Tebrau)",
+      "x": 364030.08420070715,
+      "y": 165941.01077904558,
+      "resolved_by": "osm",
+      "osm_id": 489781430,
+      "osm_name": "The Mall, Mid Valley Southkey",
+      "offset_from_fallback_m": 531
+    },
+    "PSP": {
+      "label": "Pasir Pelangi (Jalan Pasir Pelangi)",
+      "x": 364812.65692092804,
+      "y": 163576.7363466508,
+      "resolved_by": "osm",
+      "osm_id": 2410680008,
+      "osm_name": "Pasir Pelangi",
+      "offset_from_fallback_m": 1
+    },
+    "MLK": {
+      "label": "Taman Molek",
+      "x": 365488.4209568512,
+      "y": 168991.87764141214,
+      "resolved_by": "osm",
+      "osm_id": 5475144408,
+      "osm_name": "Taman Molek",
+      "offset_from_fallback_m": 0
+    },
+    "TBC": {
+      "label": "AEON Mall Tebrau City",
+      "x": 366005.53103887115,
+      "y": 171284.21524152852,
+      "resolved_by": "osm",
+      "osm_id": 678151436,
+      "osm_name": "AEON Mall Tebrau City",
+      "offset_from_fallback_m": 306
+    },
+    "IKT": {
+      "label": "IKEA / Toppen Tebrau",
+      "x": 366269.6794110162,
+      "y": 171684.24669704985,
+      "resolved_by": "osm",
+      "osm_id": 857039855,
+      "osm_name": "Toppen Shopping Centre",
+      "offset_from_fallback_m": 48
+    },
+    "DST": {
+      "label": "Taman Desa Tebrau",
+      "x": 365460.0246602796,
+      "y": 172882.26741723082,
+      "resolved_by": "osm",
+      "osm_id": 12863333,
+      "osm_name": "Taman Desa Tebrau",
+      "offset_from_fallback_m": 510
+    },
+    "MTA": {
+      "label": "Taman Mount Austin",
+      "x": 364952.82232996554,
+      "y": 171432.96507063872,
+      "resolved_by": "osm",
+      "osm_id": 4853014975,
+      "osm_name": "Mount Austin",
+      "offset_from_fallback_m": 1
+    },
+    "LRK": {
+      "label": "Larkin Sentral",
+      "x": 360114.3307264076,
+      "y": 165361.39921456552,
+      "resolved_by": "osm",
+      "osm_id": 8927005073,
+      "osm_name": "Larkin Sentral",
+      "offset_from_fallback_m": 0
+    },
+    "DGB": {
+      "label": "Danga Bay",
+      "x": 357936.6253798249,
+      "y": 162741.26087520918,
+      "resolved_by": "fallback_coordinate",
+      "osm_id": null,
+      "osm_name": null,
+      "offset_from_fallback_m": 0
+    },
+    "PRL": {
+      "label": "Taman Perling",
+      "x": 353158.6316711861,
+      "y": 164313.19240393743,
+      "resolved_by": "osm",
+      "osm_id": 2215697579,
+      "osm_name": "Perling",
+      "offset_from_fallback_m": 354
+    },
+    "BID": {
+      "label": "Bukit Indah (AEON)",
+      "x": 350437.88713808515,
+      "y": 163917.61936033712,
+      "resolved_by": "fallback_coordinate",
+      "osm_id": null,
+      "osm_name": null,
+      "offset_from_fallback_m": 0
+    },
+    "PTH": {
+      "label": "Puteri Harbour",
+      "x": 350818.3052814826,
+      "y": 156671.30608702643,
+      "resolved_by": "osm",
+      "osm_id": 494804050,
+      "osm_name": "Puteri Harbour",
+      "offset_from_fallback_m": 49
+    },
+    "KIS": {
+      "label": "Kota Iskandar",
+      "x": 350101.40781300736,
+      "y": 157295.9112085948,
+      "resolved_by": "osm",
+      "osm_id": 531675598,
+      "osm_name": "Kota Iskandar",
+      "offset_from_fallback_m": 1819
+    },
+    "MDN": {
+      "label": "Medini",
+      "x": 348405.1901342276,
+      "y": 156988.88902253695,
+      "resolved_by": "osm",
+      "osm_id": 532696565,
+      "osm_name": "Medini Signature",
+      "offset_from_fallback_m": 1890
+    },
+    "EDL": {
+      "label": "Point on the Eastern Dispersal Link (E14) viaduct near Jalan Bakar Batu",
+      "x": 364169.48927364213,
+      "y": 166386.1202123561,
+      "resolved_by": "coordinate_on_osm_road",
+      "osm_id": null,
+      "osm_name": null,
+      "offset_from_fallback_m": 0
+    }
+  },
+  "inputs": {
+    "osm": "data/raw/osm/jb-study.osm.pbf",
+    "dem": true,
+    "flood_jrc": true,
+    "gtfs_stops": 1143
+  },
+  "options": {
+    "T1": {
+      "seconds": 4.5,
+      "length_km": 14.07,
+      "n_stations": 17
+    },
+    "T2": {
+      "seconds": 4.8,
+      "length_km": 17.11,
+      "n_stations": 20
+    },
+    "T3": {
+      "seconds": 3.6,
+      "length_km": 12.73,
+      "n_stations": 16
+    },
+    "T-R1": {
+      "seconds": 3.1,
+      "length_km": 14.09,
+      "n_stations": 15
+    },
+    "T-R2": {
+      "seconds": 4.7,
+      "length_km": 14.95,
+      "n_stations": 16
+    },
+    "IP1": {
+      "seconds": 4.0,
+      "length_km": 25.6,
+      "n_stations": 25
+    },
+    "IP2": {
+      "seconds": 4.2,
+      "length_km": 19.15,
+      "n_stations": 21
+    },
+    "IP3": {
+      "seconds": 5.1,
+      "length_km": 30.7,
+      "n_stations": 31
+    }
+  },
+  "seconds_total": 57.4
+}

@@ -1,0 +1,1486 @@
+chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriageway,bridge_or_flyover,setback_left_m,setback_right_m,clear_width_m,option_id,near_station,pinch_width,pinch_width_low,single_narrow,flag_width
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,T1,True,False,False,False,False
+150,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+250,767655251,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+350,694048481,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,12.9,72.9,T1,False,False,False,False,False
+450,694048479,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+550,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,37.7,53.8,91.5,T1,False,False,False,False,False
+650,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,39.7,99.7,T1,False,False,False,False,False
+750,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,28.8,88.8,T1,False,False,False,False,False
+850,53819086,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+950,201941037,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,30.7,90.7,T1,True,False,False,False,False
+1050,201941037,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,39.0,60.0,99.0,T1,False,False,False,False,False
+1150,765839392,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,16.4,76.4,T1,False,False,False,False,False
+1250,765839392,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+1350,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.1,56.0,91.0,T1,False,False,False,False,False
+1450,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,40.8,60.0,100.8,T1,False,False,False,False,False
+1550,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,39.5,20.9,60.4,T1,False,False,False,False,False
+1650,1343808409,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,38.7,60.0,98.7,T1,False,False,False,False,False
+1750,767378469,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.8,60.0,97.8,T1,True,False,False,False,False
+1850,1351056457,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.0,19.5,56.6,T1,False,False,False,False,False
+1950,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.7,60.0,96.7,T1,False,False,False,False,False
+2050,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,60.0,96.9,T1,False,False,False,False,False
+2150,768296823,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.6,60.0,95.6,T1,False,False,False,False,False
+2250,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.5,60.0,96.5,T1,False,False,False,False,False
+2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T1,True,False,False,False,False
+2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T1,True,False,False,False,False
+2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T1,False,False,False,False,False
+2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T1,False,False,False,False,False
+2750,766305571,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,17.7,77.7,T1,False,False,False,False,False
+2850,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,19.4,79.4,T1,False,False,False,False,False
+2950,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.0,21.0,54.9,T1,False,False,False,False,False
+3050,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.3,21.1,54.4,T1,False,False,False,False,False
+3150,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.9,21.8,59.6,T1,False,False,False,False,False
+3250,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,22.2,59.1,T1,False,False,False,False,False
+3350,766295445,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.4,19.5,55.9,T1,False,False,False,False,False
+3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+3550,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T1,False,False,False,False,False
+3750,767358376,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.3,38.1,74.4,T1,False,False,False,False,False
+3850,766089837,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+3950,769689388,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.6,31.5,69.1,T1,False,False,False,False,False
+4050,766089836,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.5,33.4,70.9,T1,False,False,False,False,False
+4150,767349942,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,42.7,60.0,102.7,T1,False,False,False,False,False
+4250,766089839,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+4350,767349944,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T1,True,False,False,False,False
+4550,767322057,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,15.8,75.8,T1,True,False,False,False,False
+4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+4750,370888423,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+4850,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+4950,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,38.7,98.7,T1,False,False,False,False,False
+5050,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.0,96.0,T1,False,False,False,False,False
+5150,370888418,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,41.2,101.2,T1,False,False,False,False,False
+5250,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.6,41.0,75.6,T1,False,False,False,False,False
+5350,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.9,60.0,93.9,T1,False,False,False,False,False
+5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+5550,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T1,False,False,False,False,False
+5750,767319189,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,30.9,60.0,90.9,T1,False,False,False,False,False
+5850,770400681,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+5950,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,57.2,60.0,117.2,T1,False,False,False,False,False
+6050,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,53.5,37.9,91.3,T1,False,False,False,False,False
+6150,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,False
+6250,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,44.5,104.5,T1,False,False,False,False,False
+6350,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T1,True,False,False,False,False
+6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T1,True,False,False,False,False
+6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T1,False,False,False,False,False
+6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+6850,766095787,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+6950,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+7050,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+7150,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+7250,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+7350,642235356,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+7450,642235378,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,False
+7550,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+7650,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,51.6,60.0,111.6,T1,False,False,False,False,False
+7750,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+7850,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+7950,765791570,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8050,667269454,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,False
+8150,765779572,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8250,765779572,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8350,765787171,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8450,1176293999,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8550,765779569,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8650,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8750,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,T1,False,False,False,False,False
+8850,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+8950,765779567,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+9050,767624325,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+9150,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+9250,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,13.3,73.3,T1,False,False,False,False,False
+9350,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,38.2,60.0,98.2,T1,False,False,False,False,False
+9450,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,41.4,34.8,76.2,T1,False,False,False,False,False
+9550,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,24.6,84.6,T1,False,False,False,False,False
+9650,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,57.3,27.6,84.9,T1,False,False,False,False,False
+9750,767617711,Jalan Pandan,3,trunk,6.0,,True,dual (one-way pair),False,60.0,26.2,86.2,T1,False,False,False,False,False
+9850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+9950,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+10050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,True,False,False,False,False
+10150,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,True,False,False,False,False
+10250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,False
+10350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,False
+10450,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,False
+10550,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+10650,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+10750,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+10850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+10950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.9,96.9,T1,False,False,False,False,False
+11050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+11150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,48.0,108.0,T1,True,False,False,False,False
+11250,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,32.7,92.7,T1,False,False,False,False,False
+11350,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,T1,False,False,False,False,False
+11450,767986485,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+11550,767986486,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+11650,201941020,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+11750,201941020,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,50.1,60.0,110.1,T1,True,False,False,False,False
+11850,201941020,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+11950,201941568,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+12050,201941568,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+12150,159652404,Jalan Johor Jaya,,secondary,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,False
+12250,159652403,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+12350,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+12450,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+12550,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+12650,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,45.1,60.0,105.1,T1,False,False,False,False,False
+12750,543229697,Persisiran Bandar Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+12850,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,28.5,42.5,71.0,T1,False,False,False,False,False
+12950,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.4,105.4,T1,False,False,False,False,False
+13050,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+13150,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+13250,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.8,105.8,T1,False,False,False,False,False
+13350,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.4,105.4,T1,True,False,False,False,False
+13450,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,False
+13550,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,False
+13650,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,41.5,101.5,T1,False,False,False,False,False
+13750,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.6,105.6,T1,False,False,False,False,False
+13850,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.7,105.7,T1,False,False,False,False,False
+13950,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,47.0,107.0,T1,False,False,False,False,False
+14050,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,38.1,98.1,T1,True,False,False,False,False
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,T2,True,False,False,False,False
+150,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+250,767655251,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+350,694048481,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,12.9,72.9,T2,False,False,False,False,False
+450,694048479,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+550,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,37.7,53.8,91.5,T2,False,False,False,False,False
+650,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,39.7,99.7,T2,False,False,False,False,False
+750,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,28.8,88.8,T2,False,False,False,False,False
+850,53819086,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+950,201941037,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,30.7,90.7,T2,True,False,False,False,False
+1050,201941037,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,39.0,60.0,99.0,T2,False,False,False,False,False
+1150,765839392,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,16.4,76.4,T2,False,False,False,False,False
+1250,765839392,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+1350,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.1,56.0,91.0,T2,False,False,False,False,False
+1450,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,40.8,60.0,100.8,T2,False,False,False,False,False
+1550,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,39.5,20.9,60.4,T2,False,False,False,False,False
+1650,1343808409,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,38.7,60.0,98.7,T2,False,False,False,False,False
+1750,767378469,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.8,60.0,97.8,T2,True,False,False,False,False
+1850,1351056457,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.0,19.5,56.6,T2,False,False,False,False,False
+1950,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.7,60.0,96.7,T2,False,False,False,False,False
+2050,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,60.0,96.9,T2,False,False,False,False,False
+2150,768296823,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.6,60.0,95.6,T2,False,False,False,False,False
+2250,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.5,60.0,96.5,T2,False,False,False,False,False
+2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T2,True,False,False,False,False
+2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T2,True,False,False,False,False
+2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T2,False,False,False,False,False
+2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T2,False,False,False,False,False
+2750,766305571,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,17.7,77.7,T2,False,False,False,False,False
+2850,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,19.4,79.4,T2,False,False,False,False,False
+2950,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.0,21.0,54.9,T2,False,False,False,False,False
+3050,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.3,21.1,54.4,T2,False,False,False,False,False
+3150,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.9,21.8,59.6,T2,False,False,False,False,False
+3250,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,22.2,59.1,T2,False,False,False,False,False
+3350,766295445,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.4,19.5,55.9,T2,False,False,False,False,False
+3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+3550,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T2,False,False,False,False,False
+3750,767358376,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.3,38.1,74.4,T2,False,False,False,False,False
+3850,766089837,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+3950,769689388,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.6,31.5,69.1,T2,False,False,False,False,False
+4050,766089836,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.5,33.4,70.9,T2,False,False,False,False,False
+4150,767349942,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,42.7,60.0,102.7,T2,False,False,False,False,False
+4250,766089839,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+4350,767349944,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T2,True,False,False,False,False
+4550,767322057,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,15.8,75.8,T2,True,False,False,False,False
+4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+4750,370888423,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+4850,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+4950,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,38.7,98.7,T2,False,False,False,False,False
+5050,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.0,96.0,T2,False,False,False,False,False
+5150,370888418,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,41.2,101.2,T2,False,False,False,False,False
+5250,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.6,41.0,75.6,T2,False,False,False,False,False
+5350,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.9,60.0,93.9,T2,False,False,False,False,False
+5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+5550,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T2,False,False,False,False,False
+5750,767319189,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,30.9,60.0,90.9,T2,False,False,False,False,False
+5850,770400681,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+5950,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,57.2,60.0,117.2,T2,False,False,False,False,False
+6050,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,53.5,37.9,91.3,T2,False,False,False,False,False
+6150,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+6250,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,44.5,104.5,T2,False,False,False,False,False
+6350,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T2,True,False,False,False,False
+6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T2,True,False,False,False,False
+6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T2,False,False,False,False,False
+6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+6850,766095787,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+6950,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+7050,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+7150,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+7250,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+7350,642235356,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+7450,642235378,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+7550,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+7650,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,51.6,60.0,111.6,T2,False,False,False,False,False
+7750,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+7850,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+7950,765791570,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+8050,667269454,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+8150,765779572,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+8250,765779572,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+8350,765787171,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+8450,1176293999,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+8550,642251982,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+8650,642251982,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+8750,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+8850,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+8950,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9050,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9150,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9250,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9350,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9450,642251984,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9550,766349734,Jalan Persiaran Bumi Hijau,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9650,766066241,Jalan Persiaran Bumi Hijau,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9750,766021859,Jalan Persiaran Bumi Hijau,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+9850,721494301,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,42.0,102.0,T2,False,False,False,False,False
+9950,721494301,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,38.5,98.5,T2,False,False,False,False,False
+10050,721494301,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,40.3,100.3,T2,False,False,False,False,False
+10150,721494301,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,38.0,98.0,T2,True,False,False,False,False
+10250,1271064352,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,28.1,37.3,65.4,T2,True,False,False,False,False
+10350,664200574,Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+10450,767349646,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,30.8,60.0,90.8,T2,False,False,False,False,False
+10550,766355822,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,28.8,60.0,88.8,T2,False,False,False,False,False
+10650,766355824,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,27.7,60.0,87.7,T2,False,False,False,False,False
+10750,766355824,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,27.5,60.0,87.5,T2,False,False,False,False,False
+10850,767349645,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+10950,767349645,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+11050,767349645,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,26.6,38.9,65.5,T2,False,False,False,False,False
+11150,767349638,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+11250,766345139,Jalan Persiaran Molek Utama,,primary,3.0,,True,dual (one-way pair),False,39.1,33.3,72.4,T2,False,False,False,False,False
+11350,766345139,Jalan Persiaran Molek Utama,,primary,3.0,,True,dual (one-way pair),False,39.8,25.1,64.9,T2,False,False,False,False,False
+11450,766345140,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,41.1,30.4,71.4,T2,False,False,False,False,False
+11550,767740049,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+11650,507432752,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,41.3,60.0,101.3,T2,False,False,False,False,False
+11750,507432752,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T2,False,False,False,False,False
+11850,767353434,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+11950,767353433,Jalan Masai Baru,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+12050,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12150,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12250,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12350,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12450,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12550,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12650,1072708635,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12750,767392672,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+12850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+12950,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+13050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+13150,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+13250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+13350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+13450,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+13550,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+13650,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+13750,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+13850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+13950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+14050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,34.9,94.9,T2,False,False,False,False,False
+14150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+14250,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.8,96.8,T2,True,False,False,False,False
+14350,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,31.6,91.6,T2,False,False,False,False,False
+14450,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+14550,767986486,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+14650,201941020,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+14750,201941020,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,48.6,29.8,78.4,T2,False,False,False,False,False
+14850,201941020,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+14950,201941568,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+15050,201941568,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+15150,201941600,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+15250,159652404,Jalan Johor Jaya,,secondary,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,False
+15350,767989898,Persisiran Bandar Desa Tebrau,,secondary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+15450,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+15550,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+15650,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,48.9,60.0,108.9,T2,False,False,False,False,False
+15750,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,50.7,60.0,110.7,T2,False,False,False,False,False
+15850,1175101580,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+15950,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,44.9,104.9,T2,False,False,False,False,False
+16050,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.6,105.6,T2,False,False,False,False,False
+16150,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+16250,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+16350,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,46.2,106.2,T2,False,False,False,False,False
+16450,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.8,105.8,T2,True,False,False,False,False
+16550,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+16650,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,41.4,101.4,T2,False,False,False,False,False
+16750,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,False
+16850,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.5,105.5,T2,False,False,False,False,False
+16950,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.7,105.7,T2,False,False,False,False,False
+17050,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,False
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,T3,True,False,False,False,False
+150,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+250,767655251,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+350,694048481,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,12.9,72.9,T3,False,False,False,False,False
+450,694048479,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+550,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,37.7,53.8,91.5,T3,False,False,False,False,False
+650,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,39.7,99.7,T3,False,False,False,False,False
+750,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,28.8,88.8,T3,False,False,False,False,False
+850,53819086,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+950,201941037,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,30.7,90.7,T3,True,False,False,False,False
+1050,201941037,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,39.0,60.0,99.0,T3,False,False,False,False,False
+1150,765839392,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,16.4,76.4,T3,False,False,False,False,False
+1250,765839392,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+1350,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.1,56.0,91.0,T3,False,False,False,False,False
+1450,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,40.8,60.0,100.8,T3,False,False,False,False,False
+1550,765839394,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,39.5,20.9,60.4,T3,False,False,False,False,False
+1650,1343808409,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,38.7,60.0,98.7,T3,False,False,False,False,False
+1750,767378469,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.8,60.0,97.8,T3,True,False,False,False,False
+1850,1351056457,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.0,19.5,56.6,T3,False,False,False,False,False
+1950,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.7,60.0,96.7,T3,False,False,False,False,False
+2050,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,60.0,96.9,T3,False,False,False,False,False
+2150,768296823,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.6,60.0,95.6,T3,False,False,False,False,False
+2250,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.5,60.0,96.5,T3,False,False,False,False,False
+2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T3,True,False,False,False,False
+2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T3,True,False,False,False,False
+2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T3,False,False,False,False,False
+2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T3,False,False,False,False,False
+2750,766305571,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,17.7,77.7,T3,False,False,False,False,False
+2850,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,19.4,79.4,T3,False,False,False,False,False
+2950,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.0,21.0,54.9,T3,False,False,False,False,False
+3050,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.3,21.1,54.4,T3,False,False,False,False,False
+3150,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.9,21.8,59.6,T3,False,False,False,False,False
+3250,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,22.2,59.1,T3,False,False,False,False,False
+3350,766295445,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.4,19.5,55.9,T3,False,False,False,False,False
+3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+3550,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T3,False,False,False,False,False
+3750,767358376,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.3,38.1,74.4,T3,False,False,False,False,False
+3850,766089837,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+3950,769689388,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.6,31.5,69.1,T3,False,False,False,False,False
+4050,766089836,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.5,33.4,70.9,T3,False,False,False,False,False
+4150,767349942,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,42.7,60.0,102.7,T3,False,False,False,False,False
+4250,766089839,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+4350,767349944,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T3,True,False,False,False,False
+4550,767322057,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,15.8,75.8,T3,True,False,False,False,False
+4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+4750,370888423,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+4850,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+4950,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,38.7,98.7,T3,False,False,False,False,False
+5050,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.0,96.0,T3,False,False,False,False,False
+5150,370888418,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,41.2,101.2,T3,False,False,False,False,False
+5250,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.6,41.0,75.6,T3,False,False,False,False,False
+5350,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.9,60.0,93.9,T3,False,False,False,False,False
+5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+5550,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T3,False,False,False,False,False
+5750,767319189,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,30.9,60.0,90.9,T3,False,False,False,False,False
+5850,770400681,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+5950,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,57.2,60.0,117.2,T3,False,False,False,False,False
+6050,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,53.5,37.9,91.3,T3,False,False,False,False,False
+6150,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+6250,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,44.5,104.5,T3,False,False,False,False,False
+6350,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T3,True,False,False,False,False
+6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T3,True,False,False,False,False
+6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T3,False,False,False,False,False
+6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+6850,766095787,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+6950,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+7050,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+7150,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+7250,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+7350,642235356,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+7450,642235378,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+7550,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+7650,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,51.6,60.0,111.6,T3,False,False,False,False,False
+7750,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+7850,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+7950,765791570,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+8050,667269454,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+8150,765779572,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+8250,765779572,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+8350,765787171,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+8450,1176293999,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+8550,765779569,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+8650,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+8750,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,T3,True,False,False,False,False
+8850,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+8950,765779567,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+9050,767624325,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+9150,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+9250,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,13.3,73.3,T3,False,False,False,False,False
+9350,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,38.2,60.0,98.2,T3,False,False,False,False,False
+9450,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,41.4,34.8,76.2,T3,False,False,False,False,False
+9550,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,24.6,84.6,T3,False,False,False,False,False
+9650,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,57.3,27.6,84.9,T3,False,False,False,False,False
+9750,767617711,Jalan Pandan,3,trunk,6.0,,True,dual (one-way pair),False,60.0,26.2,86.2,T3,True,False,False,False,False
+9850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+9950,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+10050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+10150,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+10250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+10350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+10450,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,False
+10550,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+10650,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+10750,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+10850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+10950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.9,96.9,T3,False,False,False,False,False
+11050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+11150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,48.0,108.0,T3,False,False,False,False,False
+11250,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,32.7,92.7,T3,False,False,False,False,False
+11350,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,T3,False,False,False,False,False
+11450,153743715,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,False
+11550,153743715,,,trunk_link,2.0,,True,dual (one-way pair),False,20.1,60.0,80.1,T3,False,False,False,False,False
+11650,211573981,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+11750,211573981,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+11850,211573947,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+11950,767733359,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+12050,767733358,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,30.5,60.0,90.5,T3,True,False,False,False,False
+12150,769451547,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,33.0,60.0,93.0,T3,True,False,False,False,False
+12250,153520600,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,45.8,60.0,105.8,T3,False,False,False,False,False
+12350,1221454373,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+12450,767359104,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+12550,767367433,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,32.7,60.0,92.7,T3,False,False,False,False,False
+12650,767367433,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,False
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,T-R1,True,False,False,False,False
+150,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+250,767655251,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+350,694048481,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,12.9,72.9,T-R1,False,False,False,False,False
+450,694048479,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+550,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,37.7,53.8,91.5,T-R1,False,False,False,False,False
+650,201941651,Jalan Storey,,secondary,1.0,,True,dual (one-way pair),False,60.0,21.6,81.6,T-R1,False,False,False,False,False
+750,1505421933,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,22.5,21.0,43.5,T-R1,False,False,False,False,False
+850,646825954,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,21.0,22.6,43.6,T-R1,True,False,False,False,False
+950,645276918,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,60.0,17.2,77.2,T-R1,True,False,False,False,False
+1050,645276917,Jalan Bukit Chagar,,secondary,4.0,,False,single,False,8.8,60.0,68.8,T-R1,False,False,False,False,False
+1150,159636022,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+1250,257203491,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,49.0,109.0,T-R1,False,False,False,False,False
+1350,767398250,,,trunk_link,2.0,,True,dual (one-way pair),False,49.2,60.0,109.2,T-R1,False,False,False,False,False
+1450,767398251,,,trunk_link,3.0,,True,dual (one-way pair),False,51.3,60.0,111.3,T-R1,False,False,False,False,False
+1550,767398252,,,trunk_link,4.0,,True,dual (one-way pair),False,60.0,42.8,102.8,T-R1,False,False,False,False,False
+1650,1299181678,,,trunk_link,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+1750,257203493,,,trunk_link,3.0,,True,dual (one-way pair),False,60.0,34.4,94.4,T-R1,False,False,False,False,False
+1850,759972735,Jalan Stulang Darat,J5,trunk_link,2.0,,True,dual (one-way pair),False,60.0,15.5,75.5,T-R1,True,False,False,False,False
+1950,759972735,Jalan Stulang Darat,J5,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+2050,636737206,Jalan Stulang Darat,J5,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+2150,759972734,Jalan Stulang Darat,E14;J5,trunk,5.0,,True,dual (one-way pair),False,46.0,60.0,106.0,T-R1,False,False,False,False,False
+2250,759972734,Jalan Stulang Darat,E14;J5,trunk,5.0,,True,dual (one-way pair),False,41.5,46.8,88.3,T-R1,False,False,False,False,False
+2350,773823372,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+2450,228172477,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+2550,694052884,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,24.5,84.5,T-R1,False,False,False,False,False
+2650,694052883,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),True,34.2,60.0,94.2,T-R1,False,False,False,False,False
+2750,769698170,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,20.1,80.1,T-R1,False,False,False,False,False
+2850,769698170,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,19.2,79.2,T-R1,True,False,False,False,False
+2950,769698170,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,38.0,60.0,98.0,T-R1,True,False,False,False,False
+3050,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,36.7,60.0,96.7,T-R1,False,False,False,False,False
+3150,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,32.8,60.0,92.8,T-R1,False,False,False,False,False
+3250,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+3350,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,54.3,32.3,86.6,T-R1,False,False,False,False,False
+3450,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,19.8,79.8,T-R1,False,False,False,False,False
+3550,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,26.8,86.8,T-R1,False,False,False,False,False
+3650,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+3750,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+3850,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,14.2,74.2,T-R1,False,False,False,False,False
+3950,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4050,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,20.4,80.4,T-R1,True,False,False,False,False
+4150,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,False
+4250,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4350,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4450,688293121,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4550,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4650,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4750,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4850,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+4950,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+5050,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,49.1,109.1,T-R1,True,False,False,False,False
+5150,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,False
+5250,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,40.4,100.4,T-R1,False,False,False,False,False
+5350,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,44.3,104.3,T-R1,False,False,False,False,False
+5450,766059535,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,48.6,14.1,62.7,T-R1,False,False,False,False,False
+5550,767317558,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,48.7,45.9,94.6,T-R1,False,False,False,False,False
+5650,767317558,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,53.2,60.0,113.2,T-R1,False,False,False,False,False
+5750,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+5850,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+5950,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+6050,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,False
+6150,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,False
+6250,765837194,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,55.5,115.5,T-R1,False,False,False,False,False
+6350,773823370,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+6450,688293126,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+6550,688293126,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,4.0,,True,dual (one-way pair),False,60.0,29.3,89.3,T-R1,False,False,False,False,False
+6650,765837196,,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+6750,765837196,,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+6850,765837196,,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+6950,688293123,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7050,159004184,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,False
+7150,159004184,,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,False
+7250,642563772,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7350,642563772,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7450,642563772,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7550,642563772,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7650,642563771,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7750,642563761,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7850,642563761,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+7950,642563761,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8050,765782707,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8150,769458339,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8250,159638166,Johor Bahru Eastern Dispersal Link Expressway,E14,motorway,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,True,False,False,False,False
+8350,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+8450,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8550,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8650,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8750,159638172,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8850,766027975,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+8950,766027975,Lebuhraya Skim Penyuraian Trafik Johor Bahru Timur,E14,motorway,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+9050,159004876,,,motorway_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+9150,159004876,,,motorway_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+9250,159004876,,,motorway_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+9350,159004876,,,motorway_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+9450,159004876,,,motorway_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+9550,642235356,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+9650,642235378,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+9750,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,49.2,60.0,109.2,T-R1,False,False,False,False,False
+9850,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.7,60.0,87.7,T-R1,False,False,False,False,False
+9950,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,44.9,60.0,104.9,T-R1,False,False,False,False,False
+10050,642235379,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+10150,767356816,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+10250,667269454,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+10350,765791571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+10450,765779572,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+10550,765787171,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+10650,1176293999,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+10750,765779569,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+10850,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+10950,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,22.4,82.4,T-R1,False,False,False,False,False
+11050,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,25.8,85.8,T-R1,False,False,False,False,False
+11150,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+11250,765779567,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+11350,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+11450,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,53.4,60.0,113.4,T-R1,False,False,False,False,False
+11550,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,39.6,60.0,99.6,T-R1,False,False,False,False,False
+11650,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,39.7,48.1,87.7,T-R1,False,False,False,False,False
+11750,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+11850,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,55.4,30.1,85.6,T-R1,True,False,False,False,False
+11950,767617709,Jalan Pandan,3,trunk,5.0,,True,dual (one-way pair),False,60.0,25.2,85.2,T-R1,False,False,False,False,False
+12050,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12150,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12450,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12550,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12650,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12750,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12850,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+12950,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+13050,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+13150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+13250,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,34.6,94.6,T-R1,True,False,False,False,False
+13350,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,False
+13450,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+13550,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,30.8,90.8,T-R1,False,False,False,False,False
+13650,767986485,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+13750,437155277,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,False
+13850,437155275,,,trunk_link,,,True,dual (one-way pair),True,60.0,16.2,76.2,T-R1,False,False,False,False,False
+13950,437155275,,,trunk_link,,,True,dual (one-way pair),True,60.0,39.9,99.9,T-R1,False,False,False,False,False
+14050,437155270,,,trunk_link,,,True,dual (one-way pair),True,16.9,60.0,76.9,T-R1,True,False,False,False,False
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,0.0,0.0,0.0,T-R2,True,True,True,False,True
+150,165500471,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),True,60.0,1.2,61.2,T-R2,False,False,False,False,False
+250,165500471,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),True,60.0,34.6,94.6,T-R2,False,False,False,False,False
+350,156568647,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+450,156568647,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,24.5,60.0,84.5,T-R2,False,False,False,False,False
+550,770019481,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,12.2,72.2,T-R2,True,False,False,False,False
+650,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+750,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,49.5,60.0,109.5,T-R2,False,False,False,False,False
+850,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,T-R2,False,False,False,False,False
+950,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,32.8,92.8,T-R2,False,False,False,False,False
+1050,257203527,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+1150,257203527,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,35.1,95.1,T-R2,False,False,False,False,False
+1250,257203527,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+1350,771376889,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,27.8,87.8,T-R2,False,False,False,False,False
+1450,771376889,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,26.9,86.9,T-R2,False,False,False,False,False
+1550,176301983,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,24.3,84.3,T-R2,False,False,False,False,False
+1650,472649913,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,18.0,78.0,T-R2,False,False,False,False,False
+1750,472649913,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+1850,767674701,Jalan Tun Abdul Razak,1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+1950,766285895,Jalan Tun Abdul Razak,1,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+2050,767674702,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+2150,767674702,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+2250,998650016,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,32.0,60.0,92.0,T-R2,False,False,False,False,False
+2350,998650016,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,40.1,60.0,100.1,T-R2,False,False,False,False,False
+2450,998650016,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+2550,771370120,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,43.7,60.0,103.7,T-R2,False,False,False,False,False
+2650,771370121,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+2750,767681881,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,42.4,102.4,T-R2,False,False,False,False,False
+2850,770399161,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,29.8,37.1,66.9,T-R2,False,False,False,False,False
+2950,770399161,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,49.9,60.0,109.9,T-R2,True,False,False,False,False
+3050,770399160,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,39.6,99.6,T-R2,True,False,False,False,False
+3150,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+3250,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+3350,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+3450,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+3550,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,35.1,36.4,71.5,T-R2,False,False,False,False,False
+3650,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,53.5,36.4,89.9,T-R2,False,False,False,False,False
+3750,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,36.1,96.1,T-R2,False,False,False,False,False
+3850,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+3950,770436177,Jalan Tun Abdul Razak Susur 5,,tertiary,4.0,,False,single,False,60.0,25.5,85.5,T-R2,False,False,False,False,False
+4050,771384282,Jalan Tun Abdul Razak Susur 5,,tertiary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+4150,771384278,Jalan Tun Abdul Razak Susur 5,,tertiary,2.0,,True,dual (one-way pair),False,60.0,38.8,98.8,T-R2,False,False,False,False,False
+4250,766066078,,,primary_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+4350,563189114,Jalan Datin Halimah,J3,primary,2.0,,True,dual (one-way pair),False,60.0,37.4,97.4,T-R2,True,False,False,False,False
+4450,757051219,Jalan Datin Halimah,J3,primary,2.0,,True,dual (one-way pair),False,44.0,60.0,104.0,T-R2,False,False,False,False,False
+4550,757051219,Jalan Datin Halimah,J3,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+4650,563189102,Jalan Kenyalang,,tertiary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+4750,770032591,Jalan Kenyalang,,tertiary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+4850,480493353,Jalan Garoda 2,,tertiary,,,True,dual (one-way pair),False,42.6,60.0,102.6,T-R2,False,False,False,False,False
+4950,1301873140,Jalan Garoda 2,,tertiary,2.0,,True,dual (one-way pair),False,41.6,8.5,50.2,T-R2,True,False,False,False,False
+5050,269792341,Jalan Garoda 2,,tertiary,,,True,dual (one-way pair),False,43.6,60.0,103.6,T-R2,False,False,False,False,False
+5150,785764273,Jalan Garuda,,primary,2.0,,True,dual (one-way pair),False,29.6,60.0,89.6,T-R2,False,False,False,False,False
+5250,1175354746,Jalan Garuda,,primary,2.0,,True,dual (one-way pair),False,35.4,60.0,95.4,T-R2,False,False,False,False,False
+5350,1175354745,Jalan Garuda,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+5450,1240682115,Jalan Garuda,,primary,4.0,,False,single,False,20.2,50.5,70.7,T-R2,False,False,False,False,False
+5550,1175354770,Jalan Garuda,,primary,2.0,,True,dual (one-way pair),False,39.1,57.4,96.5,T-R2,False,False,False,False,False
+5650,1106826241,Jalan Dato Jaafar,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+5750,641314834,Jalan Dato Jaafar,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+5850,641314834,Jalan Dato Jaafar,,primary,2.0,,True,dual (one-way pair),False,42.5,60.0,102.5,T-R2,True,False,False,False,False
+5950,401315710,Jalan Persiaran Larkin Perdana,,primary,2.0,,True,dual (one-way pair),False,54.6,60.0,114.6,T-R2,True,False,False,False,False
+6050,401315710,Jalan Persiaran Larkin Perdana,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+6150,401315710,Jalan Persiaran Larkin Perdana,,primary,2.0,,True,dual (one-way pair),False,21.5,30.4,51.8,T-R2,False,False,False,False,False
+6250,401315710,Jalan Persiaran Larkin Perdana,,primary,2.0,,True,dual (one-way pair),False,23.9,29.8,53.6,T-R2,False,False,False,False,False
+6350,770475654,Jalan Persiaran Larkin Perdana,,primary,2.0,,True,dual (one-way pair),False,60.0,27.4,87.4,T-R2,False,False,False,False,False
+6450,771701869,Jalan Dato' Mohd Said Suleiman,,primary,2.0,,True,dual (one-way pair),False,23.5,60.0,83.5,T-R2,False,False,False,False,False
+6550,1058503394,Jalan Dato' Mohd Said Suleiman,,primary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+6650,1058503396,,,primary,,,True,dual (one-way pair),False,22.4,60.0,82.4,T-R2,False,False,False,False,False
+6750,1058503396,,,primary,,,True,dual (one-way pair),False,17.4,60.0,77.4,T-R2,False,False,False,False,False
+6850,673541259,Jalan Stulang Baru,,primary,2.0,,False,single,False,60.0,16.4,76.4,T-R2,True,False,False,True,True
+6950,1354193946,Jalan Stulang Baru,,primary,3.0,,False,single,False,8.2,24.9,33.1,T-R2,True,False,False,False,False
+7050,637937726,Jalan Rahmat,,secondary,4.0,,False,single,False,16.7,9.7,26.4,T-R2,False,False,False,False,False
+7150,637937726,Jalan Rahmat,,secondary,4.0,,False,single,False,14.9,18.0,33.0,T-R2,False,False,False,False,False
+7250,637937726,Jalan Rahmat,,secondary,4.0,,False,single,False,39.4,10.4,49.9,T-R2,False,False,False,False,False
+7350,637937724,Jalan Rahmat,,secondary,2.0,,False,single,True,15.2,23.7,39.0,T-R2,False,False,False,True,True
+7450,145892005,Jalan Rahmat,,secondary,2.0,,False,single,False,20.6,15.2,35.7,T-R2,False,False,False,True,True
+7550,145892005,Jalan Rahmat,,secondary,2.0,,False,single,False,20.4,16.1,36.5,T-R2,False,False,False,True,True
+7650,1062960649,Jalan Rahmat,,secondary,2.0,,False,single,False,35.8,32.0,67.8,T-R2,False,False,False,True,True
+7750,269748314,Jalan Rahmat,,secondary,2.0,,False,single,False,14.1,13.0,27.1,T-R2,False,False,False,True,True
+7850,269748314,Jalan Rahmat,,secondary,2.0,,False,single,False,36.3,18.2,54.5,T-R2,True,False,False,True,True
+7950,152597375,Jalan Masjid,,secondary,2.0,,False,single,False,60.0,17.8,77.8,T-R2,True,False,False,True,True
+8050,1328982927,Jalan Masjid,,secondary,2.0,,False,single,False,13.6,37.3,50.9,T-R2,False,False,False,True,True
+8150,1328982927,Jalan Masjid,,secondary,2.0,,False,single,False,11.4,10.2,21.5,T-R2,False,False,False,True,True
+8250,770707988,Jalan Masjid,,secondary,2.0,,False,single,False,8.3,43.6,51.9,T-R2,False,False,False,True,True
+8350,772003311,Jalan Masjid,,secondary,2.0,,False,single,False,7.7,11.7,19.4,T-R2,False,True,False,True,True
+8450,1341433518,Jalan Tebrau Lama,,secondary,2.0,,False,single,False,18.8,26.4,45.2,T-R2,False,False,False,True,True
+8550,1336781149,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+8650,1336781149,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,16.1,60.0,76.1,T-R2,False,False,False,False,False
+8750,509172477,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,23.6,60.0,83.6,T-R2,False,False,False,False,False
+8850,509172477,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,47.4,48.3,95.6,T-R2,True,False,False,False,False
+8950,509172477,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,True,False,False,False,False
+9050,509172477,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,51.6,111.6,T-R2,False,False,False,False,False
+9150,509172477,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,False
+9250,765793161,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+9350,765793161,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,19.9,60.0,79.9,T-R2,False,False,False,False,False
+9450,765793160,Jalan Kangkar Tebrau,,tertiary,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+9550,370888438,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,48.9,108.9,T-R2,False,False,False,False,False
+9650,765793280,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+9750,765793280,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+9850,766023863,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+9950,765796341,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+10050,766023862,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+10150,512734127,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+10250,770759379,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+10350,642235375,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,False
+10450,765798578,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+10550,642235374,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+10650,642235374,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,32.3,60.0,92.3,T-R2,False,False,False,False,False
+10750,765798577,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+10850,765798577,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+10950,644412971,Jalan Kangkar Tebrau,,primary,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+11050,765779576,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+11150,765779576,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+11250,765779576,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+11350,765779568,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+11450,765779568,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+11550,769476228,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,34.1,94.1,T-R2,False,False,False,False,False
+11650,765779575,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,50.4,110.4,T-R2,False,False,False,False,False
+11750,765779574,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,49.6,109.6,T-R2,False,False,False,False,False
+11850,767624327,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+11950,765779573,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+12050,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,False
+12150,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,40.9,60.0,100.9,T-R2,False,False,False,False,False
+12250,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,25.3,60.0,85.3,T-R2,False,False,False,False,False
+12350,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,23.5,60.0,83.5,T-R2,False,False,False,False,False
+12450,770771995,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+12550,767606042,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,38.0,47.4,85.5,T-R2,False,False,False,False,False
+12650,770771994,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,42.7,102.7,T-R2,False,False,False,False,False
+12750,767665580,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+12850,767665580,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+12950,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13050,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,True,False,False,False,False
+13150,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,True,False,False,False,False
+13250,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13350,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13450,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13550,767730323,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13650,159645494,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13750,1322848193,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13850,153742909,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+13950,153742909,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+14050,153742909,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+14150,767733359,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+14250,767733358,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,30.6,60.0,90.6,T-R2,True,False,False,False,False
+14350,769451547,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,32.5,60.0,92.5,T-R2,True,False,False,False,False
+14450,153520600,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,37.0,60.0,97.0,T-R2,False,False,False,False,False
+14550,767359108,Jalan Mutiara Emas Utama,,primary,,,True,dual (one-way pair),False,36.0,60.0,96.0,T-R2,False,False,False,False,False
+14650,767359104,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+14750,767367433,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,32.8,60.0,92.8,T-R2,False,False,False,False,False
+14850,767367433,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,False
+14950,1176294022,,,primary,2.0,,False,single,False,60.0,60.0,120.0,T-R2,True,False,False,True,True
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,IP1,True,False,False,False,False
+150,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+250,767655251,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+350,694048481,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,12.9,72.9,IP1,False,False,False,False,False
+450,694048479,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+550,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,37.7,53.8,91.5,IP1,False,False,False,False,False
+650,201941651,Jalan Storey,,secondary,1.0,,True,dual (one-way pair),False,60.0,21.6,81.6,IP1,False,False,False,False,False
+750,1505421933,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,22.5,21.0,43.5,IP1,True,False,False,False,False
+850,646825954,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,21.0,22.6,43.6,IP1,True,False,False,False,False
+950,645276918,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,60.0,17.2,77.2,IP1,False,False,False,False,False
+1050,645276917,Jalan Bukit Chagar,,secondary,4.0,,False,single,False,8.8,60.0,68.8,IP1,False,False,False,False,False
+1150,159636022,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+1250,257203491,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,49.0,109.0,IP1,False,False,False,False,False
+1350,769774361,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,60.0,36.1,96.1,IP1,False,False,False,False,False
+1450,210545552,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,23.9,60.0,83.9,IP1,False,False,False,False,False
+1550,166329461,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,32.7,92.7,IP1,False,False,False,False,False
+1650,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,40.2,29.2,69.5,IP1,False,False,False,False,False
+1750,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,49.2,109.2,IP1,True,False,False,False,False
+1850,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,False
+1950,201941549,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+2050,201941549,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+2150,798982068,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+2250,201940940,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,37.6,60.0,97.6,IP1,False,False,False,False,False
+2350,201940931,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+2450,201940931,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,46.4,106.4,IP1,False,False,False,False,False
+2550,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,36.1,96.1,IP1,False,False,False,False,False
+2650,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+2750,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+2850,767549157,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+2950,165500473,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+3050,767549156,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,46.7,106.7,IP1,False,False,False,False,False
+3150,767549156,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+3250,201941542,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,False
+3350,201941542,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+3450,767549155,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,22.1,40.0,62.1,IP1,False,False,False,False,False
+3550,767549154,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+3650,767549154,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,51.8,60.0,111.8,IP1,False,False,False,False,False
+3750,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+3850,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+3950,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+4050,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,44.2,104.2,IP1,False,False,False,False,False
+4150,633802202,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,9.6,32.0,41.6,IP1,False,False,False,False,False
+4250,770011983,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+4350,768677336,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,28.1,60.0,88.1,IP1,False,False,False,False,False
+4450,639935835,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,38.1,60.0,98.1,IP1,True,False,False,False,False
+4550,770396334,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+4650,777770964,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+4750,767930228,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+4850,633804691,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+4950,767940485,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5050,767980977,Persiaran Abu Bakar Sultan,J1,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5150,767980977,Persiaran Abu Bakar Sultan,J1,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5250,760818478,Persiaran Abu Bakar Sultan,J1,primary,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5350,767384627,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5450,776861137,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5550,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5650,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,34.3,94.3,IP1,False,False,False,False,False
+5750,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+5850,767092828,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+5950,767092829,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+6050,767092830,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+6150,767092831,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+6250,767092831,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+6350,767092833,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+6450,767092835,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,29.6,89.6,IP1,False,False,False,False,False
+6550,767092835,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+6650,767092836,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.1,60.0,116.1,IP1,False,False,False,False,False
+6750,767092836,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,52.9,41.5,94.4,IP1,False,False,False,False,False
+6850,767092837,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.9,60.0,116.9,IP1,True,False,False,False,False
+6950,646321824,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+7050,632395021,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.9,60.0,116.9,IP1,False,False,False,False,False
+7150,632395021,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,53.9,57.7,111.6,IP1,False,False,False,False,False
+7250,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,50.7,60.0,110.7,IP1,False,False,False,False,False
+7350,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,45.3,105.3,IP1,False,False,False,False,False
+7450,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+7550,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,IP1,True,False,False,False,False
+7650,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+7750,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+7850,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,30.7,56.8,87.4,IP1,False,False,False,False,False
+7950,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,55.8,115.8,IP1,False,False,False,False,False
+8050,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+8150,641131794,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+8250,641131792,Persiaran Abu Bakar Sultan,J1,trunk,5.0,,True,dual (one-way pair),False,60.0,37.9,97.9,IP1,False,False,False,False,False
+8350,1365099723,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+8450,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,55.2,60.0,115.2,IP1,False,False,False,False,False
+8550,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+8650,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,39.7,99.7,IP1,False,False,False,False,False
+8750,640193822,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+8850,770677743,Persiaran Abu Bakar Sultan,J1,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+8950,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+9050,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,42.6,60.0,102.6,IP1,False,False,False,False,False
+9150,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,42.8,60.0,102.8,IP1,False,False,False,False,False
+9250,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+9350,509144528,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+9450,509144528,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+9550,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+9650,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+9750,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+9850,509144524,Lebuhraya Pesisir Pantai Iskandar,52,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+9950,768679631,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,36.1,96.1,IP1,True,False,False,False,False
+10050,1366156602,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,18.4,78.4,IP1,False,False,False,False,False
+10150,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+10250,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+10350,772230208,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+10450,772230208,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+10550,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+10650,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+10750,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+10850,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+10950,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+11050,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+11150,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+11250,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+11350,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+11450,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+11550,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+11650,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+11750,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+11850,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+11950,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+12050,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+12150,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+12250,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+12350,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+12450,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+12550,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+12650,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+12750,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,False
+12850,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,False
+12950,772230502,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13050,772230502,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13150,289894384,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13250,289894384,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13350,772230503,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13450,772230503,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13550,772230505,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13650,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+13750,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+13850,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+13950,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+14050,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+14150,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+14250,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+14350,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+14450,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,18.3,78.3,IP1,False,False,False,False,False
+14550,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.5,77.5,IP1,False,False,False,False,False
+14650,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,16.2,76.2,IP1,False,False,False,False,False
+14750,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.2,77.2,IP1,True,False,False,False,False
+14850,1062960677,Jalan Persiaran Perling,,secondary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+14950,1062960678,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+15050,1062960678,,,primary,2.0,,True,dual (one-way pair),False,17.3,56.4,73.7,IP1,False,False,False,False,False
+15150,1062960678,,,primary,2.0,,True,dual (one-way pair),False,18.0,55.6,73.6,IP1,False,False,False,False,False
+15250,1062960678,,,primary,2.0,,True,dual (one-way pair),False,23.6,50.7,74.2,IP1,False,False,False,False,False
+15350,479788954,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,37.2,43.9,81.1,IP1,False,False,False,False,False
+15450,479788954,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,42.3,102.3,IP1,False,False,False,False,False
+15550,479788954,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,44.0,104.0,IP1,False,False,False,False,False
+15650,479788954,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,59.1,43.9,103.0,IP1,False,False,False,False,False
+15750,266258693,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,58.9,60.0,118.9,IP1,False,False,False,False,False
+15850,266258693,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,57.4,60.0,117.4,IP1,False,False,False,False,False
+15950,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,41.6,45.6,87.2,IP1,False,False,False,False,False
+16050,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,False
+16150,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,False
+16250,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+16350,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+16450,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,52.9,112.9,IP1,False,False,False,False,False
+16550,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+16650,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+16750,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+16850,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+16950,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+17050,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+17150,180535859,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+17250,180535860,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+17350,180535860,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+17450,180535860,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+17550,180535860,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+17650,770764875,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+17750,770764876,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+17850,770764876,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+17950,770764876,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18050,770764876,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18150,770764876,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18250,770764876,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18350,770515735,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18450,770504539,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18550,770504539,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18650,770504540,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18750,770504540,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+18850,180543179,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,True,False,False,False,False
+18950,180543174,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+19050,770498488,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19150,770498488,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19250,770504544,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19350,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19450,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19550,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19650,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19750,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+19850,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+19950,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,45.1,105.1,IP1,True,False,False,False,False
+20050,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20150,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20250,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20350,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20450,180663373,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20550,770498489,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20650,770498489,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20750,770493536,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20850,770493536,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+20950,770493536,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+21050,770493535,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+21150,770493535,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21250,770727869,Lebuh Kota Iskandar,,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21350,770727869,Lebuh Kota Iskandar,,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21450,770727867,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21550,770727867,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21650,770727867,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21750,770727867,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21850,770727867,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+21950,770727866,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+22050,770727866,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+22150,770727864,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+22250,770727863,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+22350,770727862,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+22450,770727862,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+22550,400798431,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+22650,400798431,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP1,False,False,False,False,False
+22750,400798432,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+22850,400798432,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+22950,400798432,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+23050,634085390,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,38.2,60.0,98.2,IP1,True,False,False,False,False
+23150,158826533,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+23250,770723852,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+23350,770723852,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+23450,158823483,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+23550,158823483,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+23650,158823483,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,43.9,60.0,103.9,IP1,False,False,False,False,False
+23750,158823483,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+23850,770723678,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+23950,770723678,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+24050,770710005,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+24150,1071276090,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+24250,1071276090,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+24350,1071276090,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+24450,1071276089,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,37.2,60.0,97.2,IP1,False,False,False,False,False
+24550,158823478,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,58.6,60.0,118.6,IP1,False,False,False,False,False
+24650,158823478,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+24750,1315245540,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+24850,643398933,,,tertiary,,,True,dual (one-way pair),False,43.1,22.2,65.2,IP1,False,False,False,False,False
+24950,646720174,,,tertiary,,,True,dual (one-way pair),False,60.0,22.9,82.9,IP1,False,False,False,False,False
+25050,158686967,,,tertiary,,,True,dual (one-way pair),False,32.4,60.0,92.4,IP1,False,False,False,False,False
+25150,644465451,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,False
+25250,644465451,,,tertiary,,,True,dual (one-way pair),False,60.0,19.8,79.8,IP1,False,False,False,False,False
+25350,1416698566,,,tertiary,,,True,dual (one-way pair),False,60.0,34.8,94.8,IP1,True,False,False,False,False
+25450,675367584,Persiaran Puteri Selatan,,tertiary,,,True,dual (one-way pair),False,60.0,35.3,95.3,IP1,False,False,False,False,False
+25550,675367584,Persiaran Puteri Selatan,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,False
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,IP2,True,False,False,False,False
+150,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+250,767655251,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+350,694048481,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,12.9,72.9,IP2,False,False,False,False,False
+450,694048479,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+550,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,37.7,53.8,91.5,IP2,False,False,False,False,False
+650,201941651,Jalan Storey,,secondary,1.0,,True,dual (one-way pair),False,60.0,21.6,81.6,IP2,False,False,False,False,False
+750,1505421933,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,22.5,21.0,43.5,IP2,True,False,False,False,False
+850,646825954,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,21.0,22.6,43.6,IP2,True,False,False,False,False
+950,645276918,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,60.0,17.2,77.2,IP2,False,False,False,False,False
+1050,645276917,Jalan Bukit Chagar,,secondary,4.0,,False,single,False,8.8,60.0,68.8,IP2,False,False,False,False,False
+1150,159636022,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+1250,257203491,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,49.0,109.0,IP2,False,False,False,False,False
+1350,769774361,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,60.0,36.1,96.1,IP2,False,False,False,False,False
+1450,210545552,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,23.9,60.0,83.9,IP2,False,False,False,False,False
+1550,166329461,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,32.7,92.7,IP2,False,False,False,False,False
+1650,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,40.2,29.2,69.5,IP2,False,False,False,False,False
+1750,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,49.2,109.2,IP2,True,False,False,False,False
+1850,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,True,False,False,False,False
+1950,201941549,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+2050,201941549,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+2150,798982068,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+2250,201940940,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,37.6,60.0,97.6,IP2,False,False,False,False,False
+2350,201940931,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+2450,201940931,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,46.4,106.4,IP2,False,False,False,False,False
+2550,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,36.1,96.1,IP2,False,False,False,False,False
+2650,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+2750,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+2850,767549157,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+2950,165500473,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+3050,767549156,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,46.7,106.7,IP2,False,False,False,False,False
+3150,767549156,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+3250,201941542,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,True,False,False,False,False
+3350,201941542,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+3450,767549155,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,22.1,40.0,62.1,IP2,False,False,False,False,False
+3550,767549154,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+3650,767549154,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,51.8,60.0,111.8,IP2,False,False,False,False,False
+3750,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+3850,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+3950,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+4050,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,44.2,104.2,IP2,False,False,False,False,False
+4150,633802202,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,9.6,32.0,41.6,IP2,False,False,False,False,False
+4250,770011983,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+4350,768677336,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,28.1,60.0,88.1,IP2,False,False,False,False,False
+4450,639935835,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,38.1,60.0,98.1,IP2,True,False,False,False,False
+4550,770396334,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+4650,777770964,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+4750,767930228,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+4850,633804691,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+4950,767940485,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5050,767980977,Persiaran Abu Bakar Sultan,J1,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5150,767980977,Persiaran Abu Bakar Sultan,J1,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5250,760818478,Persiaran Abu Bakar Sultan,J1,primary,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5350,767384627,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5450,776861137,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5550,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5650,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,34.3,94.3,IP2,False,False,False,False,False
+5750,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+5850,767092828,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+5950,767092829,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+6050,767092830,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+6150,767092831,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+6250,767092831,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+6350,767092833,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+6450,767092835,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,29.6,89.6,IP2,False,False,False,False,False
+6550,767092835,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+6650,767092836,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.1,60.0,116.1,IP2,False,False,False,False,False
+6750,767092836,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,52.9,41.5,94.4,IP2,False,False,False,False,False
+6850,767092837,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.9,60.0,116.9,IP2,True,False,False,False,False
+6950,646321824,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+7050,632395021,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.9,60.0,116.9,IP2,False,False,False,False,False
+7150,632395021,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,53.9,57.7,111.6,IP2,False,False,False,False,False
+7250,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,50.7,60.0,110.7,IP2,False,False,False,False,False
+7350,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,45.3,105.3,IP2,False,False,False,False,False
+7450,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+7550,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,IP2,True,False,False,False,False
+7650,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+7750,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+7850,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,30.7,56.8,87.4,IP2,False,False,False,False,False
+7950,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,55.8,115.8,IP2,False,False,False,False,False
+8050,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+8150,641131794,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+8250,641131792,Persiaran Abu Bakar Sultan,J1,trunk,5.0,,True,dual (one-way pair),False,60.0,37.9,97.9,IP2,False,False,False,False,False
+8350,1365099723,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+8450,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,55.2,60.0,115.2,IP2,False,False,False,False,False
+8550,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+8650,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,39.7,99.7,IP2,False,False,False,False,False
+8750,640193822,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+8850,770677743,Persiaran Abu Bakar Sultan,J1,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+8950,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+9050,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,42.6,60.0,102.6,IP2,False,False,False,False,False
+9150,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,42.8,60.0,102.8,IP2,False,False,False,False,False
+9250,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+9350,509144528,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+9450,509144528,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+9550,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+9650,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+9750,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+9850,509144524,Lebuhraya Pesisir Pantai Iskandar,52,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+9950,768679631,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,36.1,96.1,IP2,True,False,False,False,False
+10050,1366156602,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,18.4,78.4,IP2,False,False,False,False,False
+10150,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+10250,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+10350,772230208,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+10450,772230208,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+10550,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+10650,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+10750,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+10850,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+10950,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+11050,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+11150,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+11250,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+11350,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+11450,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+11550,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+11650,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+11750,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+11850,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,True,False,False,False,False
+11950,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,True,False,False,False,False
+12050,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+12150,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+12250,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+12350,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+12450,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+12550,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+12650,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+12750,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,False,False,False,False,False
+12850,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP2,True,False,False,False,False
+12950,772230502,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+13050,772230502,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13150,289894384,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13250,289894384,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13350,772230503,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13450,772230503,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13550,772230505,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13650,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13750,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+13850,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+13950,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+14050,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+14150,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+14250,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+14350,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+14450,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,18.3,78.3,IP2,False,False,False,False,False
+14550,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.5,77.5,IP2,False,False,False,False,False
+14650,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,16.2,76.2,IP2,False,False,False,False,False
+14750,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.2,77.2,IP2,False,False,False,False,False
+14850,315835179,,,primary,2.0,,True,dual (one-way pair),False,60.0,12.0,72.0,IP2,True,False,False,False,False
+14950,315835179,,,primary,2.0,,True,dual (one-way pair),False,53.7,19.3,73.0,IP2,True,False,False,False,False
+15050,315835179,,,primary,2.0,,True,dual (one-way pair),False,54.1,19.7,73.8,IP2,False,False,False,False,False
+15150,771467612,,,primary,1.0,,True,dual (one-way pair),False,54.6,19.0,73.6,IP2,False,False,False,False,False
+15250,771467612,,,primary,1.0,,True,dual (one-way pair),False,51.0,22.8,73.7,IP2,False,False,False,False,False
+15350,528459042,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,50.5,29.0,79.5,IP2,False,False,False,False,False
+15450,528459042,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,29.1,89.1,IP2,False,False,False,False,False
+15550,528459042,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,30.4,90.4,IP2,False,False,False,False,False
+15650,1314754708,,,primary,2.0,,True,dual (one-way pair),False,60.0,24.0,84.0,IP2,False,False,False,False,False
+15750,266258688,,,primary,2.0,,True,dual (one-way pair),False,60.0,41.4,101.4,IP2,False,False,False,False,False
+15850,266258688,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+15950,266258688,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.4,77.4,IP2,True,False,False,False,False
+16050,772015452,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+16150,1366156587,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+16250,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+16350,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,50.0,110.0,IP2,False,False,False,False,False
+16450,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,42.5,102.5,IP2,False,False,False,False,False
+16550,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,49.8,60.0,109.8,IP2,False,False,False,False,False
+16650,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+16750,1300424716,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,52.1,112.1,IP2,False,False,False,False,False
+16850,1300424716,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,36.1,51.0,87.1,IP2,False,False,False,False,False
+16950,1300424716,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,35.1,60.0,95.1,IP2,False,False,False,False,False
+17050,1320225032,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,35.6,40.3,76.0,IP2,False,False,False,False,False
+17150,1062960688,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,39.3,99.3,IP2,False,False,False,False,False
+17250,145240068,Persiaran Indah,,secondary,,,True,dual (one-way pair),False,22.7,60.0,82.7,IP2,True,False,False,False,False
+17350,1318022791,Persiaran Indah,,secondary,,,True,dual (one-way pair),False,60.0,56.6,116.6,IP2,True,False,False,False,False
+17450,1062960693,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+17550,145256632,Persiaran Indah,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+17650,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+17750,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,26.7,60.0,86.7,IP2,False,False,False,False,False
+17850,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,26.5,60.0,86.5,IP2,False,False,False,False,False
+17950,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+18050,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+18150,307323944,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,57.2,117.2,IP2,False,False,False,False,False
+18250,1062960698,Jalan Persiaran Indah Utama,,secondary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+18350,1062960724,Jalan Persiaran Indah Utama,,secondary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+18450,771471235,Jalan Persiaran Indah Utama,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+18550,771666532,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+18650,771471238,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+18750,151197725,,,motorway_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+18850,151197725,,,motorway_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+18950,151197725,,,motorway_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+19050,151197725,,,motorway_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,False,False,False,False,False
+19150,151197725,,,motorway_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP2,True,False,False,False,False
+50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,IP3,True,False,False,False,False
+150,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+250,767655251,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+350,694048481,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,12.9,72.9,IP3,False,False,False,False,False
+450,694048479,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+550,53819087,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,37.7,53.8,91.5,IP3,False,False,False,False,False
+650,201941651,Jalan Storey,,secondary,1.0,,True,dual (one-way pair),False,60.0,21.6,81.6,IP3,False,False,False,False,False
+750,1505421933,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,22.5,21.0,43.5,IP3,True,False,False,False,False
+850,646825954,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,21.0,22.6,43.6,IP3,True,False,False,False,False
+950,645276918,Jalan Storey,,secondary,2.0,,True,dual (one-way pair),False,60.0,17.2,77.2,IP3,False,False,False,False,False
+1050,645276917,Jalan Bukit Chagar,,secondary,4.0,,False,single,False,8.8,60.0,68.8,IP3,False,False,False,False,False
+1150,159636022,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+1250,257203491,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,49.0,109.0,IP3,False,False,False,False,False
+1350,769774361,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,60.0,36.1,96.1,IP3,False,False,False,False,False
+1450,210545552,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,23.9,60.0,83.9,IP3,False,False,False,False,False
+1550,166329461,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,32.7,92.7,IP3,False,False,False,False,False
+1650,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,40.2,29.2,69.5,IP3,False,False,False,False,False
+1750,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,49.2,109.2,IP3,True,False,False,False,False
+1850,210545553,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,True,False,False,False,False
+1950,201941549,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+2050,201941549,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+2150,798982068,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+2250,201940940,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,37.6,60.0,97.6,IP3,False,False,False,False,False
+2350,201940931,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+2450,201940931,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,46.4,106.4,IP3,False,False,False,False,False
+2550,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,36.1,96.1,IP3,False,False,False,False,False
+2650,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+2750,165500472,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+2850,767549157,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+2950,165500473,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+3050,767549156,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,46.7,106.7,IP3,False,False,False,False,False
+3150,767549156,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+3250,201941542,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,True,False,False,False,False
+3350,201941542,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+3450,767549155,Jalan Lingkaran Dalam,188,trunk,2.0,,True,dual (one-way pair),False,22.1,40.0,62.1,IP3,False,False,False,False,False
+3550,767549154,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+3650,767549154,Jalan Lingkaran Dalam,188,trunk,4.0,,True,dual (one-way pair),False,51.8,60.0,111.8,IP3,False,False,False,False,False
+3750,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+3850,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+3950,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+4050,201941624,Jalan Lingkaran Dalam,188,trunk,3.0,,True,dual (one-way pair),False,60.0,44.2,104.2,IP3,False,False,False,False,False
+4150,633802202,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,9.6,32.0,41.6,IP3,False,False,False,False,False
+4250,770011983,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+4350,768677336,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,28.1,60.0,88.1,IP3,False,False,False,False,False
+4450,639935835,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,38.1,60.0,98.1,IP3,True,False,False,False,False
+4550,770396334,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+4650,777770964,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+4750,767930228,Jalan Lingkaran Dalam,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+4850,633804691,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+4950,767940485,Jalan Lingkaran Dalam,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5050,767980977,Persiaran Abu Bakar Sultan,J1,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5150,767980977,Persiaran Abu Bakar Sultan,J1,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5250,760818478,Persiaran Abu Bakar Sultan,J1,primary,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5350,767384627,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5450,776861137,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5550,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5650,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,34.3,94.3,IP3,False,False,False,False,False
+5750,640329613,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+5850,767092828,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+5950,767092829,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+6050,767092830,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+6150,767092831,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+6250,767092831,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+6350,767092833,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+6450,767092835,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,29.6,89.6,IP3,False,False,False,False,False
+6550,767092835,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+6650,767092836,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.1,60.0,116.1,IP3,False,False,False,False,False
+6750,767092836,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,52.9,41.5,94.4,IP3,False,False,False,False,False
+6850,767092837,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.9,60.0,116.9,IP3,True,False,False,False,False
+6950,646321824,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+7050,632395021,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,56.9,60.0,116.9,IP3,False,False,False,False,False
+7150,632395021,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,53.9,57.7,111.6,IP3,False,False,False,False,False
+7250,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,50.7,60.0,110.7,IP3,False,False,False,False,False
+7350,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,45.3,105.3,IP3,False,False,False,False,False
+7450,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+7550,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,IP3,True,False,False,False,False
+7650,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+7750,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+7850,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,30.7,56.8,87.4,IP3,False,False,False,False,False
+7950,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,55.8,115.8,IP3,False,False,False,False,False
+8050,640229225,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+8150,641131794,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+8250,641131792,Persiaran Abu Bakar Sultan,J1,trunk,5.0,,True,dual (one-way pair),False,60.0,37.9,97.9,IP3,False,False,False,False,False
+8350,1365099723,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+8450,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,55.2,60.0,115.2,IP3,False,False,False,False,False
+8550,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+8650,288742508,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),False,60.0,39.7,99.7,IP3,False,False,False,False,False
+8750,640193822,Persiaran Abu Bakar Sultan,J1,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+8850,770677743,Persiaran Abu Bakar Sultan,J1,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+8950,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+9050,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,42.6,60.0,102.6,IP3,False,False,False,False,False
+9150,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,42.8,60.0,102.8,IP3,False,False,False,False,False
+9250,768679946,Persiaran Abu Bakar Sultan,J1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+9350,509144528,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+9450,509144528,Persiaran Abu Bakar Sultan,J1,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+9550,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+9650,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+9750,509144526,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+9850,509144524,Lebuhraya Pesisir Pantai Iskandar,52,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+9950,768679631,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,36.1,96.1,IP3,True,False,False,False,False
+10050,1366156602,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,18.4,78.4,IP3,False,False,False,False,False
+10150,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+10250,158981518,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+10350,772230208,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+10450,772230208,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+10550,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+10650,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+10750,159134551,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+10850,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+10950,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+11050,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+11150,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+11250,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+11350,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+11450,159134557,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+11550,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+11650,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+11750,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+11850,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,True,False,False,False,False
+11950,386733785,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,True,False,False,False,False
+12050,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+12150,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+12250,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+12350,159134459,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+12450,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+12550,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+12650,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+12750,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,False,False,False,False,False
+12850,509157399,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,IP3,True,False,False,False,False
+12950,772230502,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+13050,772230502,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13150,289894384,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13250,289894384,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13350,772230503,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13450,772230503,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13550,772230505,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13650,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13750,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+13850,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+13950,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+14050,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+14150,772230506,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+14250,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+14350,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+14450,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,18.3,78.3,IP3,False,False,False,False,False
+14550,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.5,77.5,IP3,False,False,False,False,False
+14650,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,16.2,76.2,IP3,False,False,False,False,False
+14750,528459041,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.2,77.2,IP3,False,False,False,False,False
+14850,315835179,,,primary,2.0,,True,dual (one-way pair),False,60.0,12.0,72.0,IP3,True,False,False,False,False
+14950,315835179,,,primary,2.0,,True,dual (one-way pair),False,53.7,19.3,73.0,IP3,True,False,False,False,False
+15050,315835179,,,primary,2.0,,True,dual (one-way pair),False,54.1,19.7,73.8,IP3,False,False,False,False,False
+15150,771467612,,,primary,1.0,,True,dual (one-way pair),False,54.6,19.0,73.6,IP3,False,False,False,False,False
+15250,771467612,,,primary,1.0,,True,dual (one-way pair),False,51.0,22.8,73.7,IP3,False,False,False,False,False
+15350,528459042,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,50.5,29.0,79.5,IP3,False,False,False,False,False
+15450,528459042,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,29.1,89.1,IP3,False,False,False,False,False
+15550,528459042,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,30.4,90.4,IP3,False,False,False,False,False
+15650,1314754708,,,primary,2.0,,True,dual (one-way pair),False,60.0,24.0,84.0,IP3,False,False,False,False,False
+15750,266258688,,,primary,2.0,,True,dual (one-way pair),False,60.0,41.4,101.4,IP3,False,False,False,False,False
+15850,266258688,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+15950,266258688,,,primary,2.0,,True,dual (one-way pair),False,60.0,17.4,77.4,IP3,True,False,False,False,False
+16050,772015452,,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+16150,1366156587,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+16250,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+16350,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,50.0,110.0,IP3,False,False,False,False,False
+16450,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,42.5,102.5,IP3,False,False,False,False,False
+16550,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,49.8,60.0,109.8,IP3,False,False,False,False,False
+16650,194773648,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+16750,1300424716,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,52.1,112.1,IP3,False,False,False,False,False
+16850,1300424716,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,36.1,51.0,87.1,IP3,False,False,False,False,False
+16950,1300424716,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,35.1,60.0,95.1,IP3,False,False,False,False,False
+17050,1320225032,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,35.6,40.3,76.0,IP3,False,False,False,False,False
+17150,1062960688,Jalan Persiaran Perling 2,,primary,2.0,,True,dual (one-way pair),False,60.0,39.3,99.3,IP3,False,False,False,False,False
+17250,145240068,Persiaran Indah,,secondary,,,True,dual (one-way pair),False,22.7,60.0,82.7,IP3,True,False,False,False,False
+17350,1318022791,Persiaran Indah,,secondary,,,True,dual (one-way pair),False,60.0,56.6,116.6,IP3,True,False,False,False,False
+17450,1062960693,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+17550,145256632,Persiaran Indah,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+17650,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+17750,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,26.7,60.0,86.7,IP3,False,False,False,False,False
+17850,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,26.5,60.0,86.5,IP3,False,False,False,False,False
+17950,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18050,158981060,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18150,307323944,Jalan Persiaran Indah Utama,,secondary,,,True,dual (one-way pair),False,60.0,57.2,117.2,IP3,False,False,False,False,False
+18250,1062960698,Jalan Persiaran Indah Utama,,secondary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+18350,1062960724,Jalan Persiaran Indah Utama,,secondary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18450,771471235,Jalan Persiaran Indah Utama,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18550,771472050,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18650,771472050,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18750,771472047,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18850,771472046,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+18950,771402047,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,52.9,60.0,112.9,IP3,False,False,False,False,False
+19050,771402047,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,57.4,59.1,116.5,IP3,False,False,False,False,False
+19150,771402047,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,50.5,60.0,110.5,IP3,False,False,False,False,False
+19250,771402047,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+19350,771402047,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,32.7,60.0,92.7,IP3,False,False,False,False,False
+19450,771418064,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+19550,771418067,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,49.3,51.2,100.5,IP3,True,False,False,False,False
+19650,795326331,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+19750,771418066,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+19850,771418066,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,59.7,119.7,IP3,False,False,False,False,False
+19950,771491996,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,60.0,57.4,117.4,IP3,False,False,False,False,False
+20050,771478398,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+20150,771478397,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+20250,771478397,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+20350,771478397,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+20450,771478396,Lebuhraya Bukit Indah,,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+20550,771478395,Lebuhraya Bukit Indah,,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+20650,184132053,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+20750,184132053,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+20850,771478393,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+20950,771478393,Lebuhraya Bukit Indah,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21050,509157364,Lebuhraya Bukit Indah,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21150,770514373,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21250,770514373,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21350,770514373,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21450,770514373,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21550,770514373,,,trunk_link,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21650,770509008,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21750,770509008,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+21850,770513694,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+21950,770513694,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+22050,770513694,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+22150,770513694,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+22250,770513688,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+22350,770513688,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,57.1,117.1,IP3,False,False,False,False,False
+22450,770513688,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+22550,770513688,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+22650,770513689,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+22750,770513690,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+22850,770513690,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+22950,770513693,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,26.7,86.7,IP3,True,False,False,False,False
+23050,180663372,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23150,180663372,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23250,180663372,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23350,180663372,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23450,180663372,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23550,180663372,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23650,770493532,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23750,770493532,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23850,770481147,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+23950,770481147,Lebuhraya Pesisir Pantai Iskandar,52,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+24050,770481148,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+24150,770481148,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24250,770463744,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24350,770463744,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24450,770463744,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24550,770463744,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24650,180648692,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24750,180648692,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24850,770463746,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+24950,770463746,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+25050,770463746,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+25150,770463746,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25250,770458526,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25350,770458526,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25450,770458526,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25550,770458526,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25650,770458526,Lebuhraya Pesisir Pantai Iskandar,52,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25750,180657415,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25850,180657415,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+25950,770458525,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+26050,770458525,Lebuhraya Pesisir Pantai Iskandar,52,trunk,5.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+26150,180648690,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+26250,180648690,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+26350,180648690,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+26450,180648690,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+26550,184130721,Nusajaya Roundabout Interchange,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+26650,770448922,Lebuh Kota Iskandar,,trunk,1.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+26750,180257586,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+26850,180257586,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,47.0,107.0,IP3,False,False,False,False,False
+26950,180257586,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+27050,180257586,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,51.4,60.0,111.4,IP3,True,False,False,False,False
+27150,180257586,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,52.3,60.0,112.3,IP3,False,False,False,False,False
+27250,770740631,Lebuh Kota Iskandar,,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+27350,770740631,Lebuh Kota Iskandar,,trunk,4.0,,True,dual (one-way pair),False,56.5,60.0,116.5,IP3,False,False,False,False,False
+27450,770740630,Lebuh Kota Iskandar,,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+27550,770740630,Lebuh Kota Iskandar,,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+27650,770740637,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+27750,770740637,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+27850,770740637,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+27950,770702085,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+28050,770702082,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+28150,770702082,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+28250,770702089,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+28350,770702089,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,42.2,60.0,102.2,IP3,False,False,False,False,False
+28450,770702089,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,38.3,60.0,98.3,IP3,False,False,False,False,False
+28550,770702089,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+28650,770702089,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+28750,770702089,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+28850,770702089,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+28950,770705511,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,37.6,60.0,97.6,IP3,True,False,False,False,False
+29050,770702079,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+29150,770704554,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+29250,770710008,Persiaran Dato' Bentara Dalam,,tertiary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+29350,529281553,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+29450,529281553,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+29550,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,34.8,60.0,94.8,IP3,False,False,False,False,False
+29650,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+29750,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+29850,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+29950,1315245538,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
+30050,643398933,,,tertiary,,,True,dual (one-way pair),False,39.0,21.9,60.9,IP3,True,False,False,False,False
+30150,158686967,,,tertiary,,,True,dual (one-way pair),False,34.4,60.0,94.4,IP3,False,False,False,False,False
+30250,644466465,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,False
+30350,644465451,,,tertiary,,,True,dual (one-way pair),False,60.0,24.8,84.8,IP3,False,False,False,False,False
+30450,644465451,,,tertiary,,,True,dual (one-way pair),False,60.0,19.8,79.8,IP3,False,False,False,False,False
+30550,675367584,Persiaran Puteri Selatan,,tertiary,,,True,dual (one-way pair),False,60.0,35.3,95.3,IP3,False,False,False,False,False
+30650,675367584,Persiaran Puteri Selatan,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,False
