@@ -21,7 +21,7 @@ says otherwise.
 | Stage | State |
 |---|---|
 | 1. Repo and evidence audit | **Approved 2026-11-04.** See `docs/handoffs/stage-1.md`. |
-| 2. Alignment hypotheses | Next. Scope is in `docs/handoffs/stage-1.md`. |
+| 2. Alignment hypotheses | **Draft complete 2026-11-04, awaiting owner review.** See `docs/handoffs/stage-2.md` and `docs/alignments/options.md`. |
 | 3. Operations and access model | Not started |
 | 4. Bukit Chagar stress test | Not started |
 | 5. Validation before visualization | Not started. Thresholds already registered in `docs/validation-plan.md`. |
@@ -29,6 +29,12 @@ says otherwise.
 
 **Stage 1 pipeline proof:** all pre-registered smoke tests (S0–S7) passed on real
 JB data in GitHub Actions (run 41818831614). See `results/stage1/smoke_report.json`.
+
+**Stage 2 (all geometry `concept`):**
+- 3 Tebrau and 4 Iskandar Puteri options are carried; 2 Tebrau options are rejected with metrics. Run 41884307424.
+- The FT3 Tebrau spine is 14.07 km, matching the reported 14 km.
+- No road route reaches Kota Iskandar from Bukit Chagar in under 20.9 km, but Bukit Chagar to Bukit Indah is 14.77 km, matching the reported 14.78 km. Scenario C's definition needs an owner decision.
+- The V4-alt OSM pedestrian audit at Bukit Chagar **FAILS**.
 
 **Headline facts as of 2026-11-04:**
 - RTS opening target moved to **February 2027**.
@@ -63,14 +69,19 @@ pipeline/
   fetch/                      GTFS, vehicle positions, source-URL probe
   smoke/r5py_smoke_test.py    Stage 1 pipeline proof (S-series tests)
   analysis/rts_ridership_bounds.py  reproducible ridership arithmetic
+  stage2/                     alignment options (options.json), builder, IP length check, V4-alt audit
 .github/workflows/
   stage1-pipeline.yml         fetch + r5py run on GitHub Actions; commits results back
   vp-collector.yml            scheduled bus-position collection (Tue-Thu peaks) -> branch vp-data
+  stage2-alignments.yml       OSM study clip + DEM + JRC flood + plan list; builds and screens options
 data/
   raw/                        fetched inputs (GTFS zips, OSM clip), dated
-  manifests/                  hashes, fetch times, service ranges, source probe
+  manifests/                  hashes, fetch times, service ranges, source probe, Stage 2 inputs
+  concept/                    Stage 2 alignments, stations, depot candidates (GeoJSON, status=concept)
 results/
   stage1/                     smoke-test report, ridership bounds, vehicle snapshot
+  stage2/                     option comparison, pinch points, flood spots, interchange access, V4-alt, map
+docs/alignments/              Stage 2 method (README.md) and results (options.md)
 ```
 
 ## How to run
@@ -87,6 +98,34 @@ results/
 
 The run uses only public, unauthenticated endpoints. It takes about 10–15 minutes of
 free runner time.
+
+### Stage 2 (alignment hypotheses)
+
+Actions tab → **stage2-alignments** → **Run workflow**, or push a change under `pipeline/stage2/`. Pushes to `main` and `claude/**` branches trigger it. It takes about 10 minutes and commits to `results/stage2/`, `data/concept/`, and `data/manifests/`.
+
+Locally, using the committed study clip:
+
+```bash
+pip install -r pipeline/requirements-stage2.txt
+```
+
+```bash
+python pipeline/stage2/fetch_inputs.py
+```
+
+```bash
+python pipeline/stage2/build_alignments.py --osm data/raw/osm/jb-study.osm.pbf --dem data/raw/dem/cop30-jb.tif --flood data/raw/flood/jrc-rp100-jb.tif --gtfs data/raw/gtfs/2026-11-04T1705Z/mybas-johor.zip --ktmb data/raw/gtfs/2026-11-04T1705Z/ktmb.zip
+```
+
+```bash
+python pipeline/stage2/ip_length_check.py --osm data/raw/osm/jb-study.osm.pbf
+```
+
+```bash
+python pipeline/stage2/v4alt_audit.py --osm data/raw/osm/jb-study.osm.pbf
+```
+
+`fetch_inputs.py` needs access to AWS S3 (DEM), JRC, and jpbd.johor.gov.my. Without the flood raster, omit `--flood`.
 
 ### Locally or in Google Colab (optional)
 

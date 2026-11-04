@@ -34,3 +34,9 @@ min_width_m, notes, observer`
 | SC-4 Road cross-section photos at pinch points | OSM `width`/`lanes` tags, building footprints vs. road centerlines (setback estimates), and published road-scheme documents where available. Street-level imagery is used only if a free, license-compatible source is confirmed (e.g., Mapillary needs a free account and token; flagged before use). | Viaduct-space findings in Stage 2 are screening-level and labeled `inferred`. |
 | SC-5 Local flood spots | Free global or national flood layers (e.g., JRC flood hazard maps), the DEM, and news reports of flooded roads as leads only | Local hotspots may be missed. Flood screening is coarse. |
 | SC-6 Bukit Chagar timings after opening | Official RTS/ICQ statements, published processing times, and operator ridership releases after opening. News is used only as leads. | Stage 4 border-processing and circulation results rest on published claims and low/base/high ranges, not observation. |
+
+## Stage 2 lists produced for the SC-4 and SC-5 substitutes (2026-11-04)
+
+- **SC-4 (pinch points):** `results/stage2/pinch_points.csv`, summarized in `docs/alignments/options.md` §3. Evidence: OSM footprint setbacks, lanes, and one-way tags, flyover and bridge tags, and curve radii. No field photos exist. Every value is `inferred`.
+- **SC-5 (flood spots):** `results/stage2/flood_spots.csv` and `docs/alignments/options.md` §4. Evidence: JRC RP100 river-flood layer, a DEM low-lying proxy, and news reports used as leads only (SRC-048 to SRC-052). No local observation exists.
+- If fieldwork ever becomes possible, start with the priority rows in those two tables.

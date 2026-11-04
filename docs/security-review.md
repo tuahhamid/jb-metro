@@ -58,3 +58,17 @@ All free for public repos. GitHub → repo **Settings**:
 - Never commit `.env` files. Never add repository secrets without recording why in a handoff note.
 - Re-run this scan before each stage handoff. The commands are under Method above.
 - Scheduled workflows in public repos are paused by GitHub after 60 days without repository activity. Check `vp-collector` is still running if the project goes quiet.
+
+## Re-scan before the Stage 2 handoff (2026-11-04)
+
+**Scope:** every commit from `94af394` (Stage 1 handoff) to `bd46c24`, plus the working tree with the Stage 2 docs. Same method as above.
+
+| Check | Result |
+|---|---|
+| detect-secrets 1.5.0 | Only "Hex High Entropy String" hits. All are SHA-256 file hashes in `data/manifests/*.json` or commit SHAs in `run_metadata.json` (false positives, as in finding 2). |
+| Token and key regexes | No matches |
+| Email addresses | Only `88237170+tuahhamid@users.noreply.github.com` (owner no-reply, per CLAUDE.md) and `noreply@anthropic.com` (Co-Authored-By trailer). No personal email. |
+| Private IPs, local paths, `.env` files | None |
+| Commit identities | Owner no-reply (5 commits); `github-actions[bot]` (3 commits) |
+| New workflow `stage2-alignments.yml` | Actions pinned to the same commit SHAs as Stage 1. The `refresh_osm` input is passed via `env:`. Uses only `GITHUB_TOKEN` with `contents: write`, and no secrets. Push trigger covers `main` and `claude/**`; only users with write access can push. |
+| Third-party data | DEM and JRC rasters are not committed (license and size); attribution is in `data/LICENSES.md`. Plan-list extract is matched status lines only. |

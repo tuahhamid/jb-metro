@@ -135,3 +135,22 @@ the coarse 500 m grid. Stage 3 should use a finer grid (≤250 m) and check walk
 times against SC-1 and SC-2 before relying on catchments.
 
 These tests prove the pipeline. They are **not** findings about the corridors.
+
+## 7. Stage 2 status refresh (2026-11-04)
+
+Re-searched before building the hypotheses. Search snippets only, same evidence limit as above.
+
+| Item | Finding | Status | Sources |
+|---|---|---|---|
+| Published E-ART alignment | **None.** Mid-2026 reporting says the consortium must resubmit the alignment, stations, and system, and settle the alignment and depots with the state. The general alignment is reportedly agreed and more than half of station sites set, but nothing is published. A Larkin Sentral station was proposed. | official (reported) | SRC-043 |
+| Letter of acceptance | **Not issued** as far as found. Still a letter of intent; terms under negotiation. | official (reported) | SRC-015, SRC-043 |
+| Technology | **Unresolved.** Government says elevated ART (rubber-tired); a company filing says "rail system"; a June 2026 report says an LRT-style APM is possible. Stage 2 geometry screens use both rail and ART thresholds (A-035). | conflicting | SRC-044 |
+| Line lengths | 14.78 / 18.8 / 14 km now have two more 2024 sources, both search snippets. They may predate the 2026 revised proposal. | official (reported) | SRC-045, SRC-046 |
+| Statutory plans | The JPBD list (read by Actions) shows **RSN Johor 2030 gazetted** and several gazetted RTD Johor Bahru versions (latest J.P.U 10 Jilid 67, MBJB). No plan named "RTJB 2035" appears in the matched lines. Transit content not yet read. | official | SRC-026 |
+
+**Geometry evidence from Stage 2 (inferred; see `docs/alignments/options.md`):**
+- The FT3 road spine from Bukit Chagar to Desa Tebrau is 14.07 km, matching the
+  reported 14 km Tebrau length.
+- The shortest road from Bukit Chagar to Bukit Indah is 14.77 km, matching the reported
+  14.78 km Iskandar Puteri length.
+- No road route from Bukit Chagar reaches Kota Iskandar in under 20.9 km (A-036).
