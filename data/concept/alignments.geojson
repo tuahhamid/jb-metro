@@ -433,8 +433,8 @@
     "reported_length_km": 14.0,
     "length_deviation": 0.005,
     "within_15pct": true,
-    "n_stations": 17,
-    "mean_spacing_m": 879,
+    "n_stations": 15,
+    "mean_spacing_m": 1005,
     "rationale": "Follows Federal Route 3 (Jalan Tebrau, then Jalan Pandan and Jalan Kota Tinggi), the road the official 'Tebrau' name and the congestion claim refer to. Serves the Pelangi/KSL retail cluster and Tebrau City (AEON, IKEA, Toppen), ending at Desa Tebrau. Wide trunk reserve for most of its length."
    }
   },
@@ -948,8 +948,8 @@
     "reported_length_km": 14.0,
     "length_deviation": 0.222,
     "within_15pct": false,
-    "n_stations": 20,
-    "mean_spacing_m": 901,
+    "n_stations": 18,
+    "mean_spacing_m": 1006,
     "rationale": "Same FT3 spine as T1, but leaves Jalan Pandan to run through Taman Molek (dense residential) on Jalan Persiaran Molek Utama before rejoining at Tebrau City. Tests whether a deviation into a residential core is worth the extra length."
    }
   },
@@ -1371,8 +1371,8 @@
     "reported_length_km": 14.0,
     "length_deviation": -0.091,
     "within_15pct": true,
-    "n_stations": 16,
-    "mean_spacing_m": 849,
+    "n_stations": 13,
+    "mean_spacing_m": 1061,
     "rationale": "Same FT3 spine as T1 to Tebrau City, then turns west on Jalan Mutiara Emas Utama to end in Mount Austin (high-rise residential and commercial growth area) instead of Desa Tebrau."
    }
   },
@@ -1850,8 +1850,8 @@
     "reported_length_km": 14.0,
     "length_deviation": 0.007,
     "within_15pct": true,
-    "n_stations": 14,
-    "mean_spacing_m": 1084,
+    "n_stations": 13,
+    "mean_spacing_m": 1174,
     "rationale": "Tested because the existing elevated Eastern Dispersal Link (E14) reserve could host a guideway. Rejected if walk catchments and bus interchange are poorer than the FT3 options; metrics are computed so the rejection rests on numbers."
    }
   },
@@ -2477,8 +2477,8 @@
     "reported_length_km": 14.0,
     "length_deviation": 0.068,
     "within_15pct": true,
-    "n_stations": 16,
-    "mean_spacing_m": 997,
+    "n_stations": 15,
+    "mean_spacing_m": 1068,
     "rationale": "Rejected on scope: Larkin belongs to the Skudai-Tampoi-Larkin corridor (out of scope, owner decision 2). Geometry is computed only to show the rejection; it is not a Skudai option."
    }
   },
@@ -3372,8 +3372,8 @@
     "reported_length_km": 14.78,
     "length_deviation": 0.717,
     "within_15pct": false,
-    "n_stations": 25,
-    "mean_spacing_m": 1058,
+    "n_stations": 23,
+    "mean_spacing_m": 1154,
     "rationale": "Shortest reserve from Bukit Chagar to the Iskandar Puteri administrative center, along the coastal roads (J1 and the Iskandar Coastal Highway). Expected to exceed the reported 14.78 km; the deviation itself is a finding."
    }
   },
@@ -4007,8 +4007,8 @@
     "reported_length_km": 14.78,
     "length_deviation": 0.201,
     "within_15pct": false,
-    "n_stations": 18,
-    "mean_spacing_m": 1045,
+    "n_stations": 17,
+    "mean_spacing_m": 1110,
     "rationale": "Ends at Bukit Indah, the largest established residential and retail center in Iskandar Puteri, instead of the administrative core. Tests which endpoint is consistent with the reported 14.78 km."
    }
   },
@@ -4950,8 +4950,8 @@
     "reported_length_km": 14.78,
     "length_deviation": 0.843,
     "within_15pct": false,
-    "n_stations": 26,
-    "mean_spacing_m": 1090,
+    "n_stations": 25,
+    "mean_spacing_m": 1135,
     "rationale": "Serves both Bukit Indah and Kota Iskandar. Longest option; tests the coverage-versus-length trade-off."
    }
   },

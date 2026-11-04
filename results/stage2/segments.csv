@@ -22,10 +22,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 2050,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,60.0,96.9,T1,False,False,False,False,36.9,False,False
 2150,768296823,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.6,60.0,95.6,T1,False,False,False,False,35.6,False,False
 2250,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.5,60.0,96.5,T1,False,False,False,False,36.5,False,False
-2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T1,True,False,False,False,21.1,False,False
-2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T1,True,False,False,False,20.4,False,False
-2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T1,False,False,False,False,19.2,False,False
-2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T1,False,False,False,False,20.4,False,False
+2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T1,False,False,False,False,21.1,False,False
+2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T1,False,False,False,False,20.4,False,False
+2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T1,True,False,False,False,19.2,False,False
+2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T1,True,False,False,False,20.4,False,False
 2750,766305571,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,17.7,77.7,T1,False,False,False,False,17.7,False,False
 2850,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,19.4,79.4,T1,False,False,False,False,19.4,False,False
 2950,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.0,21.0,54.9,T1,False,False,False,False,21.0,False,False
@@ -33,9 +33,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 3150,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.9,21.8,59.6,T1,False,False,False,False,21.8,False,False
 3250,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,22.2,59.1,T1,False,False,False,False,22.2,False,False
 3350,766295445,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.4,19.5,55.9,T1,False,False,False,False,19.5,False,False
-3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 3550,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
-3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T1,False,False,False,False,36.8,False,False
+3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T1,True,False,False,False,36.8,False,False
 3750,767358376,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.3,38.1,74.4,T1,False,False,False,False,36.3,False,False
 3850,766089837,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 3950,769689388,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.6,31.5,69.1,T1,False,False,False,False,31.5,False,False
@@ -43,9 +43,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 4150,767349942,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,42.7,60.0,102.7,T1,False,False,False,False,42.7,False,False
 4250,766089839,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 4350,767349944,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T1,True,False,False,False,35.2,False,False
+4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T1,False,False,False,False,35.2,False,False
 4550,767322057,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,15.8,75.8,T1,True,False,False,False,15.8,False,False
-4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
 4750,370888423,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 4850,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 4950,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,38.7,98.7,T1,False,False,False,False,38.7,False,False
@@ -53,9 +53,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 5150,370888418,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,41.2,101.2,T1,False,False,False,False,41.2,False,False
 5250,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.6,41.0,75.6,T1,False,False,False,False,34.6,False,False
 5350,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.9,60.0,93.9,T1,False,False,False,False,33.9,False,False
-5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 5550,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
-5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T1,False,False,False,False,55.1,False,False
+5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T1,True,False,False,False,55.1,False,False
 5750,767319189,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,30.9,60.0,90.9,T1,False,False,False,False,30.9,False,False
 5850,770400681,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 5950,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,57.2,60.0,117.2,T1,False,False,False,False,57.2,False,False
@@ -63,10 +63,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 6150,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 6250,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,44.5,104.5,T1,False,False,False,False,44.5,False,False
 6350,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T1,True,False,False,False,27.8,False,False
-6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T1,True,False,False,False,39.5,False,False
-6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T1,False,False,False,False,26.5,False,False
-6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T1,False,False,False,False,27.8,False,False
+6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T1,False,False,False,False,39.5,False,False
+6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T1,True,False,False,False,26.5,False,False
+6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
 6850,766095787,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 6950,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 7050,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
@@ -86,31 +86,31 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 8450,1176293999,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 8550,765779569,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 8650,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-8750,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,T1,False,False,False,False,37.0,False,False
-8850,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+8750,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,T1,True,False,False,False,37.0,False,False
+8850,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
 8950,765779567,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-9050,767624325,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
-9150,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+9050,767624325,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+9150,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 9250,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,13.3,73.3,T1,False,False,False,False,13.3,False,False
 9350,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,38.2,60.0,98.2,T1,False,False,False,False,38.2,False,False
 9450,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,41.4,34.8,76.2,T1,False,False,False,False,34.8,False,False
 9550,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,24.6,84.6,T1,False,False,False,False,24.6,False,False
 9650,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,57.3,27.6,84.9,T1,False,False,False,False,27.6,False,False
-9750,767617711,Jalan Pandan,3,trunk,6.0,,True,dual (one-way pair),False,60.0,26.2,86.2,T1,False,False,False,False,26.2,False,False
-9850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+9750,767617711,Jalan Pandan,3,trunk,6.0,,True,dual (one-way pair),False,60.0,26.2,86.2,T1,True,False,False,False,26.2,False,False
+9850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
 9950,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-10050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
-10150,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+10050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+10150,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 10250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 10350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 10450,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 10550,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 10650,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 10750,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-10850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-10950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.9,96.9,T1,False,False,False,False,36.9,False,False
-11050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
-11150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,48.0,108.0,T1,True,False,False,False,48.0,False,False
+10850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+10950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.9,96.9,T1,True,False,False,False,36.9,False,False
+11050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+11150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,48.0,108.0,T1,False,False,False,False,48.0,False,False
 11250,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,32.7,92.7,T1,False,False,False,False,32.7,False,False
 11350,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,T1,False,False,False,False,33.5,False,False
 11450,767986485,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
@@ -122,18 +122,18 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 12050,201941568,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 12150,159652404,Jalan Johor Jaya,,secondary,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 12250,159652403,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-12350,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
-12450,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+12350,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+12450,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 12550,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 12650,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,45.1,60.0,105.1,T1,False,False,False,False,45.1,False,False
 12750,543229697,Persisiran Bandar Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 12850,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,28.5,42.5,71.0,T1,False,False,False,False,28.5,False,False
 12950,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.4,105.4,T1,False,False,False,False,45.4,False,False
-13050,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
-13150,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
+13050,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+13150,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
 13250,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.8,105.8,T1,False,False,False,False,45.8,False,False
-13350,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.4,105.4,T1,True,False,False,False,45.4,False,False
-13450,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,True,False,False,False,60.0,False,False
+13350,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.4,105.4,T1,False,False,False,False,45.4,False,False
+13450,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 13550,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T1,False,False,False,False,60.0,False,False
 13650,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,41.5,101.5,T1,False,False,False,False,41.5,False,False
 13750,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.6,105.6,T1,False,False,False,False,45.6,False,False
@@ -163,10 +163,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 2050,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,60.0,96.9,T2,False,False,False,False,36.9,False,False
 2150,768296823,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.6,60.0,95.6,T2,False,False,False,False,35.6,False,False
 2250,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.5,60.0,96.5,T2,False,False,False,False,36.5,False,False
-2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T2,True,False,False,False,21.1,False,False
-2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T2,True,False,False,False,20.4,False,False
-2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T2,False,False,False,False,19.2,False,False
-2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T2,False,False,False,False,20.4,False,False
+2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T2,False,False,False,False,21.1,False,False
+2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T2,False,False,False,False,20.4,False,False
+2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T2,True,False,False,False,19.2,False,False
+2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T2,True,False,False,False,20.4,False,False
 2750,766305571,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,17.7,77.7,T2,False,False,False,False,17.7,False,False
 2850,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,19.4,79.4,T2,False,False,False,False,19.4,False,False
 2950,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.0,21.0,54.9,T2,False,False,False,False,21.0,False,False
@@ -174,9 +174,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 3150,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.9,21.8,59.6,T2,False,False,False,False,21.8,False,False
 3250,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,22.2,59.1,T2,False,False,False,False,22.2,False,False
 3350,766295445,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.4,19.5,55.9,T2,False,False,False,False,19.5,False,False
-3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
+3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 3550,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
-3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T2,False,False,False,False,36.8,False,False
+3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T2,True,False,False,False,36.8,False,False
 3750,767358376,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.3,38.1,74.4,T2,False,False,False,False,36.3,False,False
 3850,766089837,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 3950,769689388,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.6,31.5,69.1,T2,False,False,False,False,31.5,False,False
@@ -184,9 +184,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 4150,767349942,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,42.7,60.0,102.7,T2,False,False,False,False,42.7,False,False
 4250,766089839,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 4350,767349944,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
-4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T2,True,False,False,False,35.2,False,False
+4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T2,False,False,False,False,35.2,False,False
 4550,767322057,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,15.8,75.8,T2,True,False,False,False,15.8,False,False
-4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
+4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
 4750,370888423,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 4850,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 4950,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,38.7,98.7,T2,False,False,False,False,38.7,False,False
@@ -194,9 +194,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 5150,370888418,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,41.2,101.2,T2,False,False,False,False,41.2,False,False
 5250,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.6,41.0,75.6,T2,False,False,False,False,34.6,False,False
 5350,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.9,60.0,93.9,T2,False,False,False,False,33.9,False,False
-5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
+5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 5550,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
-5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T2,False,False,False,False,55.1,False,False
+5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T2,True,False,False,False,55.1,False,False
 5750,767319189,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,30.9,60.0,90.9,T2,False,False,False,False,30.9,False,False
 5850,770400681,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 5950,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,57.2,60.0,117.2,T2,False,False,False,False,57.2,False,False
@@ -204,10 +204,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 6150,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 6250,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,44.5,104.5,T2,False,False,False,False,44.5,False,False
 6350,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
-6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T2,True,False,False,False,27.8,False,False
-6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T2,True,False,False,False,39.5,False,False
-6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T2,False,False,False,False,26.5,False,False
-6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
+6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T2,False,False,False,False,27.8,False,False
+6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T2,False,False,False,False,39.5,False,False
+6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T2,True,False,False,False,26.5,False,False
+6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
 6850,766095787,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 6950,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 7050,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
@@ -258,9 +258,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 11550,767740049,Jalan Persiaran Molek Utama,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 11650,507432752,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,41.3,60.0,101.3,T2,False,False,False,False,41.3,False,False
 11750,507432752,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T2,False,False,False,False,36.8,False,False
-11850,767353434,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
+11850,767353434,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 11950,767353433,Jalan Masai Baru,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
-12050,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
+12050,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
 12150,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 12250,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 12350,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
@@ -268,9 +268,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 12550,298465722,Jalan Masai Baru,,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 12650,1072708635,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 12750,767392672,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
-12850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
+12850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 12950,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
-13050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
+13050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
 13150,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 13250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 13350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
@@ -279,10 +279,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 13650,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 13750,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 13850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
-13950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
-14050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,34.9,94.9,T2,False,False,False,False,34.9,False,False
-14150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
-14250,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.8,96.8,T2,True,False,False,False,36.8,False,False
+13950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
+14050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,34.9,94.9,T2,True,False,False,False,34.9,False,False
+14150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
+14250,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.8,96.8,T2,False,False,False,False,36.8,False,False
 14350,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,31.6,91.6,T2,False,False,False,False,31.6,False,False
 14450,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 14550,767986486,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
@@ -294,18 +294,18 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 15150,201941600,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 15250,159652404,Jalan Johor Jaya,,secondary,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 15350,767989898,Persisiran Bandar Desa Tebrau,,secondary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
-15450,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
-15550,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
+15450,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
+15550,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 15650,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,48.9,60.0,108.9,T2,False,False,False,False,48.9,False,False
 15750,512729926,Persisiran Bandar Desa Tebrau,,secondary,3.0,,True,dual (one-way pair),False,50.7,60.0,110.7,T2,False,False,False,False,50.7,False,False
 15850,1175101580,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 15950,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,44.9,104.9,T2,False,False,False,False,44.9,False,False
-16050,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.6,105.6,T2,False,False,False,False,45.6,False,False
-16150,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
+16050,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.6,105.6,T2,True,False,False,False,45.6,False,False
+16150,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
 16250,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 16350,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,46.2,106.2,T2,False,False,False,False,46.2,False,False
-16450,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.8,105.8,T2,True,False,False,False,45.8,False,False
-16550,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,True,False,False,False,60.0,False,False
+16450,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.8,105.8,T2,False,False,False,False,45.8,False,False
+16550,1111656929,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 16650,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,41.4,101.4,T2,False,False,False,False,41.4,False,False
 16750,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,60.0,120.0,T2,False,False,False,False,60.0,False,False
 16850,543229696,Jalan Desa Tebrau,,secondary,,,True,dual (one-way pair),False,60.0,45.5,105.5,T2,False,False,False,False,45.5,False,False
@@ -334,10 +334,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 2050,694048509,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,60.0,96.9,T3,False,False,False,False,36.9,False,False
 2150,768296823,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,35.6,60.0,95.6,T3,False,False,False,False,35.6,False,False
 2250,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.5,60.0,96.5,T3,False,False,False,False,36.5,False,False
-2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T3,True,False,False,False,21.1,False,False
-2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T3,True,False,False,False,20.4,False,False
-2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T3,False,False,False,False,19.2,False,False
-2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T3,False,False,False,False,20.4,False,False
+2350,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,21.1,57.9,T3,False,False,False,False,21.1,False,False
+2450,694048504,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T3,False,False,False,False,20.4,False,False
+2550,232349161,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,19.2,79.2,T3,True,False,False,False,19.2,False,False
+2650,766305570,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,20.4,80.4,T3,True,False,False,False,20.4,False,False
 2750,766305571,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,17.7,77.7,T3,False,False,False,False,17.7,False,False
 2850,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,19.4,79.4,T3,False,False,False,False,19.4,False,False
 2950,493638735,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.0,21.0,54.9,T3,False,False,False,False,21.0,False,False
@@ -345,9 +345,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 3150,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,37.9,21.8,59.6,T3,False,False,False,False,21.8,False,False
 3250,754772543,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.9,22.2,59.1,T3,False,False,False,False,22.2,False,False
 3350,766295445,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.4,19.5,55.9,T3,False,False,False,False,19.5,False,False
-3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
+3450,766105011,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 3550,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
-3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T3,False,False,False,False,36.8,False,False
+3650,766105012,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,36.8,60.0,96.8,T3,True,False,False,False,36.8,False,False
 3750,767358376,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,36.3,38.1,74.4,T3,False,False,False,False,36.3,False,False
 3850,766089837,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 3950,769689388,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,37.6,31.5,69.1,T3,False,False,False,False,31.5,False,False
@@ -355,9 +355,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 4150,767349942,Jalan Tebrau,3,trunk,2.0,,True,dual (one-way pair),False,42.7,60.0,102.7,T3,False,False,False,False,42.7,False,False
 4250,766089839,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 4350,767349944,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T3,True,False,False,False,35.2,False,False
+4450,421432537,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,35.2,95.2,T3,False,False,False,False,35.2,False,False
 4550,767322057,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,15.8,75.8,T3,True,False,False,False,15.8,False,False
-4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
+4650,770389470,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
 4750,370888423,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 4850,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 4950,770389471,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,60.0,38.7,98.7,T3,False,False,False,False,38.7,False,False
@@ -365,9 +365,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 5150,370888418,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,41.2,101.2,T3,False,False,False,False,41.2,False,False
 5250,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,34.6,41.0,75.6,T3,False,False,False,False,34.6,False,False
 5350,767319188,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),False,33.9,60.0,93.9,T3,False,False,False,False,33.9,False,False
-5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
+5450,767319187,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 5550,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
-5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T3,False,False,False,False,55.1,False,False
+5650,201941041,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,55.1,60.0,115.1,T3,True,False,False,False,55.1,False,False
 5750,767319189,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,30.9,60.0,90.9,T3,False,False,False,False,30.9,False,False
 5850,770400681,Jalan Tebrau,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 5950,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,57.2,60.0,117.2,T3,False,False,False,False,57.2,False,False
@@ -375,10 +375,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 6150,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 6250,232346380,Jalan Tebrau,3,trunk,3.0,,True,dual (one-way pair),True,60.0,44.5,104.5,T3,False,False,False,False,44.5,False,False
 6350,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T3,True,False,False,False,27.8,False,False
-6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T3,True,False,False,False,39.5,False,False
-6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T3,False,False,False,False,26.5,False,False
-6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
+6450,766040672,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,27.8,60.0,87.8,T3,False,False,False,False,27.8,False,False
+6550,766040671,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,39.5,60.0,99.5,T3,False,False,False,False,39.5,False,False
+6650,770400682,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,26.5,86.5,T3,True,False,False,False,26.5,False,False
+6750,766095788,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
 6850,766095787,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 6950,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 7050,210420925,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
@@ -398,28 +398,28 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 8450,1176293999,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 8550,765779569,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 8650,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-8750,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,T3,True,False,False,False,37.0,False,False
-8850,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
+8750,765779570,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,37.0,97.0,T3,False,False,False,False,37.0,False,False
+8850,765779571,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 8950,765779567,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 9050,767624325,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-9150,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-9250,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,13.3,73.3,T3,False,False,False,False,13.3,False,False
+9150,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
+9250,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,13.3,73.3,T3,True,False,False,False,13.3,True,True
 9350,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,38.2,60.0,98.2,T3,False,False,False,False,38.2,False,False
 9450,159645489,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,41.4,34.8,76.2,T3,False,False,False,False,34.8,False,False
 9550,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,24.6,84.6,T3,False,False,False,False,24.6,False,False
 9650,767617710,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,57.3,27.6,84.9,T3,False,False,False,False,27.6,False,False
-9750,767617711,Jalan Pandan,3,trunk,6.0,,True,dual (one-way pair),False,60.0,26.2,86.2,T3,True,False,False,False,26.2,False,False
-9850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
+9750,767617711,Jalan Pandan,3,trunk,6.0,,True,dual (one-way pair),False,60.0,26.2,86.2,T3,False,False,False,False,26.2,False,False
+9850,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 9950,767617712,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 10050,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 10150,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-10250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-10350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
+10250,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
+10350,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
 10450,159645493,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 10550,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 10650,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-10750,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
-10850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,True,False,False,False,60.0,False,False
+10750,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
+10850,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 10950,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,36.9,96.9,T3,False,False,False,False,36.9,False,False
 11050,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 11150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,48.0,108.0,T3,False,False,False,False,48.0,False,False
@@ -431,8 +431,8 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 11750,211573981,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 11850,211573947,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 11950,767733359,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
-12050,767733358,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,30.5,60.0,90.5,T3,True,False,False,False,30.5,False,False
-12150,769451547,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,33.0,60.0,93.0,T3,True,False,False,False,33.0,False,False
+12050,767733358,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,30.5,60.0,90.5,T3,False,False,False,False,30.5,False,False
+12150,769451547,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,33.0,60.0,93.0,T3,False,False,False,False,33.0,False,False
 12250,153520600,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,45.8,60.0,105.8,T3,False,False,False,False,45.8,False,False
 12350,1221454373,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
 12450,767359104,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T3,False,False,False,False,60.0,False,False
@@ -569,9 +569,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 12850,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 12950,767988720,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 13050,767988210,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
-13150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
+13150,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
 13250,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,34.6,94.6,T-R1,True,False,False,False,34.6,False,False
-13350,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,True,False,False,False,60.0,False,False
+13350,211289202,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 13450,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
 13550,1175101482,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,30.8,90.8,T-R1,False,False,False,False,30.8,False,False
 13650,767986485,Jalan Kota Tinggi,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R1,False,False,False,False,60.0,False,False
@@ -584,10 +584,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 250,165500471,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),True,60.0,34.6,94.6,T-R2,False,False,False,False,34.6,False,False
 350,156568647,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 450,156568647,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,24.5,60.0,84.5,T-R2,False,False,False,False,24.5,False,False
-550,770019481,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,12.2,72.2,T-R2,True,False,False,False,12.2,True,True
-650,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
-750,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,49.5,60.0,109.5,T-R2,False,False,False,False,49.5,False,False
-850,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,T-R2,False,False,False,False,33.5,False,False
+550,770019481,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,12.2,72.2,T-R2,False,False,False,False,12.2,False,False
+650,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
+750,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,49.5,60.0,109.5,T-R2,True,False,False,False,49.5,False,False
+850,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,T-R2,True,False,False,False,33.5,False,False
 950,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,32.8,92.8,T-R2,False,False,False,False,32.8,False,False
 1050,257203527,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 1150,257203527,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,35.1,95.1,T-R2,False,False,False,False,35.1,False,False
@@ -619,10 +619,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 3750,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,36.1,96.1,T-R2,False,False,False,False,36.1,False,False
 3850,176301978,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 3950,770436177,Jalan Tun Abdul Razak Susur 5,,tertiary,4.0,,False,single,False,60.0,25.5,85.5,T-R2,False,False,False,False,25.5,False,False
-4050,771384282,Jalan Tun Abdul Razak Susur 5,,tertiary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
-4150,771384278,Jalan Tun Abdul Razak Susur 5,,tertiary,2.0,,True,dual (one-way pair),False,60.0,38.8,98.8,T-R2,False,False,False,False,38.8,False,False
-4250,766066078,,,primary_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
-4350,563189114,Jalan Datin Halimah,J3,primary,2.0,,True,dual (one-way pair),False,60.0,37.4,97.4,T-R2,True,False,False,False,37.4,False,False
+4050,771384282,Jalan Tun Abdul Razak Susur 5,,tertiary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
+4150,771384278,Jalan Tun Abdul Razak Susur 5,,tertiary,2.0,,True,dual (one-way pair),False,60.0,38.8,98.8,T-R2,True,False,False,False,38.8,False,False
+4250,766066078,,,primary_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
+4350,563189114,Jalan Datin Halimah,J3,primary,2.0,,True,dual (one-way pair),False,60.0,37.4,97.4,T-R2,False,False,False,False,37.4,False,False
 4450,757051219,Jalan Datin Halimah,J3,primary,2.0,,True,dual (one-way pair),False,44.0,60.0,104.0,T-R2,False,False,False,False,44.0,False,False
 4550,757051219,Jalan Datin Halimah,J3,primary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 4650,563189102,Jalan Kenyalang,,tertiary,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
@@ -698,31 +698,31 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 11650,765779575,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,50.4,110.4,T-R2,False,False,False,False,50.4,False,False
 11750,765779574,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,49.6,109.6,T-R2,False,False,False,False,49.6,False,False
 11850,767624327,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
-11950,765779573,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
-12050,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
+11950,765779573,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
+12050,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 12150,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,40.9,60.0,100.9,T-R2,False,False,False,False,40.9,False,False
 12250,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,25.3,60.0,85.3,T-R2,False,False,False,False,25.3,False,False
-12350,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,23.5,60.0,83.5,T-R2,False,False,False,False,23.5,False,False
-12450,770771995,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
+12350,201941025,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,23.5,60.0,83.5,T-R2,True,False,False,False,23.5,False,False
+12450,770771995,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
 12550,767606042,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,38.0,47.4,85.5,T-R2,False,False,False,False,38.0,False,False
 12650,770771994,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,42.7,102.7,T-R2,False,False,False,False,42.7,False,False
 12750,767665580,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 12850,767665580,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 12950,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
-13050,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
-13150,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
+13050,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
+13150,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 13250,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 13350,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 13450,159645486,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),True,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
-13550,767730323,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
-13650,159645494,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
+13550,767730323,Jalan Pandan,3,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
+13650,159645494,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,True,False,False,False,60.0,False,False
 13750,1322848193,Jalan Pandan,3,trunk,4.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 13850,153742909,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 13950,153742909,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 14050,153742909,,,trunk_link,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
 14150,767733359,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
-14250,767733358,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,30.6,60.0,90.6,T-R2,True,False,False,False,30.6,False,False
-14350,769451547,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,32.5,60.0,92.5,T-R2,True,False,False,False,32.5,False,False
+14250,767733358,Jalan Mutiara Emas Utama,,primary,4.0,,True,dual (one-way pair),False,30.6,60.0,90.6,T-R2,False,False,False,False,30.6,False,False
+14350,769451547,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,32.5,60.0,92.5,T-R2,False,False,False,False,32.5,False,False
 14450,153520600,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,37.0,60.0,97.0,T-R2,False,False,False,False,37.0,False,False
 14550,767359108,Jalan Mutiara Emas Utama,,primary,,,True,dual (one-way pair),False,36.0,60.0,96.0,T-R2,False,False,False,False,36.0,False,False
 14650,767359104,Jalan Mutiara Emas Utama,,primary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,T-R2,False,False,False,False,60.0,False,False
@@ -980,7 +980,7 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 24850,158686967,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
 24950,644465451,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,False,False,False,False,60.0,False,False
 25050,644465451,,,tertiary,,,True,dual (one-way pair),False,60.0,20.6,80.6,IP1,False,False,False,False,20.6,False,False
-25150,1416698566,,,tertiary,,,True,dual (one-way pair),False,60.0,32.4,92.4,IP1,True,False,False,False,32.4,False,False
+25150,1416698566,,,tertiary,,,True,dual (one-way pair),False,60.0,32.4,92.4,IP1,False,False,False,False,32.4,False,False
 25250,675367584,Persiaran Puteri Selatan,,tertiary,,,True,dual (one-way pair),False,60.0,34.8,94.8,IP1,False,False,False,False,34.8,False,False
 25350,158822700,Persiaran Puteri Selatan,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP1,True,False,False,False,60.0,False,False
 50,201941688,,,trunk,2.0,,True,dual (one-way pair),False,60.0,14.8,74.8,IP2,True,False,False,False,14.8,True,True
@@ -1414,9 +1414,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 25050,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 25150,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 25250,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
-25350,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
+25350,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
 25450,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
-25550,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
+25550,640088371,Lebuh Kota Iskandar,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 25650,770702077,Lebuh Kota Iskandar,,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 25750,1071276088,,,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 25850,529281553,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
@@ -1424,9 +1424,9 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 26050,529281553,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 26150,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 26250,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
-26350,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
+26350,1386022043,Persiaran Dato' Bentara Dalam,,tertiary,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
 26450,1420868354,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
-26550,643398933,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,True,False,False,False,60.0,False,False
+26550,643398933,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 26650,646720174,,,tertiary,,,True,dual (one-way pair),False,60.0,17.3,77.3,IP3,False,False,False,False,17.3,False,False
 26750,158686967,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
 26850,644465451,,,tertiary,,,True,dual (one-way pair),False,60.0,60.0,120.0,IP3,False,False,False,False,60.0,False,False
@@ -1438,10 +1438,10 @@ chainage_m,way_id,road_name,road_ref,highway,lanes_tag,width_tag,oneway,carriage
 250,165500471,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),True,60.0,34.6,94.6,IP4,False,False,False,False,34.6,False,False
 350,156568647,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 450,156568647,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,24.5,60.0,84.5,IP4,False,False,False,False,24.5,False,False
-550,770019481,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,12.2,72.2,IP4,True,False,False,False,12.2,True,True
-650,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,True,False,False,False,60.0,False,False
-750,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,49.5,60.0,109.5,IP4,False,False,False,False,49.5,False,False
-850,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,IP4,False,False,False,False,33.5,False,False
+550,770019481,Jalan Tun Abdul Razak,1,trunk,2.0,,True,dual (one-way pair),False,60.0,12.2,72.2,IP4,False,False,False,False,12.2,False,False
+650,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
+750,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,49.5,60.0,109.5,IP4,True,False,False,False,49.5,False,False
+850,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,33.5,93.5,IP4,True,False,False,False,33.5,False,False
 950,176301985,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,32.8,92.8,IP4,False,False,False,False,32.8,False,False
 1050,257203527,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,60.0,120.0,IP4,False,False,False,False,60.0,False,False
 1150,257203527,Jalan Tun Abdul Razak,1,trunk,3.0,,True,dual (one-way pair),False,60.0,35.1,95.1,IP4,False,False,False,False,35.1,False,False

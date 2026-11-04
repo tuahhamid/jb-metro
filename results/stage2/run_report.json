@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-04T18:11:05+00:00",
+  "run_utc": "2026-11-04T18:23:16+00:00",
   "anchors": {
     "BKC": {
       "label": "Bukit Chagar RTS station",
@@ -168,9 +168,9 @@
   },
   "options": {
     "T1": {
-      "seconds": 4.4,
+      "seconds": 3.3,
       "length_km": 14.07,
-      "n_stations": 17,
+      "n_stations": 15,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "PPL": 78,
@@ -179,9 +179,9 @@
       "anchors_not_served_gt500m": []
     },
     "T2": {
-      "seconds": 4.7,
+      "seconds": 4.0,
       "length_km": 17.11,
-      "n_stations": 20,
+      "n_stations": 18,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "PPL": 78,
@@ -191,9 +191,9 @@
       "anchors_not_served_gt500m": []
     },
     "T3": {
-      "seconds": 3.5,
+      "seconds": 2.9,
       "length_km": 12.73,
-      "n_stations": 16,
+      "n_stations": 13,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "PPL": 78,
@@ -202,9 +202,9 @@
       "anchors_not_served_gt500m": []
     },
     "T-R1": {
-      "seconds": 3.1,
+      "seconds": 2.6,
       "length_km": 14.09,
-      "n_stations": 14,
+      "n_stations": 13,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "TBC": 165
@@ -212,9 +212,9 @@
       "anchors_not_served_gt500m": []
     },
     "T-R2": {
-      "seconds": 4.6,
+      "seconds": 4.3,
       "length_km": 14.95,
-      "n_stations": 16,
+      "n_stations": 15,
       "forced_anchor_offset_from_line_m": {
         "BKC": 27,
         "LRK": 109
@@ -222,9 +222,9 @@
       "anchors_not_served_gt500m": []
     },
     "IP1": {
-      "seconds": 4.1,
+      "seconds": 3.5,
       "length_km": 25.38,
-      "n_stations": 25,
+      "n_stations": 23,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "DGB": 320,
@@ -237,9 +237,9 @@
       ]
     },
     "IP2": {
-      "seconds": 3.9,
+      "seconds": 3.5,
       "length_km": 17.76,
-      "n_stations": 18,
+      "n_stations": 17,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "DGB": 320,
@@ -248,9 +248,9 @@
       "anchors_not_served_gt500m": []
     },
     "IP3": {
-      "seconds": 5.1,
+      "seconds": 4.5,
       "length_km": 27.24,
-      "n_stations": 26,
+      "n_stations": 25,
       "forced_anchor_offset_from_line_m": {
         "BKC": 26,
         "DGB": 320,
@@ -262,7 +262,7 @@
       ]
     },
     "IP4": {
-      "seconds": 3.1,
+      "seconds": 3.0,
       "length_km": 14.98,
       "n_stations": 14,
       "forced_anchor_offset_from_line_m": {
@@ -275,5 +275,5 @@
       ]
     }
   },
-  "seconds_total": 69.0
+  "seconds_total": 54.9
 }
