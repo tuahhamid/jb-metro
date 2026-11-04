@@ -28,7 +28,7 @@ Status labels follow the project rule: **existing**, **official**, **inferred**,
 | E-ART reported lengths | Tebrau 14 km, Iskandar Puteri 14.78 km, Skudai 18.8 km | official (reported) | SRC-021 |
 | Jurisdiction | E-ART is under Malaysian authority. Singapore coordinates on dispersal only. | official | SRC-017 |
 | Woodlands Checkpoint volume | 327,000 travelers/day in 2024, up from 269,000 in 2023 | existing | SRC-012 |
-| Open transit data | data.gov.my GTFS static (`mybas-johor`, `ktmb`) and myBAS vehicle positions | existing | SRC-001, SRC-002 |
+| Open transit data | myBAS GTFS: 21 routes, 988 stops, valid 2026-10-05 to 2027-02-02. KTMB GTFS valid to 2026-11-18 (refreshed daily). Live myBAS vehicle positions: 106–115 buses, ≤25 s old. | existing | SRC-038–SRC-040 |
 
 ## 2. Unknown (blocks or limits later stages)
 
@@ -41,8 +41,7 @@ Status labels follow the project rule: **existing**, **official**, **inferred**,
 | Bukit Chagar internal layout: gate count, vertical circulation, exit widths | Stage 4 depends on it | Site check SC-1. Seek official station and ICQ documents. |
 | RSNJ 2030 / RTJB 2035 gazette status and transit content | Land-use and road-reserve context | Read SRC-026 via the Actions probe. Search the PLANMalaysia@Johor portal. |
 | Small-area population | DOSM public geography found so far is parliament/state seat level | Stage 3: disaggregation method decision (A-025) |
-| Freshness of the myBAS GTFS | MobilityData lists service through 2026-09-20 (SRC-030), so the feed may be expired | Checked by test S0 in the workflow |
-| Cross-border and private bus GTFS (e.g., Causeway Link) | Baseline likely under-counts bus service | SC-3. Report as a limitation. |
+| Size of the non-GTFS bus gap. Confirmed: the open feed holds only BAS.MY, so Causeway Link and other private operators are missing. | Baseline under-counts bus service | SC-3. Report as a limitation. |
 | Road traffic counts (RTVM) | Needed to test the 75% claim | RTVM is a **paid** publication. Not acquired (see decisions). |
 
 ## 3. Conflicting
@@ -101,7 +100,38 @@ whether E-ART helps.
 - **Test:** V10 in `docs/validation-plan.md`. If no independent count data is
   obtained, the claim will be reported as **UNTESTED**.
 
-## 6. Stage 1 pipeline proof
+## 6. Source probe and pipeline proof (GitHub Actions, 2026-11-04)
 
-See `results/stage1/` and the handoff note `docs/handoffs/stage-1.md`
-for the actual run outcome. Results are reported only from the committed run outputs.
+**Source probe** (`data/manifests/source-probe.csv`, metadata only):
+- 33 of 35 probed URLs returned HTTP 200. One returned 403, and one failed on a TLS hostname mismatch.
+- Pages contain the claimed figures for:
+  - RTS: 10,000 and 40,000 (**MRT Corp official page, SRC-003, now high confidence**), February 2027, 35%/350,000
+  - Woodlands: 327,000
+  - E-ART claims: experts' Tebrau/Skudai/Larkin, RM10b/Iskandar Puteri, 240/3,000, 5,000/12,000
+- **Not confirmed:**
+  - E-ART line lengths 14.78/18.8 km (not found on the cited theSun page)
+  - The NST "10,000 pphpd" e-ART claim
+  - Statutory-plan PDFs (text not extracted)
+  - mbjb.gov.my (TLS hostname mismatch; verification was not disabled)
+  - The Medium commentary (HTTP 403; not bypassed)
+
+**Smoke test** (run 41818831614 at commit `c151634`; `results/stage1/smoke_report.json`):
+- Area: 12 × 13 km JB core, 500 m grid, weekday 07:30 departure with a 60-minute window.
+- All pre-registered S-tests **PASS**. The same values came from an earlier run (41817401708, commit `6b0d02e`).
+
+| Test | Result | Threshold |
+|---|---|---|
+| S0 feed current | PASS (service to 2027-02-02) | end ≥ run date |
+| S1 network builds | PASS | builds |
+| S2 matrix | PASS (417,962 pairs; 67,737 transit+walk ≤60 min) | >0 |
+| S3 snapping | PASS (0.891) | ≥0.80 |
+| S4 walk detour | PASS (median 1.568; p10 1.24, p90 2.36) | 1.10–1.60 |
+| S5 transit logic | PASS (22.0% faster by transit; 0.0% slower) | ≥5%; ≤1% |
+| S6 runtime | PASS (0.6 min) | ≤30 min |
+| S7 vehicle positions | PASS (115 vehicles; newest 20 s old) | ≥1; ≤10 min |
+
+S4 is close to its upper bound. The median includes the snapping access legs and
+the coarse 500 m grid. Stage 3 should use a finer grid (≤250 m) and check walk
+times against SC-1 and SC-2 before relying on catchments.
+
+These tests prove the pipeline. They are **not** findings about the corridors.

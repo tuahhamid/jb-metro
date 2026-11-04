@@ -27,6 +27,9 @@ says otherwise.
 | 5. Validation before visualization | Not started. Thresholds already registered in `docs/validation-plan.md`. |
 | 6. Prototype | Not started |
 
+**Stage 1 pipeline proof:** all pre-registered smoke tests (S0–S7) passed on real
+JB data in GitHub Actions (run 41818831614). See `results/stage1/smoke_report.json`.
+
 **Headline facts as of 2026-11-04:**
 - RTS opening target moved to **February 2027**.
 - E-ART is government-committed (Budget 2027), but there is no published alignment and
@@ -72,7 +75,7 @@ results/
 
 ### On GitHub Actions (default, web-only)
 
-1. Actions tab → **stage1-pipeline** → **Run workflow** (or push a change under `pipeline/`).
+1. Actions tab → **stage1-pipeline** → **Run workflow**. Pushes from a Claude session have not triggered runs, so use manual dispatch; see `docs/handoffs/stage-1.md`.
 2. The workflow:
    1. Probes every source URL.
    2. Fetches data.gov.my GTFS and one vehicle-position snapshot.
