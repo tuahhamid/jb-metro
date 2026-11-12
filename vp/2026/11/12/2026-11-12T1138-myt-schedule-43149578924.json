@@ -1,0 +1,12 @@
+{
+  "url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/mybas-johor",
+  "window_start_utc": "2026-11-12T03:38:54+00:00",
+  "window_end_utc": "2026-11-12T04:38:24+00:00",
+  "polls": 120,
+  "poll_errors": 0,
+  "errors": [],
+  "unique_positions": 8971,
+  "vehicles": 132,
+  "trips": 163,
+  "routes": 19
+}
