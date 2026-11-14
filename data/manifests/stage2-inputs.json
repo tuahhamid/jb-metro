@@ -5,10 +5,10 @@
     103.88,
     1.62
   ],
-  "run_utc": "2026-11-04T18:22:43+00:00",
+  "run_utc": "2026-11-14T05:47:26+00:00",
   "dem": {
     "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N01_00_E103_00_DEM/Copernicus_DSM_COG_10_N01_00_E103_00_DEM.tif",
-    "fetched_utc": "2026-11-04T18:22:43+00:00",
+    "fetched_utc": "2026-11-14T05:47:26+00:00",
     "http_status": 200,
     "bytes": 31871871,
     "sha256": "fe2cf9dbc8a06ac328fb6d3d11a3764adac203e91adfae6cb066e07390480417",
@@ -33,7 +33,7 @@
       "RP100/: HTTP 200, 542 tifs, hits=['ID211_N10_E100_RP100_depth.tif', 'ID211_N10_E100_RP100_depth_reclass.tif']"
     ],
     "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-GLOFAS/flood_hazard/RP100/ID211_N10_E100_RP100_depth.tif",
-    "fetched_utc": "2026-11-04T18:22:47+00:00",
+    "fetched_utc": "2026-11-14T05:47:30+00:00",
     "http_status": 200,
     "bytes": 13436340,
     "sha256": "f3c26b69e98ee4d7130bc348c9309be1328b1ec41ea0aaea5a114b9ec7a96c8e",
@@ -53,12 +53,7 @@
   },
   "plans_list_SRC026": {
     "url": "https://jpbd.johor.gov.my/wp-content/uploads/2025/02/SENARAI-RANCANGAN-PEMAJUAN-BAGI-SELURUH-NEGERI-JOHOR.docx-1.pdf",
-    "fetched_utc": "2026-11-04T18:22:50+00:00",
-    "http_status": 200,
-    "bytes": 121432,
-    "sha256": "39def6ead06010a8c8071f379320f1dac414690698d805d3f204fdd9aa49a1f8",
-    "lines_total": 439,
-    "lines_matched": 99,
-    "extract": "data/manifests/plans-list-extract.csv"
+    "fetched_utc": "2026-11-14T05:47:32+00:00",
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='jpbd.johor.gov.my', port=443): Max retries exceeded with url: /wp-content/uploads/2025/02/SENARAI-RANCANGAN-PEMAJUAN-BAGI-SELURUH-NEGERI-JOHOR.docx-1.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='jpbd.johor.gov.my', port=443) at 0x7"
   }
 }
