@@ -50,18 +50,18 @@
       "pass": true
     },
     "S6_runtime": {
-      "minutes": 0.53,
+      "minutes": 0.47,
       "pass": true
     }
   },
   "r5py_version": "1.1.7",
   "calendar": {
-    "today": "2026-11-04",
-    "service_start": "2026-10-05",
-    "service_end": "2027-02-02",
+    "today": "2026-11-14",
+    "service_start": "2026-10-15",
+    "service_end": "2027-02-12",
     "feed_expired": false,
-    "analysis_date": "2026-11-04"
+    "analysis_date": "2026-11-11"
   },
   "all_pass": true,
-  "finished_utc": "2026-11-04T17:06:00.470450+00:00"
+  "finished_utc": "2026-11-14T05:50:49.231189+00:00"
 }
