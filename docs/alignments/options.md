@@ -204,3 +204,14 @@ state.
   Stage 5.
 - Grades come from a surface model that includes buildings and trees. No option exceeds 8%
   on smoothed ground. That is a screen, not a profile.
+
+## 8. Selection for Stage 3 (2026-11-14)
+
+The owner delegated the choice (see `docs/handoffs/stage-2.md`, decision 2).
+
+| Scenario | Base | Variants and sensitivities | Dropped |
+|---|---|---|---|
+| B (Tebrau) | T1 | T2, T3 | T-R1, T-R2 (rejected) |
+| C (Iskandar Puteri) | IP2 | IP4 (matches the reported length), IP1 (reaches Kota Iskandar) | IP3 |
+
+Selection does not change status: all of these remain `concept`.

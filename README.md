@@ -21,8 +21,8 @@ says otherwise.
 | Stage | State |
 |---|---|
 | 1. Repo and evidence audit | **Approved 2026-11-04.** See `docs/handoffs/stage-1.md`. |
-| 2. Alignment hypotheses | **Draft complete 2026-11-04, awaiting owner review.** See `docs/handoffs/stage-2.md` and `docs/alignments/options.md`. |
-| 3. Operations and access model | Not started |
+| 2. Alignment hypotheses | **Complete; merged to `main` 2026-11-14.** See `docs/handoffs/stage-2.md` (decisions) and `docs/alignments/options.md`. |
+| 3. Operations and access model | Next. Scope is in `docs/handoffs/stage-2.md`: B = T1 (T2, T3 variants); C = IP2 (IP4, IP1 sensitivities). |
 | 4. Bukit Chagar stress test | Not started |
 | 5. Validation before visualization | Not started. Thresholds already registered in `docs/validation-plan.md`. |
 | 6. Prototype | Not started |

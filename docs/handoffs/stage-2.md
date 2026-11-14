@@ -1,8 +1,8 @@
 # Handoff: Stage 2 (alignment hypotheses)
 
-**Date:** 2026-11-04
-**Branch:** `claude/loving-ramanujan-vl0spd`, not yet merged to `main`.
-**State:** Stage 2 draft complete, **awaiting owner review.** Stage 3 has not started.
+**Date:** 2026-11-04 (updated 2026-11-14)
+**Branch:** `main`. The work was done on `claude/loving-ramanujan-vl0spd` and fast-forward merged into `main` on 2026-11-14.
+**State:** Stage 2 complete. On 2026-11-14 the owner asked for the merge to `main` and delegated decisions 2–4 below to Claude. **Stage 3 has not started** and should begin in a new session.
 
 Read `docs/project-brief.md`, then `docs/handoffs/stage-1.md` (owner decisions), then
 this note, then `docs/alignments/options.md`.
@@ -123,10 +123,30 @@ stations; `options.md` shows preliminary catchment ratios, which are *not* a V2 
 10. **IP4 shares its first ~6 km of FT1 with a likely Skudai line.** If the official Skudai
     line takes that reserve, IP4 and Skudai would share track or a corridor.
 11. **The workflow triggers on `claude/**` pushes.** That was needed because a
-    `workflow_dispatch` file must exist on `main` before it can be dispatched by API. After
-    merging, the `main` trigger and manual dispatch both work.
+    `workflow_dispatch` file must exist on `main` before it can be dispatched by API. Now
+    that it is merged, the `main` trigger and manual dispatch both work. The merge push
+    itself touches `pipeline/**`, so it starts `stage1-pipeline` (fresh GTFS) and
+    `stage2-alignments` on `main`. Both commit results back with `[skip ci]`.
+12. **The vehicle-position collector is missing the peaks** (found 2026-11-14). GitHub
+    starts the scheduled runs 4–8 hours late, so all 8 scheduled windows so far ran at about
+    10:15–12:30 MYT or 01:10–01:40 MYT, not 07:00–08:00 and 17:30–18:30. The night windows
+    caught only 1–7 buses. **No peak-window data exists yet, so V3a's "≥3 weeks by about
+    2026-11-26" will not be met as planned.** See owner decision 5.
 
-## Decisions needed from the owner
+## Owner decisions (2026-11-14)
+
+The owner asked for the merge to `main` and delegated decisions 2–4 to Claude. Claude
+took the recommendations below.
+
+| # | Question | Decision | Consequence |
+|---|---|---|---|
+| 1 | Approve Stage 2 | **Merged to `main`** at the owner's request | Stage 3 may start in a new session |
+| 2 | Options for Stage 3 | **Scenario B: T1 base; T2 and T3 variants.** **Scenario C: IP2 base; IP4 and IP1 sensitivities. IP3 dropped.** | The Stage 3 GTFS is built for T1, T2, T3, IP2, IP4, and IP1. Headline B and C results use T1 and IP2. Variants are reported as ranges. IP3 stays in the Stage 2 record only. |
+| 3 | Bukit Chagar walking network | **Two cases.** Raw OSM is the **high (pessimistic)** case. The **base** case adds a small documented patch of `concept` footway links between the RTS station, the E-ART station point, JB Sentral (KTM and bus terminal), and the Bukit Chagar bus stop. | The patch lives in the repo only (A-037), with each link's length and reason listed. Results at Bukit Chagar are reported for both cases. V4 stays NOT RUN, and V4-alt's FAIL stands. |
+| 4 | Edit OpenStreetMap | **No.** OSM is never edited by this project. | Gaps are handled only by the repo-local patch in decision 3 |
+| 5 | Vehicle-position collector (new, found 2026-11-14) | **Open: owner to decide.** Recommendation: run it hourly, have each run exit in seconds unless it is inside a peak window (Malaysia time), and widen to Mon–Fri. Actions minutes are free now that the repo is public. | Until fixed, V3a data accumulates only for off-peak windows |
+
+### Questions that were put to the owner (answered above)
 
 1. **Approve Stage 2?**
 2. **Which options go into Stage 3?**
@@ -147,19 +167,21 @@ stations; `options.md` shows preliminary catchment ratios, which are *not* a V2 
 4. **OSM contributions.** Should the project leave OSM untouched? Recommendation: yes. We
    cannot survey, so we should not edit OSM.
 
-## Exact scope of Stage 3 (operations and access model), after approval
+## Exact scope of Stage 3 (operations and access model)
 
-1. **Refresh** BAS.MY and KTMB GTFS (`stage1-pipeline`). Re-search E-ART news. If an
+1. **Refresh** BAS.MY and KTMB GTFS (`stage1-pipeline`); the KTMB calendar ends 2026-11-18.
+   Re-search E-ART news. If an
    official alignment appears, add it as `official` and compare it with the hypotheses.
 2. **Population and destinations:** decide and implement the DOSM disaggregation (A-025),
    using building footprints or GHSL, sum-preserving to DOSM totals. Destinations: OSM POIs
    and building floor area.
-3. **Re-score stations** of the chosen options with residents and jobs proxies. Keep
-   spacing at 1.0–1.5 km; record any station moves.
+3. **Re-score stations** of the chosen options (T1, T2, T3, IP2, IP4, IP1; decision 2)
+   with residents and jobs proxies. Keep the A-028 spacing rules: 1.0–1.5 km, and 0.8 km
+   next to forced stations. Record any station moves.
 4. **Draft GTFS** per scenario:
    - A: existing BAS.MY + KTMB + RTS Link (A-005, A-007).
-   - B: A + the chosen Tebrau option.
-   - C: B + the chosen IP option(s).
+   - B: A + T1 (base). T2 and T3 are variant feeds.
+   - C: B + IP2 (base). IP4 and IP1 are sensitivity feeds.
 
    Use low/base/high run times (V6: 20–35 km/h commercial speed), headways, fleet
    (V7 arithmetic), and capacity (A-012).
@@ -168,17 +190,25 @@ stations; `options.md` shows preliminary catchment ratios, which are *not* a V2 
    Walk speeds 3.0 / 3.6 / 4.5 km/h. Use street-network catchments (V2), not circles.
 6. **Run V1** (gtfs-validator), **V2**, **V5**, **V6**, and **V7**. Report each as
    PASS, FAIL, or NOT RUN.
-7. **Bukit Chagar walking per decision 3.**
+7. **Bukit Chagar walking per decision 3:**
+   - Build the repo-local `concept` footway patch (A-037).
+   - Run access for both raw OSM (high case) and patched (base case).
+   - List every patch link with its length and reason.
+   - Never edit OSM (decision 4).
 8. **Out of scope:** the Bukit Chagar flow model (Stage 4), any ridership forecast, and
    the frozen RTS prediction (Stage 5).
 
 ## How to resume
 
-1. Check out `claude/loving-ramanujan-vl0spd`, or `main` after merge.
+1. Check out `main`.
 2. Re-run Stage 2: push under `pipeline/stage2/`, or use Actions → **stage2-alignments** →
-   **Run workflow**. Dispatch works only once the workflow file is on `main`.
+   **Run workflow**.
+   - From a Claude session, POST a `workflow_dispatch` to
+     `/repos/tuahhamid/jb-metro/actions/workflows/stage2-alignments.yml/dispatches` with
+     `{"ref":"main"}`.
 3. Read `results/stage2/run_metadata.json` for the run and commit behind the committed
    outputs: run 41886438950 at `b1295bb`, committed in `c908890`.
-4. The vehicle-position collector continues on branch `vp-data`. V3a data should be ready
-   around 2026-11-26.
+4. The vehicle-position collector writes to branch `vp-data`. Its windows are currently
+   off-peak (risk 12, decision 5). Check `window_start_utc` in the summary JSONs before
+   relying on it.
 5. Re-run the security scan (`docs/security-review.md`) before each handoff.
