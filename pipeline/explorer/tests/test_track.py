@@ -45,3 +45,11 @@ def test_report_counts_buildings_crossed():
     r = build_track(road, [StationIn("a", 0, 0), StationIn("b", 1000, 0)])
     rep = track_report(r, road, [(box(400, -5, 420, 5), None, 77), (box(400, 50, 420, 60), None, 78)])
     assert rep["buildings_crossed"] == [77] and rep["curves_below_r100"] == 0
+
+
+
+def test_report_station_at_track_end_has_no_wraparound_error():
+    # shapely reads a negative distance from the far end; d - 80 < 0 must clamp to the start
+    from track import TrackResult
+    r = TrackResult(xy=np.array([[0, 0], [1000, 0]], float), stations={"a": (0.0, 0.0, 1.0, 0.0)})
+    assert track_report(r, r.xy, [])["max_station_error_m"] < 1.0

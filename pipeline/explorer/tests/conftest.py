@@ -41,9 +41,9 @@ def straightness_dev(xy, center, half=80.0) -> float:
     """Max distance of the track within +-half of `center` from the chord between its ends."""
     ln = LineString(xy)
     d = ln.project(Point(center))
-    a, b = ln.interpolate(d - half), ln.interpolate(d + half)
-    chord = LineString([a, b])
-    return max(chord.distance(ln.interpolate(x)) for x in np.linspace(d - half, d + half, 33))
+    lo, hi = max(d - half, 0.0), min(d + half, ln.length)
+    chord = LineString([ln.interpolate(lo), ln.interpolate(hi)])
+    return max(chord.distance(ln.interpolate(x)) for x in np.linspace(lo, hi, 33))
 
 
 class _Layers:

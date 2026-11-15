@@ -244,7 +244,8 @@ def track_report(result: TrackResult, road_xy: np.ndarray, buildings: list[tuple
     for x, y, _, _ in result.stations.values():
         d = g.project(Point(x, y))
         m = np.array(g.interpolate(d).coords[0])
-        a, b = g.interpolate(d - rules.clear_half), g.interpolate(d + rules.clear_half)
+        # clamp: shapely measures negative distances from the far end
+        a, b = g.interpolate(max(d - rules.clear_half, 0.0)), g.interpolate(min(d + rules.clear_half, g.length))
         dev = LineString([a, b]).distance(Point(m))
         err.append(max(float(np.hypot(m[0] - x, m[1] - y)), float(dev)))
     polys = [b[0] for b in buildings]
