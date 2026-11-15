@@ -102,10 +102,15 @@ function addMarkers(map, data) {
 function navControl(map) {
   const mq = matchMedia("(max-width: 700px)");
   let ctrl = null;
+  let attrib = null;
+  // On phones both controls go top-right so the bottom sheet never covers them.
   const place = () => {
     if (ctrl) map.removeControl(ctrl);
+    if (attrib) map.removeControl(attrib);
     ctrl = new maplibregl.NavigationControl({ visualizePitch: true });
+    attrib = new maplibregl.AttributionControl({ compact: true });
     map.addControl(ctrl, mq.matches ? "top-right" : "bottom-right");
+    map.addControl(attrib, mq.matches ? "top-right" : "bottom-left");
   };
   place();
   mq.addEventListener("change", place);
@@ -130,15 +135,22 @@ export async function boot() {
     container: "map", style: STYLE_URL, bounds: bbox(network.features.filter((f) => f.properties.kind === "line")),
     fitBoundsOptions: { padding: 40 }, maxPitch: 75, attributionControl: false, preserveDrawingBuffer: true,
   });
-  map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-left");
   navControl(map);
 
   const notice = document.getElementById("notice");
+  let noticeTimer = null;
+  const showNotice = () => {
+    if (!notice.hidden) return;
+    notice.hidden = false;
+    clearTimeout(noticeTimer);
+    noticeTimer = setTimeout(() => { notice.hidden = true; }, 10000);
+  };
+  notice.querySelector("button").addEventListener("click", () => { notice.hidden = true; });
   let fellBack = false;
   let styleLoaded = false;
   map.on("error", (e) => {
     if (!tileNotice(e, { styleLoaded })) return;
-    notice.hidden = false;
+    showNotice();
     if (!fellBack && !styleLoaded) {
       fellBack = true;
       map.setStyle(FALLBACK_STYLE);
@@ -155,6 +167,7 @@ export async function boot() {
 boot().catch((e) => {
   console.error(e);
   const n = document.getElementById("notice");
-  n.textContent = "The explorer could not load its data.";
+  n.firstElementChild.textContent = typeof maplibregl === "undefined"
+    ? "The map library could not load. Check your connection and reload." : "The explorer could not load its data.";
   n.hidden = false;
 });

@@ -58,7 +58,7 @@
    | 5 | Legoland Malaysia opened in September 2012 as Asia's first Legoland theme park. | SRC-055, AFP via Dawn, 15 Sep 2012 |
 
    - Stops 2 and 8 have no fact. JB Sentral's opening date and Ulu Tiram facts were found only on Wikipedia, which is not enough.
-   - Some tour copy changed from the mockup to match the new lines. IP2 is now "about 15 km". The unsourced "Skudai Highway jam" line was dropped.
+   - Some tour copy changed from the mockup to match the new lines. IP2 is now "about 15 km". The unsourced "Skudai Highway jam" line was dropped. Stop 1 is now "Across the strait" instead of "Five minutes to Singapore", because no source gives a journey time.
 4. **The explorer itself.** Run it locally:
 
    ```bash
@@ -85,7 +85,7 @@ The workflow runs the JS tests, then deploys `site/`.
 ## Checks run
 
 - `pytest pipeline/explorer/tests`: 27 passed. This includes the full JB build from the committed OSM clip.
-- `node --test site/tests/`: 14 passed.
+- `node --test site/tests/`: 15 passed.
 - Checked by hand in headless Chrome:
   - the default view and `?debug=1`;
   - 3D at Bukit Chagar;

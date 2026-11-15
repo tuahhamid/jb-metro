@@ -103,23 +103,32 @@ button, select { font: inherit; color: inherit; }
 /* Footer and notice */
 .foot { position: fixed; z-index: 7; right: 8px; bottom: 6px; background: var(--surface-raised); padding: 3px 6px; max-width: calc(100vw - 16px); }
 .notice { position: fixed; z-index: 9; left: 50%; top: calc(var(--bar-h) + 12px); transform: translateX(-50%); background: var(--navy); color: var(--paper);
-  padding: 8px 12px; font: 600 13px var(--sans); }
+  padding: 8px 8px 8px 12px; font: 600 13px var(--sans); width: max-content; max-width: calc(100vw - 32px); display: flex; align-items: center; gap: 10px; }
+.notice button { background: none; border: 1px solid var(--paper); color: var(--paper); cursor: pointer; padding: 2px 7px; font: 600 13px var(--sans); }
+
+/* keep the bottom map controls above the footer */
+.maplibregl-ctrl-bottom-right, .maplibregl-ctrl-bottom-left { bottom: 26px; }
 
 @media (max-width: 700px) {
   .bar { gap: 8px; padding: 0 8px; }
   .brand span { display: none; }
   .views button { padding: 8px 6px; }
   .switch .k { display: none; }
-  .card { left: 8px; right: 8px; bottom: 16px; top: auto; width: auto; max-height: 45vh; overflow: auto; }
+  .card { left: 8px; right: 8px; bottom: 16px; top: auto; width: auto; max-height: min(45vh, calc(100vh - 220px)); overflow: auto; }
+  .card .media { height: 100px; }
+  /* Prev/Next stay in view at the bottom of the sheet */
+  .card .row { position: sticky; bottom: 0; background: var(--surface-raised); padding: 8px 0; margin-bottom: -14px; }
   .places-card { top: auto; }
   .key { display: none; }
-  .tools { left: 8px; right: 56px; top: calc(var(--bar-h) + 28px); }
+  .tools { left: 8px; right: 56px; top: calc(var(--bar-h) + 44px); }
   .tools select { max-width: 52vw; }
   .intro { left: 16px; right: 16px; top: 14%; }
   .intro h1 { font-size: 34px; }
-  .foot { left: 8px; right: auto; bottom: auto; top: calc(var(--bar-h) + 4px); font-size: 8px; }
-  /* the navigation control is moved to top-right by main.js, clear of the bottom sheet */
-  .maplibregl-ctrl-top-right { top: 28px; }
+  /* top stack on phones: bar, footer strip (<= 40 px), then tools and map controls */
+  .foot { left: 0; right: 0; bottom: auto; top: var(--bar-h); max-width: none; font-size: 8px; padding: 4px 8px; }
+  .notice { top: calc(var(--bar-h) + 104px); left: 8px; right: 56px; transform: none; width: auto; max-width: none; }
+  /* navigation and attribution controls are moved to top-right by main.js, clear of the bottom sheet */
+  .maplibregl-ctrl-top-right { top: 44px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
