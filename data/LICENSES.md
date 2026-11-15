@@ -12,6 +12,15 @@
 | `data/manifests/plans-list-extract.csv` | JPBD Johor plan list (SRC-026) | Government document; matched lines only (max 240 characters each) for status | Source: PLANMalaysia@Johor |
 | `data/manifests/source-probe.csv` | Our probe of URLs in the source register | Metadata only (status, hash, page title, term matches); no page text is stored | Each source is credited in `docs/sources/source-register.csv` |
 
+## Photos (Wikimedia Commons)
+
+`site/photos/jb/*.jpg` are downloaded from Wikimedia Commons by `pipeline/explorer/photos.py`.
+Each file keeps its own license (CC0, CC BY, CC BY-SA or public domain only; the script refuses
+anything else). Per-file title, page URL, author, license and license URL are in
+`site/data/jb/photos.json`, and the explorer shows "Photo: author · license · Wikimedia Commons"
+linked to the file page wherever a photo appears. Photos may be resized and re-encoded (a
+modification under CC BY / CC BY-SA); the original is on the linked file page.
+
 Code license: **MIT** (see `LICENSE`, added by the owner 2026-11-04). The MIT license
 covers the code and docs written for this project. Third-party data keeps the licenses
 listed above. In particular, the OSM extract stays under ODbL.
