@@ -1,0 +1,136 @@
+/* JB Metro Explorer: Buruh Hybrid tokens (docs/design/buruh-hybrid-tokens.snapshot-2026-11-04.json), light theme. */
+:root {
+  --navy: #13213A;
+  --orange: #FF6A13;          /* fills only, never text on paper */
+  --paper: #F6F3EC;
+  --on-orange: #13213A;
+  --surface: #F6F3EC;
+  --surface-raised: #FFFFFF;
+  --line: #D6D0C3;
+  --line-strong: #8C8577;
+  --ink: #13213A;
+  --ink-muted: #535E72;
+  --accent-text: #B23F06;     /* orange as text */
+  --navy-soft: #E3E8F1;
+  --orange-soft: #FFE7D6;
+  --teal: #2E8C83;
+  --teal-soft: #D5ECE9;
+  --focus-ring: 0 0 0 2px #F6F3EC, 0 0 0 4px #13213A;
+  --sans: "Archivo", "Segoe UI", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bar-h: 52px;
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; border-radius: 0 !important; }
+html, body { margin: 0; height: 100%; font-family: var(--sans); color: var(--ink); background: var(--surface); }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+[hidden] { display: none !important; }
+
+.k { font: 600 10px/1.3 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-muted); }
+
+/* Header */
+.bar { position: fixed; inset: 0 0 auto 0; height: var(--bar-h); z-index: 10; display: flex; align-items: center; gap: 16px;
+  padding: 0 16px; background: var(--navy); color: var(--paper); }
+.brand { font: 800 17px var(--sans); display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+.brand i { width: 12px; height: 12px; background: var(--orange); display: inline-block; }
+.views { display: flex; gap: 2px; margin-left: auto; }
+.views button { font: 600 13px var(--sans); color: var(--paper); background: none; border: 0; padding: 8px 12px; cursor: pointer; opacity: .78; }
+.views button[aria-pressed="true"] { opacity: 1; box-shadow: inset 0 -3px 0 var(--orange); }
+.views button:focus-visible { box-shadow: 0 0 0 2px var(--navy), 0 0 0 4px var(--paper); }
+.switch { display: flex; align-items: center; gap: 6px; }
+.switch .k { color: var(--paper); opacity: .8; }
+.switch select { background: var(--navy); color: var(--paper); border: 1px solid var(--line-strong); padding: 5px 6px; font: 600 13px var(--sans); }
+
+#map { position: fixed; top: var(--bar-h); left: 0; right: 0; bottom: 0; }
+
+/* Cards */
+.card { position: absolute; z-index: 5; left: 20px; top: calc(var(--bar-h) + 20px); width: 320px; max-height: calc(100vh - var(--bar-h) - 80px);
+  overflow: auto; background: var(--surface-raised); border: 1px solid var(--line); box-shadow: 6px 6px 0 rgba(19, 33, 58, .14); }
+.card .hd { padding: 14px 16px; background: var(--orange-soft); }
+.card .hd.IP2 { background: var(--teal-soft); }
+.card .hd.navy { background: var(--navy-soft); }
+.card .bd { padding: 14px 16px; }
+.card h2 { font: 800 20px/1.15 var(--sans); margin: 6px 0 0; }
+.card p { font: 14px/1.5 var(--sans); color: var(--ink-muted); margin: 0 0 12px; }
+.media { position: relative; height: 160px; background: var(--navy); border-bottom: 1px solid var(--line); }
+.media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.media .credit { position: absolute; left: 0; right: 0; bottom: 0; padding: 4px 8px; background: rgba(255, 255, 255, .92);
+  font: 10px/1.3 var(--mono); color: var(--ink); }
+.media .credit a { color: var(--ink); }
+.media .label { position: absolute; left: 8px; top: 8px; }
+.fact { border-left: 4px solid var(--orange); background: #FFF6EF; padding: 8px 10px; margin: 0 0 12px; font: 13px/1.45 var(--sans); }
+.fact .k { color: var(--accent-text); margin-bottom: 4px; }
+.fact a { color: var(--accent-text); }
+.tag { display: inline-block; font: 600 10px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; padding: 4px 6px;
+  border: 1px dashed var(--accent-text); color: var(--accent-text); background: var(--surface-raised); }
+.tag.under-construction, .tag.existing { border: 1px solid var(--navy); color: var(--navy); }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.btn { font: 600 13px var(--sans); padding: 9px 14px; background: var(--navy); color: var(--paper); border: 0; cursor: pointer; }
+.btn.ghost { background: var(--surface-raised); color: var(--ink); border: 1px solid var(--line-strong); }
+.btn.go { background: var(--orange); color: var(--on-orange); }
+.btn.wide { width: 100%; margin-bottom: 12px; }
+
+/* Intro */
+.intro { position: absolute; z-index: 6; right: 6%; top: 22%; max-width: 480px; }
+.intro h1 { font: 800 54px/1 var(--sans); margin: 0 0 14px; color: var(--navy); text-shadow: 0 0 18px var(--paper); }
+.intro p { font: 16px/1.5 var(--sans); margin: 0 0 16px; background: rgba(246, 243, 236, .88); padding: 6px 0; }
+.skip { position: absolute; z-index: 6; bottom: 40px; left: 50%; transform: translateX(-50%); }
+
+/* Places tools and key */
+.tools { position: absolute; z-index: 5; left: 20px; top: calc(var(--bar-h) + 20px); display: flex; }
+.tools > * { background: var(--surface-raised); border: 1px solid var(--line-strong); padding: 8px 12px; font: 600 12px var(--sans); margin-right: -1px; }
+.tools select { font: 800 13px var(--sans); border: 0; background: none; max-width: 260px; }
+.tools button { cursor: pointer; }
+.places-card { top: calc(var(--bar-h) + 92px); }
+.key { position: absolute; z-index: 5; right: 20px; top: calc(var(--bar-h) + 20px); background: var(--surface-raised); border: 1px solid var(--line);
+  padding: 12px 14px; font: 12px/2 var(--sans); box-shadow: 6px 6px 0 rgba(19, 33, 58, .1); }
+.key i { display: inline-block; width: 14px; height: 14px; vertical-align: -2px; margin-right: 8px; }
+
+/* Markers */
+.stn { width: 12px; height: 12px; background: #fff; border: 3px solid var(--orange); cursor: pointer; padding: 0; }
+.stn.IP2 { border-color: var(--teal); }
+.stn.big { width: 20px; height: 20px; background: var(--orange); border: 3px solid #fff; box-shadow: 0 0 0 1.5px var(--navy); }
+.lm { display: flex; align-items: center; gap: 5px; pointer-events: none; background: none; border: 0; padding: 0; }
+.lm i { width: 9px; height: 9px; background: var(--navy); transform: rotate(45deg); }
+.lm span { background: rgba(255, 255, 255, .92); border: 1px solid var(--line); font: 600 11px var(--sans); padding: 2px 5px; white-space: nowrap; }
+.lm.photo { pointer-events: auto; cursor: pointer; }
+.pop img { width: 100%; display: block; margin-bottom: 6px; }
+.pop a { color: var(--accent-text); }
+.maplibregl-popup-content { font: 12px/1.4 var(--sans); color: var(--ink); }
+
+/* Footer and notice */
+.foot { position: fixed; z-index: 7; right: 8px; bottom: 6px; background: var(--surface-raised); padding: 3px 6px; max-width: calc(100vw - 16px); }
+.notice { position: fixed; z-index: 9; left: 50%; top: calc(var(--bar-h) + 12px); transform: translateX(-50%); background: var(--navy); color: var(--paper);
+  padding: 8px 8px 8px 12px; font: 600 13px var(--sans); width: max-content; max-width: calc(100vw - 32px); display: flex; align-items: center; gap: 10px; }
+.notice button { background: none; border: 1px solid var(--paper); color: var(--paper); cursor: pointer; padding: 2px 7px; font: 600 13px var(--sans); }
+
+/* keep the bottom map controls above the footer */
+.maplibregl-ctrl-bottom-right, .maplibregl-ctrl-bottom-left { bottom: 26px; }
+
+@media (max-width: 700px) {
+  .bar { gap: 8px; padding: 0 8px; }
+  .brand span { display: none; }
+  .views button { padding: 8px 6px; }
+  .switch .k { display: none; }
+  .card { left: 8px; right: 8px; bottom: 16px; top: auto; width: auto; max-height: min(45vh, calc(100vh - 220px)); overflow: auto; }
+  .card .media { height: 100px; }
+  /* Prev/Next stay in view at the bottom of the sheet */
+  .card .row { position: sticky; bottom: 0; background: var(--surface-raised); padding: 8px 0; margin-bottom: -14px; }
+  .places-card { top: auto; }
+  .key { display: none; }
+  .tools { left: 8px; right: 56px; top: calc(var(--bar-h) + 44px); }
+  .tools select { max-width: 52vw; }
+  .intro { left: 16px; right: 16px; top: 14%; }
+  .intro h1 { font-size: 34px; }
+  /* top stack on phones: bar, footer strip (<= 40 px), then tools and map controls */
+  .foot { left: 0; right: 0; bottom: auto; top: var(--bar-h); max-width: none; font-size: 8px; padding: 4px 8px; }
+  .notice { top: calc(var(--bar-h) + 104px); left: 8px; right: 56px; transform: none; width: auto; max-width: none; }
+  /* navigation and attribution controls are moved to top-right by main.js, clear of the bottom sheet */
+  .maplibregl-ctrl-top-right { top: 44px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

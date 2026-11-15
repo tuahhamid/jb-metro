@@ -22,10 +22,11 @@ says otherwise.
 |---|---|
 | 1. Repo and evidence audit | **Approved 2026-11-04.** See `docs/handoffs/stage-1.md`. |
 | 2. Alignment hypotheses | **Complete; merged to `main` 2026-11-14.** See `docs/handoffs/stage-2.md` (decisions) and `docs/alignments/options.md`. |
-| 3. Operations and access model | Next. Scope is in `docs/handoffs/stage-2.md`: B = T1 (T2, T3 variants); C = IP2 (IP4, IP1 sensitivities). |
-| 4. Bukit Chagar stress test | Not started |
-| 5. Validation before visualization | Not started. Thresholds already registered in `docs/validation-plan.md`. |
+| 3. Operations and access model | Paused 2026-11-14, see `docs/handoffs/2026-11-14-scope-change.md`. Scope stays in `docs/handoffs/stage-2.md`. |
+| 4. Bukit Chagar stress test | Paused 2026-11-14, see `docs/handoffs/2026-11-14-scope-change.md` |
+| 5. Validation before visualization | Paused 2026-11-14, see `docs/handoffs/2026-11-14-scope-change.md`. Thresholds stay registered in `docs/validation-plan.md`. |
 | 6. Prototype | Not started |
+| Explorer (JB first) | **Built, awaiting owner review; not published.** See `docs/handoffs/explorer-jb.md` |
 
 **Stage 1 pipeline proof:** all pre-registered smoke tests (S0–S7) passed on real
 JB data in GitHub Actions (run 41818831614). See `results/stage1/smoke_report.json`.
@@ -158,6 +159,20 @@ python pipeline/analysis/rts_ridership_bounds.py
 ```
 
 r5py needs Java 21. In Colab, run `!apt-get install -y openjdk-21-jdk-headless osmium-tool` first.
+
+## JB Metro Explorer
+
+An interactive, story-led explorer (intro, guided tour, 3D places) for the two concept
+JB E-ART lines, in the style of the Sydney Metro West site. The E-ART lines are concepts,
+not official. Design: `docs/superpowers/specs/2026-11-14-jb-metro-explorer-design.md`.
+Handoff and owner review list: `docs/handoffs/explorer-jb.md`.
+
+- **Run locally:** `python -m http.server -d site 8000`, then open http://localhost:8000/. The internal debug view is `?debug=1`.
+- **Rebuild the data:** `pip install -r pipeline/requirements-explorer.txt`, then
+  `python pipeline/explorer/build_line.py --config pipeline/explorer/jb.json --out site/data/jb --report results/explorer`.
+  Photos: `python pipeline/explorer/photos.py --titles pipeline/explorer/jb_photos.json --out site/photos/jb --json site/data/jb/photos.json`.
+- **Tests:** `pytest pipeline/explorer/tests` and `node --test site/tests/`.
+- **Publish (only after owner approval):** Actions → **explorer-pages** → **Run workflow**. It never runs on its own.
 
 ## Cost and licensing
 

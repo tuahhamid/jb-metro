@@ -1,0 +1,23 @@
+[
+ {"id": "jb_sentral", "name": "JB Sentral", "lon": 103.76463, "lat": 1.46297, "photo": "jb_sentral"},
+ {"id": "ciq_bangunan_sultan_iskandar", "name": "CIQ (Bangunan Sultan Iskandar)", "lon": 103.76512, "lat": 1.46348, "photo": "bsi_ciq"},
+ {"id": "city_square", "name": "City Square", "lon": 103.7642, "lat": 1.4614, "photo": null},
+ {"id": "komtar_jbcc", "name": "Komtar JBCC", "lon": 103.7626, "lat": 1.4645, "photo": "komtar"},
+ {"id": "randf_mall", "name": "R&F Mall", "lon": 103.7694, "lat": 1.4597, "photo": null},
+ {"id": "sultan_abu_bakar_mosque", "name": "Sultan Abu Bakar Mosque", "lon": 103.75127, "lat": 1.45685, "photo": null},
+ {"id": "dataran_bandaraya", "name": "Dataran Bandaraya", "lon": 103.7387, "lat": 1.4595, "photo": "dataran"},
+ {"id": "hospital_sultanah_aminah", "name": "Hospital Sultanah Aminah", "lon": 103.74665, "lat": 1.4575, "photo": null},
+ {"id": "danga_bay", "name": "Danga Bay", "lon": 103.72476, "lat": 1.47344, "photo": null},
+ {"id": "plaza_pelangi", "name": "Plaza Pelangi", "lon": 103.76472, "lat": 1.48107, "photo": "plaza_pelangi"},
+ {"id": "ksl_city", "name": "KSL City", "lon": 103.7628, "lat": 1.4852, "photo": "ksl"},
+ {"id": "mid_valley_southkey", "name": "Mid Valley Southkey", "lon": 103.777, "lat": 1.5008, "photo": "southkey"},
+ {"id": "larkin_sentral", "name": "Larkin Sentral", "lon": 103.74256, "lat": 1.49571, "photo": "larkin"},
+ {"id": "aeon_ikea_toppen_tebrau", "name": "AEON · IKEA · Toppen Tebrau", "lon": 103.798, "lat": 1.5515, "photo": "ikea_tebrau"},
+ {"id": "paradigm_mall", "name": "Paradigm Mall", "lon": 103.6854, "lat": 1.5147, "photo": "paradigm"},
+ {"id": "aeon_bukit_indah", "name": "AEON Bukit Indah", "lon": 103.6569, "lat": 1.4811, "photo": "bukit_indah"},
+ {"id": "puteri_harbour", "name": "Puteri Harbour", "lon": 103.658, "lat": 1.4172, "photo": "puteri_harbour"},
+ {"id": "legoland_malaysia", "name": "Legoland Malaysia", "lon": 103.6338, "lat": 1.4278, "photo": "legoland"},
+ {"id": "masjid_sultan_iskandar", "name": "Masjid Sultan Iskandar", "lon": 103.7355, "lat": 1.5596, "photo": "sultan_iskandar_mosque"},
+ {"id": "ulu_tiram", "name": "Ulu Tiram", "lon": 103.82088, "lat": 1.59936, "photo": "ulu_tiram"},
+ {"id": "woodlands_north_rts_sg", "name": "Woodlands North (RTS, SG)", "lon": 103.78565, "lat": 1.44838, "photo": "woodlands_rts"}
+]

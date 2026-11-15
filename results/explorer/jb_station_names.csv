@@ -1,0 +1,35 @@
+station_id,line_id,seq,name,rule_used,lon,lat
+T1-01,T1,1,Bukit Chagar,override,103.762054,1.466039
+T1-02,T1,2,Kim Teng Park,override,103.762677,1.473226
+T1-03,T1,3,Plaza Pelangi,landmark,103.76448,1.480341
+T1-04,T1,4,Melodies Garden,place,103.766586,1.488088
+T1-05,T1,5,Taman Perbadanan Islam,place,103.76589,1.496955
+T1-06,T1,6,Kampung Stulang Baru,place,103.763202,1.505395
+T1-07,T1,7,Jalan Tebrau km 5.6,road,103.759019,1.513221
+T1-08,T1,8,Taman Sri Amar,place,103.762083,1.521007
+T1-09,T1,9,Taman Istimewa,override,103.771135,1.524769
+T1-10,T1,10,Jalan Pandan km 8.8,road,103.77967,1.527234
+T1-11,T1,11,Jalan Pandan km 9.8,road,103.784542,1.534442
+T1-12,T1,12,Taman Austin Boulevard,place,103.790605,1.542294
+T1-13,T1,13,Jalan Kota Tinggi km 11.8,road,103.796552,1.547553
+T1-14,T1,14,Desa Jaya,override,103.80142,1.556224
+T1-15,T1,15,Taman Gaya,place,103.804254,1.565703
+T1-16,T1,16,Jalan Kota Tinggi km 15.4,road,103.812868,1.569955
+T1-17,T1,17,Jalan Kota Tinggi km 16.6,road,103.818574,1.578838
+T1-18,T1,18,Taman Kasih,place,103.818672,1.589258
+T1-19,T1,19,Ulu Tiram,landmark,103.82088,1.59936
+IP2-01,IP2,1,Bukit Chagar,override,103.762054,1.466039
+IP2-02,IP2,2,Kampung Mahmoddiah,place,103.751398,1.469787
+IP2-03,IP2,3,Kampung Baharu,place,103.743964,1.461365
+IP2-04,IP2,4,Persiaran Abu Bakar Sultan km 4.0,road,103.733828,1.461047
+IP2-05,IP2,5,Country Garden Danga Bay,place,103.727448,1.467384
+IP2-06,IP2,6,Tropicana Danga Bay,place,103.724333,1.476725
+IP2-07,IP2,7,Danga Walk,place,103.720096,1.483562
+IP2-08,IP2,8,Teluk Danga,place,103.715669,1.484154
+IP2-09,IP2,9,Lebuhraya Pesisir Pantai Iskandar km 8.9,road,103.70469,1.478453
+IP2-10,IP2,10,Lebuhraya Pesisir Pantai Iskandar km 10.2,road,103.695953,1.471371
+IP2-11,IP2,11,Taman Permata,place,103.687204,1.470972
+IP2-12,IP2,12,Taman Baiduri,place,103.678331,1.472364
+IP2-13,IP2,13,Taman Amira,place,103.66761,1.472863
+IP2-14,IP2,14,Taman Nusa Duta,place,103.66515,1.480077
+IP2-15,IP2,15,AEON Bukit Indah,landmark,103.658629,1.481199

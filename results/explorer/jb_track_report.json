@@ -1,0 +1,28 @@
+{
+ "T1": {
+  "curves": 59,
+  "curves_r150": 59,
+  "curves_r100": 0,
+  "curves_below_r100": 0,
+  "flags": [],
+  "max_station_error_m": 0.0,
+  "length_km_before": 19.61,
+  "length_km_after": 19.0,
+  "max_offset_from_road_m": 80.0,
+  "buildings_crossed": 14,
+  "stations": 19
+ },
+ "IP2": {
+  "curves": 39,
+  "curves_r150": 39,
+  "curves_r100": 0,
+  "curves_below_r100": 0,
+  "flags": [],
+  "max_station_error_m": 0.0,
+  "length_km_before": 15.81,
+  "length_km_after": 15.27,
+  "max_offset_from_road_m": 110.0,
+  "buildings_crossed": 26,
+  "stations": 15
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "line_set": "jb",
+  "osm": "data/raw/osm/jb-study.osm.pbf",
+  "lines": [
+    {"id": "T1", "name": "Tebrau", "status": "concept", "stage2_option": "T1",
+     "keep_seq": [1,2,3,4,5,6,7,8,9,10,11,12,13],
+     "extend_to": {"name": "Ulu Tiram", "lon": 103.82088, "lat": 1.59936}},
+    {"id": "IP2", "name": "Iskandar Puteri", "status": "concept", "stage2_option": "IP2",
+     "drop_seq": [2,3], "bypass": {"from_seq": 1, "to_seq": 4}}
+  ],
+  "shared_first_station": "Bukit Chagar",
+  "landmarks": "pipeline/explorer/jb_landmarks.json",
+  "name_overrides": {"T1-01": "Bukit Chagar", "IP2-01": "Bukit Chagar",
+                     "T1-02": "Kim Teng Park", "T1-09": "Taman Istimewa", "T1-14": "Desa Jaya"},
+  "name_override_notes": {"T1-02": "rule picked 'One Bukit Senyum' (a condo); next place within 700 m that is not a building",
+                          "T1-09": "rule picked 'KSL Residences 2' (a condo); next place within 700 m",
+                          "T1-14": "rule picked 'Jalan Harmonium Hingga' (a road-like place tag); next real place within 700 m"}
+}

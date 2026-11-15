@@ -72,3 +72,19 @@ All free for public repos. GitHub → repo **Settings**:
 | Commit identities | Owner no-reply (8 commits); `github-actions[bot]` (4 commits), through `3806c66` |
 | New workflow `stage2-alignments.yml` | Actions pinned to the same commit SHAs as Stage 1. The `refresh_osm` input is passed via `env:`. Uses only `GITHUB_TOKEN` with `contents: write`, and no secrets. Push trigger covers `main` and `claude/**`; only users with write access can push. |
 | Third-party data | DEM and JRC rasters are not committed (license and size); attribution is in `data/LICENSES.md`. Plan-list extract is matched status lines only. |
+
+## Re-scan before the explorer handoff (2026-11-15)
+
+**Scope:** every commit on `claude/explorer-design` since `1af5386` (merge base with `main`) through the explorer commits, plus the new `explorer-pages.yml`. Same method as above. Downloaded photos were excluded from text searches and checked for GPS metadata instead.
+
+| Check | Result |
+|---|---|
+| detect-secrets 1.5.0 (whole tree) | Only "Hex High Entropy String" hits: the same SHA-256 hashes in `data/manifests/*.json` and commit SHAs in `results/stage*/run_metadata.json` (false positives, as in finding 2). Nothing in `site/` or `pipeline/explorer/`. |
+| Token and key regexes (branch diff) | One match: the plan document quoting the regex list itself (`docs/superpowers/plans/...`). No credentials. `grep -rE "pk\.eyJ\|sk\.eyJ\|AIza\|ghp_\|github_pat_" site pipeline/explorer` finds nothing. |
+| Keys in client code | None. The map uses key-less OpenFreeMap tiles; fonts from Google Fonts and MapLibre from unpkg need no key. |
+| Email addresses | Only `noreply@anthropic.com` (Co-Authored-By text in the plan). No personal email. |
+| Private IPs, local paths, `.env` files | None committed. The Commons User-Agent is generic (`jb-metro-explorer/1.0 (open-source research prototype)`), with no personal details. |
+| Photos | 17 JPEGs from Wikimedia Commons, all CC0, CC BY, CC BY-SA or public domain; none carries GPS EXIF. Credits in `site/data/jb/photos.json`. |
+| Commit identities | Owner no-reply only (10 commits on the branch). |
+| New workflow `explorer-pages.yml` | `workflow_dispatch` only (no push, pull_request or schedule). Actions pinned to commit SHAs: checkout v4.4.0, setup-node v7.1.0, upload-pages-artifact v5.0.0, deploy-pages v5.0.1. Top-level `contents: read`; only the deploy job gets `pages: write` and `id-token: write`. No secrets and no user inputs. |
+| Changed workflow `vp-collector.yml` | Schedule removed; manual dispatch kept. No other change. |
