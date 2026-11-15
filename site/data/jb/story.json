@@ -1,0 +1,165 @@
+{
+ "line_set": "jb",
+ "intro": {
+  "headline": "Connecting the border to Tebrau",
+  "body": "The RTS Link from Woodlands lands at Bukit Chagar. Two concept E-ART lines could take it from there: north to Ulu Tiram and west to Bukit Indah."
+ },
+ "tour": [
+  {
+   "id": "rts",
+   "title": "Five minutes to Singapore",
+   "body": "The RTS Link crosses the strait from Woodlands North and lands at Bukit Chagar. This is where both concept E-ART lines begin.",
+   "status_tag": "RTS Link: under construction",
+   "camera": {
+    "center": [
+     103.772,
+     1.458
+    ],
+    "zoom": 14.2,
+    "bearing": -20,
+    "pitch": 50
+   },
+   "photo": "woodlands_rts",
+   "fact": {
+    "text": "The RTS Link is a 4 km rail shuttle to Woodlands North. Over the middle of the Straits of Johor, its viaduct stands 25 m above the water.",
+    "source_id": "SRC-053"
+   }
+  },
+  {
+   "id": "interchange",
+   "title": "One interchange, three ways out",
+   "body": "JB Sentral (KTM and buses), the CIQ checkpoint, City Square and Komtar JBCC all sit within a short walk of Bukit Chagar.",
+   "status_tag": "Concept line",
+   "camera": {
+    "center": [
+     103.7635,
+     1.4645
+    ],
+    "zoom": 15.6,
+    "bearing": 30,
+    "pitch": 55
+   },
+   "photo": "jb_sentral",
+   "fact": null
+  },
+  {
+   "id": "old-town",
+   "title": "The old town and the waterfront",
+   "body": "The Iskandar Puteri line heads west past the Sultan Abu Bakar Mosque, Dataran Bandaraya and Hospital Sultanah Aminah.",
+   "status_tag": "Concept line",
+   "camera": {
+    "center": [
+     103.746,
+     1.459
+    ],
+    "zoom": 14.6,
+    "bearing": -10,
+    "pitch": 45
+   },
+   "photo": "dataran",
+   "fact": {
+    "text": "Tourism Johor lists the Sultan Abu Bakar Mosque as the earliest mosque in Johor Bahru, built in 1892.",
+    "source_id": "SRC-054"
+   }
+  },
+  {
+   "id": "danga-bay",
+   "title": "Danga Bay",
+   "body": "The coastal stretch: a string of waterfront towers along the Iskandar Puteri line.",
+   "status_tag": "Concept line",
+   "camera": {
+    "center": [
+     103.725,
+     1.474
+    ],
+    "zoom": 14.3,
+    "bearing": -30,
+    "pitch": 50
+   },
+   "photo": null,
+   "fact": null
+  },
+  {
+   "id": "bukit-indah",
+   "title": "To Bukit Indah",
+   "body": "The Iskandar Puteri line ends at Bukit Indah, about 15 km from Bukit Chagar. Puteri Harbour and Legoland are further south and are not on this concept line.",
+   "status_tag": "Concept line",
+   "camera": {
+    "center": [
+     103.665,
+     1.478
+    ],
+    "zoom": 13.4,
+    "bearing": 0,
+    "pitch": 40
+   },
+   "photo": "bukit_indah",
+   "fact": {
+    "text": "Legoland Malaysia, south of here, opened in September 2012 as Asia's first Legoland theme park.",
+    "source_id": "SRC-055"
+   }
+  },
+  {
+   "id": "tebrau-spine",
+   "title": "Up the Tebrau spine",
+   "body": "The Tebrau line runs north on Jalan Tebrau past Plaza Pelangi and KSL City, one of the city's busiest retail strips.",
+   "status_tag": "Concept line",
+   "camera": {
+    "center": [
+     103.764,
+     1.483
+    ],
+    "zoom": 14.6,
+    "bearing": 15,
+    "pitch": 50
+   },
+   "photo": "ksl",
+   "fact": null
+  },
+  {
+   "id": "tebrau-city",
+   "title": "AEON, IKEA and Toppen",
+   "body": "The big-box cluster on Jalan Tebrau. In our first draft the line ended here. Now it keeps going.",
+   "status_tag": "Concept line",
+   "camera": {
+    "center": [
+     103.797,
+     1.55
+    ],
+    "zoom": 14.6,
+    "bearing": 40,
+    "pitch": 55
+   },
+   "photo": "ikea_tebrau",
+   "fact": null
+  },
+  {
+   "id": "ulu-tiram",
+   "title": "Straight on to Ulu Tiram",
+   "body": "The line follows Federal Route 3, Jalan Kota Tinggi, for about 7 km to the town of Ulu Tiram, 19 km along the line from Bukit Chagar.",
+   "status_tag": "Concept line",
+   "camera": {
+    "center": [
+     103.818,
+     1.592
+    ],
+    "zoom": 13.8,
+    "bearing": 20,
+    "pitch": 50
+   },
+   "photo": "ulu_tiram",
+   "fact": null
+  }
+ ],
+ "places": {
+  "start": {
+   "center": [
+    103.7625,
+    1.4665
+   ],
+   "zoom": 16.3,
+   "bearing": 30,
+   "pitch": 60
+  }
+ }
+}

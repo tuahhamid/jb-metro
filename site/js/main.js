@@ -1,6 +1,7 @@
 // Explorer entry point: loads a line set's data, builds the map, layers and markers.
 // Views (intro, tour, places) are wired in ui.js.
 import { buildLayers, tileNotice } from "./layers.js";
+import { initUI } from "./ui.js";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Used when the base-map style cannot load: our lines, stations and massing still draw on paper.
@@ -146,12 +147,7 @@ export async function boot() {
   map.on("style.load", () => { styleLoaded = true; addOverlays(map, data); });
   addMarkers(map, data);
 
-  try {
-    const { initUI } = await import("./ui.js");
-    initUI(map, data);
-  } catch (e) {
-    if (!String(e && e.message).includes("ui.js")) throw e;   // ui.js not built yet
-  }
+  initUI(map, data);
   window.explorer = { map, data };   // handle for manual checks in the browser console
   return { map, data };
 }
