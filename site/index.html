@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JB Metro Explorer</title>
+<meta name="description" content="An interactive, story-led explorer of concept rail lines for Johor Bahru. Indicative only: the E-ART lines shown are concepts, not official plans.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<link href="css/explorer.css" rel="stylesheet">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+</head>
+<body>
+<header class="bar">
+  <span class="brand"><i aria-hidden="true"></i><span id="brandName">Metro Explorer</span></span>
+  <nav class="views" aria-label="Views">
+    <button type="button" data-view="intro" aria-pressed="true">Intro</button>
+    <button type="button" data-view="tour" aria-pressed="false">Tour</button>
+    <button type="button" data-view="places" aria-pressed="false">Places 3D</button>
+  </nav>
+  <label class="switch"><span class="k">Line</span> <select id="lineSwitch" aria-label="Choose a line"></select></label>
+</header>
+
+<main id="map" aria-label="Map"></main>
+
+<div id="notice" class="notice" role="status" hidden>Base map unavailable. Lines and stations still work.</div>
+
+<section id="introUI" class="view" aria-label="Intro" hidden></section>
+<section id="tourUI" class="view" aria-label="Guided tour" hidden></section>
+<section id="placesUI" class="view" aria-label="Places in 3D" hidden></section>
+
+<footer class="foot k">Map is indicative only · E-ART lines are concepts, not official · © OpenStreetMap · OpenFreeMap</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
