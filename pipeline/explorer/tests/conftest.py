@@ -46,16 +46,11 @@ def straightness_dev(xy, center, half=80.0) -> float:
     return max(chord.distance(ln.interpolate(x)) for x in np.linspace(d - half, d + half, 33))
 
 
-class _Way:
-    def __init__(self, nodes, tags):
-        self.nodes, self.tags = nodes, tags
-
-
 class _Layers:
     def __init__(self, node_xy, ways):
         self.node_xy, self.ways = node_xy, ways
 
 
 def fake_layers(node_xy: dict, ways: list):
-    """ways: list of (node ids, highway class)."""
-    return _Layers(node_xy, [_Way(list(n), {"highway": h}) for n, h in ways])
+    """Stage 2 `Layers` stand-in. ways: list of (node ids, highway class)."""
+    return _Layers(node_xy, [{"id": i, "nodes": list(n), "tags": {"highway": h}} for i, (n, h) in enumerate(ways)])
