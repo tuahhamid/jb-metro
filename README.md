@@ -22,10 +22,11 @@ says otherwise.
 |---|---|
 | 1. Repo and evidence audit | **Approved 2026-11-04.** See `docs/handoffs/stage-1.md`. |
 | 2. Alignment hypotheses | **Complete; merged to `main` 2026-11-14.** See `docs/handoffs/stage-2.md` (decisions) and `docs/alignments/options.md`. |
-| 3. Operations and access model | Next. Scope is in `docs/handoffs/stage-2.md`: B = T1 (T2, T3 variants); C = IP2 (IP4, IP1 sensitivities). |
-| 4. Bukit Chagar stress test | Not started |
-| 5. Validation before visualization | Not started. Thresholds already registered in `docs/validation-plan.md`. |
+| 3. Operations and access model | Paused 2026-11-14, see `docs/handoffs/2026-11-14-scope-change.md`. Scope stays in `docs/handoffs/stage-2.md`. |
+| 4. Bukit Chagar stress test | Paused 2026-11-14, see `docs/handoffs/2026-11-14-scope-change.md` |
+| 5. Validation before visualization | Paused 2026-11-14, see `docs/handoffs/2026-11-14-scope-change.md`. Thresholds stay registered in `docs/validation-plan.md`. |
 | 6. Prototype | Not started |
+| Explorer (JB first) | In progress, see `docs/superpowers/specs/2026-11-14-jb-metro-explorer-design.md` |
 
 **Stage 1 pipeline proof:** all pre-registered smoke tests (S0–S7) passed on real
 JB data in GitHub Actions (run 41818831614). See `results/stage1/smoke_report.json`.
